@@ -1,3 +1,7 @@
+---
+outdated_translation: true
+---
+
 # Zasady
 
 Ten zbiór zasad to podstawa, dzięki której społeczność osu! jest przyjaznym miejscem dla wszystkich.
@@ -5,7 +9,7 @@ Ten zbiór zasad to podstawa, dzięki której społeczność osu! jest przyjazny
 ## Zasady dot. społeczności
 
 1. **Każdy gracz może posiadać maksymalnie *JEDNO* konto** To konto należy do ciebie. Nie do nikogo innego - brata, matki, siostry, znajomego - jest TWOJE. Nie dziel się swoim kontem z nikim innym.
-2. **Graj uczciwie.** Używanie zewnętrznych narzędzi przynoszących różnego rodzaju nieuczciwe korzyści jest niedozwolone. Dotyczy ty makr, programów poprawiających celność, modyfikacje prędkości czasu i tym podobne. Jeżeli używasz programu, który w grze robi coś za ciebie, to musisz wiedzieć, że nie jest to uczciwe!
+2. **Graj uczciwie.** Używanie zewnętrznych narzędzi przynoszących różnego rodzaju nieuczciwe korzyści jest niedozwolone. Dotyczy to makr, programów poprawiających celność, modyfikacji prędkości czasu i tym podobne. Jeżeli używasz programu, który w grze robi coś za ciebie, to musisz wiedzieć, że nie jest to uczciwe!
 3. **Zachowuj się dobrze wobec innych.** W społeczności osu! nie ma miejsca na prześladowania czy szykanowania. Jesteśmy tu po to, by klikać kółka, uderzać w bębenki, łapać owoce czy naciskać nawet osiemnaście klawiszy naraz, a nie po to, by być dupkami w stosunku do siebie.
 4. **Nie udawaj idioty.** Jeżeli nie masz pewności, czy łamiesz tę zasadę, zapewne to robisz.
 5. **W naszej społeczności są osoby z każdego przedziału wiekowego.** Oznacza to, że treści przeznaczone tylko dla pełnoletnich (takie jak temat narkotyków czy seksu) nie są tu mile widziane. Tam gdzie to właściwe, od tej reguły zdarzają się wyjątki, ale dla świętego spokoju nie udostępniaj takich materiałów.
@@ -35,21 +39,13 @@ Ten zbiór zasad to podstawa, dzięki której społeczność osu! jest przyjazny
 
 ## Zasady dot. przesyłania beatmap
 
-Te zasady dotyczą wyłącznie beatmap udostępnionych poprzez [system przesyłania beatmap](/wiki/Glossary#bss). Wątki są tworzone przez klient gry automatycznie, gdy beatmapa zostanie przesłana poprzez [edytor](/wiki/editor).
+Te zasady dotyczą wyłącznie beatmap udostępnionych poprzez [system przesyłania beatmap](/wiki/Beatmapping/Beatmap_submission). Wątki są tworzone przez klient gry automatycznie, gdy beatmapa zostanie przesłana poprzez [edytor](/wiki/Client/Beatmap_editor).
 
-Treściwy zbiór zasad dotyczących tworzenia beatmap znany jest jako [kryteria rankingowe](/wiki/Ranking_Criteria).
+Treściwy zbiór zasad dotyczących tworzenia beatmap znany jest jako [kryteria rankingowe](/wiki/Ranking_criteria).
 
 1. **Upewnij się, że posiadasz prawa do całej zawartości swojej beatmapy**, włączając w to piosenki, wideo, dźwięki trafień, grafiki czy jakiekolwiek inne treści, która nie są twojego autorstwa. Jeżeli nie masz pewności, gdzie możesz znaleźć utwory do swobodnego użycia w ramach gry, radzimy zajrzeć do wciąż rozwijanej biblioteki w pełni licencjonowanych utworów dla osu!. Znajduje się ona pod [tym linkiem](https://osu.ppy.sh/beatmaps/artists/).
 2. **Trzymaj się tematu w wątkach beatmap.** Te dyskusje dotyczą wyłącznie beatmap. Jeżeli masz problem z czymś niezwiązanym bezpośrednio z beatmapą, to stwórz wątek na odpowiednim forum.
 3. **Nie kradnij ani nie przywłaszczaj sobie pracy innych.** Nie przesyłaj ani nie używaj pracy innych ludzi bez ich wyraźnej zgody, włączając w to m.in. skórki oraz gościnne poziomy trudności.
-
-## Zasady dot. forum Off-Topic
-
-*Te zasady mają zastosowanie TYLKO do forum [Off-Topic](https://osu.ppy.sh/community/forums/52).*
-
-1. **Każdy wątek w forum Off-Topic jest bezwartościowy.** Są po prostu śmieciowe. Jeżeli twoje wątki zostają przenoszone do Off-Topic, to oznacza to, że nie są warte dyskusji. Potraktuj to jako lekcję.
-2. **Nadmiar głupoty jest zły.** Bycie ujmująco głupim jest w porządku i klasyfikuje się to jako sposób działania shitpostingu. Natomiast prawdziwa głupota nigdy nie jest porządku. Jeżeli nie możesz zrozumieć różnicy, to już łamiesz tę zasadę.
-3. **Wątki urodzinowe są dozwolone tylko w Off-Topic i nigdzie więcej** Wszystkie wątki urodzinowe muszą zawierać przynajmniej trzy obrazki tańczących anime dziewczynek albo zostaną bez żalu wrzucone pod ciężarówkę.
 
 ## Co się stanie, jeżeli złamię zasady?
 
@@ -57,14 +53,14 @@ Jeżeli uważasz, że łamiesz zasady zapisane powyżej, to mogą cię spotkać 
 
 Mogą się w to wliczać:
 
-* Odebranie możliwości pisania na czacie przez pewien czas (znane jako uciszenie)
-* Usunięcie treści naruszających zasady z twojej strony użytkownika, profilu i/lub przesłanych beatmap
-* Odebranie możliwości edytowania strony użytkownika lub szczegółów profilu
-* Odebranie możliwości uczestniczenia w oficjalnych turniejach
+- Odebranie możliwości pisania na czacie przez pewien czas (znane jako uciszenie)
+- Usunięcie treści naruszających zasady z twojej strony użytkownika, profilu i/lub przesłanych beatmap
+- Odebranie możliwości edytowania strony użytkownika lub szczegółów profilu
+- Odebranie możliwości uczestniczenia w oficjalnych turniejach
 
 Czas uciszeń **automatycznie** wzrasta wraz z każdym przewinieniem. Moderacja nie ma kontroli nad czasem przez który twoje konto będzie uciszone - dalsze naruszanie zasad poskutkuje dłuższym czasem izolacji od innych użytkowników.
 
-Pewne przewinienia niosą za sobą uciszenie zazwyczaj o długości 48 godzin lub więcej. Ta kara jest zazwyczaj stosowana dla takich działań jak udostępnianie obscenicznych treści lub nieprzerwane nękanie innych użytkowników.
+Pewne przewinienia niosą za sobą uciszenie zazwyczaj o długości 43 godzin lub więcej. Ta kara jest zazwyczaj stosowana dla takich działań jak udostępnianie obscenicznych treści lub nieprzerwane nękanie innych użytkowników.
 
 Jeżeli po kilku naruszeniach nadal będziesz łamać zasady, to twoje konto może zostać trwale zablokowane.
 

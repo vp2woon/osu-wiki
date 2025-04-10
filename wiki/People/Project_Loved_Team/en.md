@@ -1,48 +1,40 @@
+---
+tags:
+  - captain
+  - captains
+---
+
 # Project Loved Team
 
-The **Project Loved Team** are members of the osu! community who manage [Project Loved](/wiki/Project_Loved), the voting platform that promotes beatmaps to the [Loved](/wiki/Beatmaps#loved) category.
+The **Project Loved Team** are members of the osu! community who manage [Project Loved](/wiki/Community/Project_Loved), the voting platform that promotes [beatmaps](/wiki/Beatmap) to the [Loved](/wiki/Beatmap/Category#loved) category. They are distinguished by their candy pink [user group](/wiki/People/User_groups) badge that reads `LVD`.
 
-## Roles and Responsibilities
+The Project Loved Team mainly consists of *captains* for each [game mode](/wiki/Game_mode). Captains are responsible for nominating beatmaps to the Loved category and act as representatives for the community in having a good sense of which maps to choose. They also write short descriptions about the nominated maps to help readers get a feel for each map in case they have not seen or played them before, which can be seen in Project Loved news posts.
 
-The Project Loved Team mostly consists of **captains** for each [game mode](/wiki/Game_Modes). Captains are responsible for nominating beatmaps to the Loved category. They also write short descriptions about the nominated maps to help readers get a feel for each map in case they have not seen or played them before.
+Other important positions in the Project Loved Team are:
 
-The rest of the team helps with quality control, maintenance, and organisation.
+- *Content moderators*, who make sure that every nominated beatmap abides by the [Song Content Rules](/wiki/Rules/Song_content_rules) and [Visual Content Considerations](/wiki/Rules/Visual_content_considerations).
+- *Description reviewers*, who check the descriptions written by the captains for spelling and grammar mistakes
+- *Metadata reviewers*, who ensure that the metadata of nominated beatmaps are correct
 
-## Team Members
+The [Project Loved group page](https://osu.ppy.sh/groups/31) lists all of the team members. A more detailed member listing for all of the various roles within the Project Loved team, as well as previous members, can be found on the [Project Loved website](https://loved.sh/team).
 
-| Name | Role |
-| :-- | :-- |
-| ![][flag_CL] [-Kazu-](https://osu.ppy.sh/users/920861) | osu!taiko captain |
-| ![][flag_GB] [-Roxas](https://osu.ppy.sh/users/1986262) | osu! captain |
-| ![][flag_US] [BeasttrollMC](https://osu.ppy.sh/users/3171691) | osu! captain |
-| ![][flag_GB] [Bubbleman](https://osu.ppy.sh/users/5182050) | osu! captain |
-| ![][flag_US] [DigitalHypno](https://osu.ppy.sh/users/4384207) | osu! captain |
-| ![][flag_PL] [fartownik](https://osu.ppy.sh/users/56917) | osu! captain |
-| ![][flag_LT] [huu](https://osu.ppy.sh/users/6044237) | General maintainer |
-| ![][flag_JP] [iceOC](https://osu.ppy.sh/users/5482401) | osu!taiko captain |
-| ![][flag_US] [jyake](https://osu.ppy.sh/users/9099822) | osu!taiko captain |
-| ![][flag_PH] [Lenfried-](https://osu.ppy.sh/users/5314573) | osu!mania captain |
-| ![][flag_US] [Noffy](https://osu.ppy.sh/users/1541323) | Beatmap metadata expert |
-| ![][flag_JP] [nyanmi-1828](https://osu.ppy.sh/users/6866480) | osu!taiko captain |
-| ![][flag_GB] [Pope Gadget](https://osu.ppy.sh/users/2288341) | osu!mania captain |
-| ![][flag_NL] [Sartan](https://osu.ppy.sh/users/4100941) | osu!catch captain |
-| ![][flag_SG] [Shoegazer](https://osu.ppy.sh/users/2520707) | osu!mania captain |
-| ![][flag_DE] [Tenshichan](https://osu.ppy.sh/users/1101600) | osu!catch captain |
-| ![][flag_US] [Toaph Daddy](https://osu.ppy.sh/users/7616811) | osu!mania captain |
-| ![][flag_US] [Toy](https://osu.ppy.sh/users/2757689) | Project manager |
-| ![][flag_LV] [waywern2012](https://osu.ppy.sh/users/5870453) | osu! captain |
-| ![][flag_NL] [Wesley](https://osu.ppy.sh/users/2407265) | osu!catch captain |
-| ![][flag_CN] [Yumeno Himiko](https://osu.ppy.sh/users/1806962) | osu!catch captain |
+## Joining the Project Loved Team
 
-[flag_CL]: /wiki/shared/flag/CL.gif
-[flag_CN]: /wiki/shared/flag/CN.gif
-[flag_DE]: /wiki/shared/flag/DE.gif
-[flag_GB]: /wiki/shared/flag/GB.gif
-[flag_JP]: /wiki/shared/flag/JP.gif
-[flag_LT]: /wiki/shared/flag/LT.gif
-[flag_LV]: /wiki/shared/flag/LV.gif
-[flag_NL]: /wiki/shared/flag/NL.gif
-[flag_PH]: /wiki/shared/flag/PH.gif
-[flag_PL]: /wiki/shared/flag/PL.gif
-[flag_SG]: /wiki/shared/flag/SG.gif
-[flag_US]: /wiki/shared/flag/US.gif
+Most new team members are selected through an application process held for specific roles in the Project Loved Team to fill empty positions or to assist with workload. Application forms are announced in Project Loved [news posts](https://osu.ppy.sh/home/news), and successful applicants are announced to the public in the subsequent month's post.
+
+Some team additions may be added manually on a case-by-case basis in order to fill in positions that require certain skills or permissions. (e.g. the content moderator position, which is exclusive to [Global Moderation Team](/wiki/People/Global_Moderation_Team) and [Nomination Assessment Team](/wiki/People/Nomination_Assessment_Team) members)
+
+The criteria for joining the team vastly differs from role to role, but proficiency and community presence is always sought after.
+
+## Benefits
+
+Project Loved Team members are given a tenure [profile badge](/wiki/Community/Profile_badge) that displays the number of years they have been helping run Project Loved.
+
+![1 year LVD badge](https://assets.ppy.sh/profile-badges/loved1y.png "1 year LVD badge") ![2 year LVD badge](https://assets.ppy.sh/profile-badges/loved2y.png "2 year LVD badge") ![3 year LVD badge](https://assets.ppy.sh/profile-badges/loved3y.png "3 year LVD badge") ![4 year LVD badge](https://assets.ppy.sh/profile-badges/loved4y.png "4 year LVD badge") ![5 year LVD badge](https://assets.ppy.sh/profile-badges/loved5y.png "5 year LVD badge") ![6 year LVD badge](https://assets.ppy.sh/profile-badges/loved6y.png "6 year LVD badge")
+
+## Trivia
+
+- ::{ flag=US }:: [Toy](https://osu.ppy.sh/users/2757689) created the original team of captains in September 2017 along with the [Captain's Pick](/wiki/History_of_osu!/History_of_Loved#captain's-pick-and-project-loved-(sep-2017-–-present)) system that was later renamed to Project Loved. Until late 2019, he oversaw and managed the whole project.
+- Prior to the 28 April 2021, the [Project Loved group page](https://osu.ppy.sh/groups/31) was not public and used only for administrative purposes. As of now, it is publicly available.
+  - Until the 16 April 2021, the only people that had been in the group were ::{ flag=US }:: [clayton](https://osu.ppy.sh/users/3666350), ::{ flag=LT }:: [huu](https://osu.ppy.sh/users/6044237), ::{ flag=SG }:: [Shoegazer](https://osu.ppy.sh/users/2520707), and ::{ flag=US }:: [Toy](https://osu.ppy.sh/users/2757689). Now, all of the Project Loved Team belongs to the group.
+- As of 28 April 2023, team members are awarded badges based on the length of their tenure in the team.

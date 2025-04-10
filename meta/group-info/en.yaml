@@ -1,0 +1,75 @@
+# For help translating this file, see https://github.com/ppy/osu-wiki/blob/master/meta/group-info/TRANSLATING.md#group-info.
+separator: ", "
+alumni:
+  roles:
+    academy: osu!academy founder
+    admin: administration
+    chat: Chat Moderator
+    dev: osu!dev
+    media: osu!media creation
+    support: Support Team
+    tournaments: tournament management
+gmt:
+  all_mods: all moderators
+  areas:
+    beatmap: beatmap moderation
+    chat: chat moderation
+    forum: forum moderation
+    general: general moderation
+    team: official team presence
+    dev: osu! development
+    player: player support
+    support: technical support
+    tournaments: tournament management
+    wiki: wiki administration
+    mapping: mapping/modding community moderation
+    skinning: skinning community moderation
+    leadership: team leadership
+nat:
+  subgroups:
+    structural: structural
+    evaluation: evaluation
+    leadership: leadership
+languages:
+  partial: some <language>
+  # Note for translators: The following language names do *not* need to be included in your translation of group-info. The program will use language names from CLDR. However, you may include languages as you see fit if you want to override what the program normally does.
+  af: Afrikaans
+  ar: Arabic
+  be: Belarusian
+  bg: Bulgarian
+  bn: Bengali
+  bs: Bosnian
+  ca: Catalan
+  da: Danish
+  de: German
+  el: Greek
+  es: Spanish
+  et: Estonian
+  fi: Finnish
+  fil: Filipino
+  fr: French
+  gl: Galician
+  hr: Croatian
+  hu: Hungarian
+  id: Indonesian
+  it: Italian
+  ja: Japanese
+  ko: Korean
+  lt: Lithuanian
+  ms: Malay
+  nl: Dutch
+  no: Norwegian
+  pl: Polish
+  pt: Portuguese
+  ro: Romanian
+  ru: Russian
+  sr: Serbian
+  sv: Swedish
+  te: Telugu
+  th: Thai
+  tr: Turkish
+  uk: Ukrainian
+  ur: Urdu
+  vi: Vietnamese
+  yue: Cantonese
+  zh: Chinese

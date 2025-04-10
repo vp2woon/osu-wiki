@@ -1,41 +1,27 @@
 ---
-outdated: true
+no_native_review: true
 ---
 
-## Como crio uma conta?
+# Registro
 
+*Aviso: Ter mais de uma conta de usuário por pessoa no osu! em qualquer momento é uma infração gravíssima as [regras do osu!](/wiki/Rules)!*
 
-**Por favor, tenha em mente que ter mais de uma conta infringe as nossas [regras do osu!](/wiki/Rules/). Siga os passos abaixo para criar sua conta no osu!.**
+1. Após a [instalação](/wiki/Client/Installation) do osu! e abrir-lo, o joga irá pedir que você entre com sua conta ou registre-se. Assumindo que você esteja aqui por que você precisa de uma conta, clique em `Criar uma conta`.
 
-1. Na [página principal](https://osu.ppy.sh/home), Clique em ``Sou novo!`` para iniciar o processo de registro
-![Register-3.png](Register-1.png)
-2. Complete todos os campos do formulário e pressione ``Continuar``
-![Login.png](Register-2.png)
-    1. Nome de usuário         
-        1. Máximo de 15 caracteres                                                                                                                    
-        2. Caracteres alfanuméricos (``a-z``, ``A-Z``, ``0-9``), traço inferior (``_``), colchetes, (``[`` and ``]``) e hífens (``-``) são os únicos caracteres permitidos.
-     2. Endereço de e-mail                                                                                                                                                     
-     3. Senha                                                                                                                                                            
-     4. Observação                                                                                                                                                               
-     5. Botão de continuar                                                                                                                                                    
-3. Entre no osu! e o processo será finalizado. Você conseguiu registrar sua conta no osu! com sucesso!
+   ![O formulário de registro dentro do jogo](img/ingame-registration.jpg "O formulário")
 
+2. Preencha todos os campos do formulário.
 
+   - Para o campo de username, há um máximo de 15 caracteres; de quais só podem ser alfanuméricos (`a-z`, `A-Z`, `0-9`), sublinhado (`_`), colchetes, (`[` e `]`), traços (`-`), e espaços (` `).
+   - Para o campo de email, utilize seu próprio email. Este irá ser utilizado para resetar sua senha e te enviar códigos de verificação quando necessário, então não utilize um email falso ou que você não irá usar.
+   - Para o campo de senha, utilize uma senha que possua pelo menos 8 caracteres.
 
-| Nome           | Imagem                           | Descrição                                                                                                                                                                                                                                                                                              |
-|:---------------:|:-------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Executável do osu! | ![Register.png](Register-3.png) | Esse executável (que deve ser chamado de osu!.exe) abrirá o jogo. Caso atualizações sejam necessárias, elas serão aplicadas automaticamente. _Observação: Você não precisa executar o oso como administrador. Caso seja necessário, o jogo fará isso sozinho._                                               |
-| Painel de opções   | ![Login.png](Login.png)         | Se essa é sua primeira vez iniciando o osu!, você verá isto no canto esquerdo da sua tela. Insira seu nome de usuário e senha nos respectivos campos para fazer log in.                                                                                       |
-| Painel de usuário     | ![Userpanel.png](Userpanel.png) | Assim que seu nome de usuário e senha forem inseridos, você verá seu painel de usuário no canto esquerdo superior de sua tela. Você conseguiu entrar no osu! e está pronto para jogar! Você também poderá ver seu painel de usuário no canto inferior na tela de seleção de músicas, à esquerda da ``Seleção de Opções``.|
+3. Depois de completo, clique em `1. Create my account!`. Você será automaticamente logado dentro do jogo.
 
+## E então, qual a próxima?
 
-## E agora?
+Não se esqueça de ler as [regras](/wiki/Rules) com extrema cautela!
 
-Você está pronto para começar sua aventura ritmica, então prossiga para a página de [boas-vindas](/wiki/Welcome/) e comece a jogar! Não esqueça de ler as [regras](/wiki/Rules/) cuidadosamente!
+Depois que fizer isso, agora você estará pronto para começar sua aventura rítmica! Você pode [adicionar beatmaps](/wiki/Client/Installation#adicionando-beatmaps) para jogar, [fazer uma skin](/wiki/Skinning), ou [fazer um beatmap](/wiki/Beatmapping). Você também pode dar uma visitinha e mandar um "Oi" no [subfórum de Introductions](https://osu.ppy.sh/community/forums/8).
 
-Caso precise de assistência dentro do jogo, pergunte no canal #help, ou faça uma postagem nos fóruns.
-
-Para entrar no ``#help``, pressione F8 e então digite ``/join #help``. Você também pode clicar no botão amarelo ![Channelopenbutton](Channelopenbutton.png) na direita dos seus canais abertos, descendo um pouco até achar o ``#help``, e então clicar para se juntar ao canal.
-
-Em caso de duvidas, sempre lembre que:
-> o ritmo está a um clique de distância!
+Se você precisar de mais ajuda dentro do jogo, você pode pedir ajuda no canal `#help` [Internet Relay Chat](/wiki/Community/Internet_Relay_Chat) (IRC) abrindo o console de chat (pressione `F8` ou `F9` dentro do jogo) e então digite `/join help`. Você também pode postar sua pergunta no [subfórum de Help](https://osu.ppy.sh/community/forums/5).

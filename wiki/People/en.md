@@ -1,15 +1,38 @@
 # People
-<!-- There is no mention of the Staff Log article here, despite this being an index article above it -->
 
-The following are user groups which are made up of the osu! community members that help maintain osu!. Most of these user groups can be recognized with their forum name colours, in-game chat colours, profile titles, and/or profile badges.
+Index page for articles about people or groups.
 
-- [Beatmap Nominators](/wiki/People/Beatmap_Nominators)
-- [Community Contributors](/wiki/People/Community_Contributors)
-- [Developers](https://osu.ppy.sh/groups/11) <!-- This should be its own page under People -->
-- [Global Moderation Team](/wiki/People/Global_Moderation_Team)
-- [Language Moderators](/wiki/People/Language_Moderators)
-- [Nomination Assessment Team](/wiki/People/Nomination_Assessment_Team)
-- [osu! Alumni](/wiki/People/osu!_Alumni)
-- [Project Loved Team](/wiki/People/Project_Loved_Team)
-- [Support Team](/wiki/People/Support_Team)
-- [The Team](/wiki/People/The_Team)
+## Present
+
+- [Account support team](Account_support_team)
+- [Beatmap Nominators](Beatmap_Nominators)
+- [Beatmap Spotlight Curators](Beatmap_Spotlight_Curators)
+- [Centurions](Centurions)
+- [Community Contributors](Community_Contributors)
+- [Completionists](Completionists)
+- [Developers](Developers)
+- [Elite Nominators](Elite_Nominators)
+- [Featured Artists](Featured_Artists)
+- [Global Moderation Team](Global_Moderation_Team)
+- [Nomination Assessment Team](Nomination_Assessment_Team)
+- [Performance Points Committee](Performance_Points_Committee)
+- [Project Loved Team](Project_Loved_Team)
+- [Technical Support Team](Technical_Support_Team)
+- [Tournament Committee](Tournament_Committee)
+- [osu! Alumni](osu!_Alumni)
+- [osu! team](osu!_team)
+- [osu! wiki maintainers](osu!_wiki_maintainers)
+
+## Former
+
+- [Beatmap Appreciation Team](Beatmap_Appreciation_Team)
+- [Language Surveillance Division](Language_Surveillance_Division)
+- [Mapping Assistance Team](Mapping_Assistance_Team)
+- [Quality Assurance Team](Quality_Assurance_Team)
+
+## Other
+
+- [peppy](peppy)
+- [Staff log](Staff_log)
+- [User groups](User_groups)
+- [Users with unique titles](Users_with_unique_titles)

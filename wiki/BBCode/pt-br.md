@@ -1,414 +1,308 @@
+---
+no_native_review: true
+outdated_since: 3cfbc4e75e17092cf181c6f1235bfb105666003d
+outdated_translation: true
+---
+
 # BBCode
 
-![The edit box in the forums](img/forums.jpg "A caixa de edição nos fóruns")
+**BBCode** é uma [linguagem de marcação](https://pt.wikipedia.org/wiki/Linguagem_de_marca%C3%A7%C3%A3o) que é usada nos fóruns do osu! e, em um contexto maior, na grande maioria de fóruns da internet. Seu intuito é de habilitar a formatação do texto em RTF (Rich Text Formatting). Ele é composto por tags que rodeiam excertos do texto para enriquecê-lo com propriedades e atributos. Também é utilizando em vários locais no site do osu! como em fóruns, assinaturas, páginas de usuários e descrição de beatmaps.
 
-**BBCode** é uma sintaxe de marcação que é usada nos fóruns do osu! e, em um contexto maior, na grande maioria de fóruns da internet. Seu intuito é de habilitar a formatação do texto em RTF (Rich Text Formatting).
-Ele é composto por tags que rodeiam excertos do texto para enriquecê-lo com propriedades e atributos.
+![A caixa de edição nos fóruns](img/editor.jpg "A caixa de edição nos fóruns")
 
-No osu!web, BBCode é utilizado nas postagens dos fóruns, assinaturas e páginas de usuários.
+## Comportamento
 
-## Avisos
+Clicando em um botão de marcação sem realçar nenhum texto irá criar um conjunto de tags abertas e fechadas diretamente no cursor de texto no editor. Realçando o texto antes de clicar no botão de marcação irá cercar o texto realçado com as tags.
 
-Embora o editor de postagens ofereça algumas ferramentas de formatação básicas, também é possível escrever manualmente a sintaxe do BBCode.
+Usuários, que desejarem combinar formatações em uma única seção de texto, podem fazê-lo ao colocar as tags de BBCode dentro umas das outras. Porém, a ordem de aninhamento dessas tags **precisa ser respeitada** ao combiná-las. Caso não, a formatação será quebrada.
 
-As tags do BBCode são fazem distinção com letras maiúsculas ou minúsculas (ou seja, são case-insensitive).
+Um exemplo de uso correto e incorreto das tags aninhadas está descrito abaixo:
 
-### Comportamento de Botões do BBCode
+- `[centre][b]texto[/b][/centre]` está correto
+- `[b][centre]texto[/b][/centre]` está incorreto
 
-Quando não há algum texto selecionado, clicar o botão irá cercar as tags em volta da posição atual do cursor de texto no editor da postagem.
+## Tags
 
-Quando há algum texto selecionado no editor de postagem, clicar no botão irá cercar as tags ao redor do texto selecionado.
+O BBCode, como qualquer outra linguagem de marcação, formata o texto utilizando um sistema de tags, que são indicadas por um par de colchetes (`[]`). Essas tags são divididas em tags 'de abertura' e 'de fechamento', que são diferenciadas através da inclusão de uma barra (`/`). Especificamente, as tags de fechamento devem conter a barra, enquanto as tags de abertura não devem conter.
 
-### Combinando tags
+Também é importante notar que as tags de abertura ocasionalmente incluem sinais de igualdade (`=`) para indicar URLs, tamanhos de fonte e outros elementos.
 
-Tags podem ser combinadas para uma formatação mais rica/sofisticada.
-
-A ordem/aninhamento das tags **precisam** ser respeitados quando combinadas. Falhar ao se adequar às regras pode quebrar a formatação da postagem.
-
-Por exemplo (preste atenção à ordem do código):
-
-- `[centre]` `[b]` _text_ `[/b]` `[/centre]` está correto, mas
-- `[b]` `[centre]` _text_ `[/b]` `[/centre]` está errado.
-
-## Lista de Tags do BBCode
+As tags de BBCode, que são suportadas pelo site do osu!, estão listadas e descritas em detalhe abaixo.
 
 ### Negrito
 
-**Enfatizar** palavras ou um parágrafo inteiro de uma maneira **mais pesada** do que [itálicos](#italic).
-
-- Botão dedicado: ![Bold button](img/bold.jpg "Botão de Negrito")
-- Avisos:
-  - Use com cautela.
-    Uso excessivo pode causar desconforto e tornar a postagem mais difícil de se ler.
-- Sintaxe:
-```prolog
-[b] ... [/b]
 ```
+[b]texto[/b]
+```
+
+A tag `[b]` é usada para enfatizar um texto através do negrito. O negrito do BBCode não afeta o tamanho da fonte.
+
+Botão na barra de formatação: ![Negrito](img/bold.png "Negrito")
 
 ### Itálico
 
-**Enfatizar** palavras ou um parágrafo inteiro de uma maneira _mais leve_ do que [negritos](#bold).
-
-- Botão dedicado: ![Italic button](img/italic.jpg "Botão do Itálico")
-- Avisos:
-  - Use com cautela.
-    Uso excessivo irá enfraquecer a efetividade da ênfase.
-- Sintaxe:
-```prolog
-[i] ... [/i]
+```
+[i]texto[/i]
 ```
 
-### Underline
+A tag `[i]` é usada para enfatizar levemente um texto deixando-o inclinado para o lado direito.
 
-**Desenha uma linha abaixo** da(s) palavra(s) ou um parágrafo inteiro.
+Botão na barra de formatação: ![Itálico](img/italic.png "Itálico")
 
-- Botão dedicado: ![Underline button](img/underline.jpg "Botão do Underline")
-- Avisos:
-  - Use com cautela.
-    Uso excessivo pode causar desconforto e tornar a postagem mais difícil de se ler.
-- Sintaxe:
-```prolog
-[u] ... [/u]
+### Sublinhado
+
+```
+[u]texto[/u]
 ```
 
-### Strike
+A tag `[u]` é usada para enfatizar um texto ao sublinhá-lo. A linha desenhada diretamente abaixo do texto será afetada por outras tags como negrito e itálico.
 
-_Também conhecido como **strikethrough**._
+### Tachado
 
-**Desenha uma linha horizontal através do meio** de palavra(s) ou um parágrafo inteiro.
-
-- Botão dedicado: ![Strike button](img/strike.jpg "Botão do Strikethrough")
-- Notes:
-  - Use com cautela.
-    Uso excessivo pode causar desconforto e tornar a postagem mais difícil de se ler.
-- Sintaxe:
-```prolog
-[strike] ... [/strike]
+```
+[strike]texto[/strike]
 ```
 
-### Coloração
+*Nota: Texto "tachado" também pode ser conhecido por "riscado".*
 
-_BBCode chama isso de "Color"._
+A tag `[strike]` é usada para indicar a remoção de um texto previamente incluso através do uso de uma linha que "risca" diretamente o texto.
 
-**Adiciona coloração** a algum texto.
+Botão na barra de formatação: ![Tachado](img/strike.png "Tachado")
 
-- Botões dedicados:
-![The colour box](img/colour.jpg "A Caixa de Cores")
-- Avisos:
-  - A Caixa de Cores está localizada ao lado direito da caixa de texto.
-  - Use essa tag com cautela.
-    Uso excessivo causará desconforto nos olhos do leitor.
-    Uso incorreto tornará o seu texto ilegível.
-  - Se você escolher uma cor assegure que existe um contraste com o plano de fundo, para que assim todos consigam ler.
-  - O argumento `HEXCODE` não deve usar apóstrofos.
-- Sintaxes:
-  - Onde `HEXCODE` é um código da cor em hexadecimal ou nome da cor.
-    - Para hexadecimais, deverá começar com `#`, seguido de seis caracteres hexadecimais (0 - 9, A - F).
-    - Para nomes de cores, precisará ser uma cor válida em HTML.
-```prolog
-[color=HEXCODE] ... [/color]
+### Cores
+
+```
+[color=#HEXCODE]texto[/color]
 ```
 
-Para a lista de nomes de cores, veja [X11 color names](https://en.wikipedia.org/wiki/X11_color_names#Color_name_chart).
+*Para uma lista com todas as cores, veja [Nomes de cores no X11](https://pt.wikipedia.org/wiki/Nomes_de_cores_no_X11#Tabelas_de_nome_de_cores)*
+
+A tag `[color]` é usada para estilizar um texto através de colorações de letras. A tag usa o formato de [código HEX](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) para especificar a cor, embora também possam ser especificadas através de nomes de cor em HTML como "red" ou "green". Para utilizar, substitua o argumento `#HEXCODE` com a cor correspondente em código HEX ou por seu nome em HTML.
+
+O argumento mencionado anteriormente não aceita aspas (`"`) e não possui uma cor padrão. Se o argumento não for especificado ou se aspas forem utilizadas, a tag não será processada como uma tag de BBCode.
 
 ### Tamanho da fonte
 
-Ajusta o tamanho do texto relativamente.
-
-- Botões dedicados:
-![Font size options](img/font-size.jpg "Opções de tamanho de fonte")
-- Avisos:
-  - Use essa tag com cautela.
-  - Só existem quatro tamanhos que você pode user:
-    - `50` (minúsculo)
-    - `85` (pequeno)
-    - `100` (normal; padrão)
-    - `150` (largo)
-  - Se você inserir um valor que não está listado acima, o tamanho utilizado será o padrão.
-  - O argumento `NUMBER` não deve usar apóstrofos.
-- Sintaxe:
-  - Onde `NUMBER` é um dos valores citados acima (`50`, `85`, `100` ou `150`).
-```prolog
-[size=NUMBER] ... [/size]
 ```
+[size=NUMBER]texto[/size]
+```
+
+A tag `[size]` é usada para estilizar um texto através do uso de diferentes tamanhos de fonte. Atualmente, existem quatro tamanhos que são suportados no site do osu!: 50, 85, 100 e 150. Os tamanhos são internamento referidos como "tiny" (minúsculo), "small" (pequeno), "normal" (normal) e "large" (grande) respectivamente.
+
+O argumento `NUMBER` não aceita aspas (`"`), e somente aceita um dos quatro tipos suportados. Se um número, que não é nenhum dos quatro compatíveis, for informado, o texto será redefinido para o tamanho padrão.
+
+Botão na barra de formatação: ![Opções de tamanho de fonte](img/font-size.png "Tamanho de fonte")
 
 ### Spoiler
 
-_Não deve ser confundido com [Spoilerbox](#spoilerbox)._
+*Não confundir com [Caixa de Spoiler](#caixa-de-spoiler).*
 
-**Esconde o texto** com um fundo preto.
-
-Isso pode ser útil se você estiver falando sobre uma cena crítica em um programa de TV, filme ou anime e não queira dar spoiler para os outros.
-O leitor, de qualquer forma, ainda poderá ler o texto ao selecioná-lo com um mouse.
-
-- Botão dedicado: ![Spoiler button](img/spoiler.jpg "Botão de Spoiler")
-- Avisos:
-  - Se você utilizar a tag de [Coloração](#coloração) em conjunto com essa, a cor será utilizada no texto com um fundo preto.
-- Sintaxe:
-```prolog
-[spoiler] ... [/spoiler]
+```
+[spoiler]texto[/spoiler]
 ```
 
-### Spoilerbox
+A tag `[spoiler]` é usada para cobrir informações sensíveis com uma tarja preta, onde o texto só será revelado se for realçado. Se essa tag for aninhada com a tag [`[color]`](#cores), a tarja preta não será afetada. Porém, o texto escondido pela tarja ainda será colorido, mesmo não estando legível.
 
-_Não deve ser confundido com [Caixa](#box) ou [Spoiler](#spoiler)._
-
-**Esconde um parágrafo**, na perspectiva do leitor, dentro de uma caixa pré-nomeada.
-O leitor ainda poderá, de qualquer forma, ler o parágrafo ao clicar na Spoilerbox para alternar a visualização do parágrafo oculto.
-
-- Botão dedicado: ![Spoilerbox button](img/spoilerbox.jpg "Botão da Spoilerbox")
-- Avisos:
-  - Isso criará uma [Caixa](#box) com o cabeçalho de um `texto colapsado`.
-- Sintaxe:
-```prolog
-[spoilerbox]
-...
-[/spoilerbox]
-```
+Essa tag é geralmente usada para prevenir que informações críticas/sensíveis de uma série de televisão, filme ou outras mídias seja revelada. Também é utilizada para efeitos cômicos ou para ênfase.
 
 ### Caixa
 
-_Não deve ser confundido com [Spoilerbox](#spoilerbox)._
+*Não confundir com [Caixa de Spoiler](#caixa-de-spoiler).*
 
-**Esconde o parágrafo**, na perspectiva do leitor, dentro de uma caixa nomeável.
-O leitor, de qualquer forma, ainda poderá ler o parágrafo ao clicar na caixa para alternar a visualização do parágrafo oculto.
-
-Elas são geralmente usadas para esconder imagens grandes ou uma grande quantidade de imagens.
-
-- Botão dedicado: ![Box button](img/box.jpg "Botão de Caixa")
-- Avisos:
-  - Por padrão, o botão criará uma caixa sem texto de cabeçalho.
-    - Se você optar por deixar o argumento `NAME` em branco (ou não incluir ele), a altura da caixa ficará muito pequena!
-  - O argumento `NAME` não deverá usar apóstrofos.
-  - O argumento `NAME` não pode conter espaços.
-- Sintaxe:
-  - Onde `NAME` é o nome da caixa.
-```prolog
+```
 [box=NAME]
-...
+texto
 [/box]
 ```
 
+A tag `[box]` é usada para esconder texto e imagens dentro de um link. Ao clicar no link, o conteúdo contido nele será revelado de maneira similar a um menu de seleção.
+
+O nome customizado do link é denotado pelo argumento `NAME`. Especificando esse argumento irá criar um cabeçalho dentro da caixa e será automaticamente ajustado ao tamanho da caixa. Se o argumento não for especificado, a tag `[box]` irá criar uma caixa sem cabeçalho por padrão (o que tornará impossível de clicar). O argumento não aceita aspas (`"`), e irá exibir espaços em branco.
+
+A tag é comumente usada para esconder grandes textos ou imagens que podem poluir uma postagem no fórum por exemplo. É usado em FAQ ou postagens de lançamento de [skins](/wiki/Skinning)
+
+*Nota: O botão na barra de formatação do BBCode é chamado de "spoiler box", mas não cria uma tag `[spoilerbox]`.*
+
+Botão na barra de formatação: ![Spoiler](img/spoilerbox.png "Spoiler")
+
+### Caixa de Spoiler
+
+```
+[spoilerbox]texto[/spoilerbox]
+```
+
+Uma *caixa de spoiler* é um tipo especial de caixa no BBCode que não contém um argumento `NAME`. O nome de uma caixa de spoiler será sempre `SPOILER`. Caixas de spoiler têm sua própria tag (`[spoilerbox]`) mas são funcionalmente idênticas às [Caixas](#caixa).
+
 ### Citação
 
-Formata a palavra/parágrafo como citação.
-
-- Botão dedicado: ![Quote button](img/quote.jpg "Botão de Citação")
-- Avisos:
-  - É recomendado que se inclua o nome do autor da citação, caso você esteja citando alguém (use o argumento `NAME`).
-  - O argumento `NAME` **precisa** usar apóstrofos.
-  - Existe um botão de citação por postagem (canto baixo-direito) que irá automaticamente citar o texto de um usuário.
-    - Se fizer isso, a postagem também incluirá a citação do texto quando você a enviar (clicando em `Post`).
-- Sintaxe:
-  - Onde `NAME` é o nome para a caixa (**precisa** ser cercado com apóstrofos).
-```prolog
-[quote=NAME]
-...
+```
+[quote="NAME"]
+texto
 [/quote]
 ```
 
-### Código
+A tag `[quote]` é usada para formatar citações longas de maneira elegante (também conhecidos como blocos de citação) através do uso de indentações, cores, negrito, e destacando o texto através de uma linha vertical rosa. O conteúdo da citação deve ser informado entre as tags de abertura e de fechamento, enquanto o argumento `NAME` especifica o autor da citação (este argumento é opcional). O texto nas citações irá exibir espaços em branco e quebras de linha.
 
-Formata o texto com uma fonte da família monospaced e o coloca dentro de uma caixa cinza.
-É útil quando você está postando o código de uma storyboard ou código-fonte de algum projeto.
+*Observação: O argumento `NAME` deve estar sempre cercado por aspas (`"`).*
 
-- Botão dedicado: ![Code button](img/code.jpg "Botão de Código")
-- Avisos:
-  - Os espaços em branco do texto serão preservados, o que significa que todas as quebras de linha não funcionarão a não ser que você mesmo faça isso.
-  - Linhas de texto que ultrapassem o tamanho da postagem habilitarão uma barra de rolagem horizontal.
-- Sintaxe:
-```prolog
+Citações longas são tipicamente utilizadas em escritas mais formais no lugar de citações dentro do texto quando a mesma possuir três ou mais linhas. Porém, nos fóruns do osu!,  elas são geralmente utilizadas como uma forma dos usuários responderem à comentários de outros usuários, o que pode ser feito automaticamente através do botão de `Quote reply`(responder com citação) localizado na parte superior direita do comentário desejado (conforme imagem abaixo). Porém, o botão **só irá aparecer se o cursor estiver próximo**.
+
+![Botão de responder com citação](img/quotereply.png)
+
+### Bloco de código
+
+```
 [code]
-...
+texto
 [/code]
 ```
 
+A tag `[code]` é usada para criar *blocos de código pré-formatados* (também conhecido como texto *pré-formatado*). No site do osu!, a tag `[code]` irá formatar textos em uma fonte monoespaçada dentro de uma caixa cinza semitransparente. Formatar um texto dentro de um bloco de código utilizando outras tags irá dizer ao editor para tratar o texto entre essas tags literalmente, dessa forma impedindo que as tags ou código sejam convertidos em qualquer outra coisa.
+
+Nos fóruns do osu!, blocos de código são geralmente usados para postar códigos fonte para uma [storyboard](/wiki/Storyboard), ou em tutoriais que requerem mostrar a sintaxe para tags, comandos ou código fonte.
+
 ### Centralizar
 
-Centraliza o alinhamento de um parágrafo; isso é tipicamente usados para títulos ou cabeçalhos.
-
-- Botões dedicados: ![Centre button](img/centre.jpg "Botão de Centralização")
-- Avisos:
-  - As tags **precisam** ser escritas como `centre` e não `center` (preste atenção às duas últimas letras das palavras).
-- Sintaxe:
-```prolog
-[centre]
-...
-[/centre]
 ```
+[centre]texto[/centre]
+```
+
+A tag `[centre]` é usada para centralizar um texto. Ela é usada geralmente para fins de estilo em títulos, cabeçalhos ou poemas. Se uma tag de citação for colocada dentro dessa tag, o texto dentro da citação será centralizado, porém a formatação da citação não.
 
 ### URL
 
-Adiciona um hyperlink.
-
-Você não precisa utilizar essa tag caso não queira utilizar um texto específico para o link.
-Os fóruns do osu! automaticamente criarão um link para URLs inseridas em uma postagem.
-
-- Botão dedicado: ![URL button](img/url.jpg "Botão de URL")
-- Avisos:
-  - O argumento `LINK` não deve usar apóstrofos.
-- Sintaxe:
-  - Onde `LINK` é o URL.
-  - Onde `TEXT` é o texto do link.
-```prolog
-[url=LINK]TEXT[/url]
 ```
+[url=LINK]texto[/url]
+```
+
+A tag `[url]` é usada para transformar textos comuns em links.
+
+*Nota: Essa tag não é necessária para aqueles que nõa desejam dar nomes customizados aos seus links, já que o editor de fórum processa automaticamente as URLs como links.*
+
+Para criar links com a tag `[url]`, usuários precisam especificar dois argumentos: o texto que será exibido no lugar do link, e a URL específica do site para ser utilizada. O texto customizado deve ser informado entre as tags de abertura e de fechado e a URL deve ser informada no argumento `LINK`, sem as aspas (`"`). Se nenhum texto customizado for informado, o URL será exibido como padrão.
+
+Botão na barra de formatação: ![Botão de URL](img/url.png "URL")
 
 ### Perfil
 
-Cria um link para o perfil do usuário, utilizando o nome do usuário como texto.
-
-A utilização desse botão é **altamente desencorajada**!
-O problema em utilizar essa tag é que os nomes dos usuários pode ser mudados quando eles obtêm a [osu!supporter tag](/wiki/osu!supporter).
-Uma vez que eles o façam, o seu link irá quebrar.
-
-É recomendado que se use o [URL](#url) ao invés dele (utilizando o ID do usuário).
-
-- Botão dedicado: ![Profile button](img/profile.jpg "Botão de Perfil")
-- Avisos:
-  - Não recomendado!
-  - O argumento `USER` **tem** que ser definido.
-- Sintaxe:
-  - Onde `USER` é o nome do usuário.
-```prolog
-[profile]USER[/profile]
+```
+[profile=userid]usuário[/profile]
 ```
 
-### Google
+A tag `[profile]` é usada para gerar um link para a página de perfil de um usuário osu! através de seu nome de usuário ou ID. O uso da tag `[profile]` difere da tag de `[url]` porque a tag `[profile]` exibe um card do usuário ao passar o cursor do mouse por cima do link criado por esta tag.
 
-Automaticamente cria um link para uma pesquisa do Google utilizando o texto providenciado.
+*Nota: O userid (ID de usuário) é o conjunto de números que pode ser encontrado diretamente na URL na página do perfil do usuário logo após `/users/`.*
 
-- Botão dedicado: ![Google button](img/google.jpg "Botão do Google")
-- Avisos:
-  - Saiba que a pesquisa não irá retornar os mesmos resultados para todo mundo; alguns resultados da pesquisa podem não ser mostrados devido à linguagem ou localização.
-- Sintaxe:
-```prolog
-[google]...[/google]
+Se na tag for especificado o ID de usuário, o texto entre as tags de abertura e fechamento não será processado, em vez disso será exibido o nome atual do respectivo usuário. Porém, se a página de perfil for especificada apenas pelo nome de usuário, e o usuário alterar seu nome, o link deixará de funcionar.
+
+### Listas formatadas
+
 ```
-
-### Lucky
-
-**Adiciona o link direto para uma página** utilizando a funcionalidade *Estou com sorte* do Google com o texto providenciado.
-
-- Botão dedicado: ![Lucky button](img/lucky.jpg "Botão Lucky")
-- Avisos:
-  - Saiba que a pesquisa não irá retornar os mesmos resultados para todo mundo; alguns resultados da pesquisa podem não ser mostrados devido à linguagem ou localização.
-- Sintaxe:
-```prolog
-[lucky]...[/lucky]
-```
-
-### Lista
-
-Formata o texto em uma lista.
-
-No BBCode, existem duas partes na construção de uma lista: o contêiner e os marcadores dos itens. Os marcadores são inseridos dentro do contêiner.
-
-- Botões dedicados:
-  - List: ![List button](img/list.jpg "Botão da Lista")
-  - List type: ![List Type button](img/list-type.jpg "Botão do Tipo da Lista")
-  - List bullet: ![List Bullet button](img/list-bullet.jpg "Botão de Ponto da Lista")
-- Avisos:
-  - Todos os marcadores devem ser cercados com tags do tipo LIST.
-  - Estes são os valores válidos para o argumento `TYPE`:
-    - _(empty)_ - pontuada
-    - `1` - numerada
-    - `a` - letrada (em minúsculo)
-    - `A` - letrada (em maiúsculo)
-    - `i` - numerada em romano (em minúsculo)
-    - `I` - numerada em romano (em maiúsculo)
-  - Por padrão, listas utilizam marcadores como pontos quadrados.
-  - Listas inseridas dentro de listas podem ficar bugadas.
-- Sintaxe:
-  - Onde `TYPE` é um dos tipos de lista citados acima.
-  - Se um `TYPE` não for definido, a marcação padrão será utilizada.
-```prolog
 [list=TYPE]
-[*] ITEM
-[*] ITEM...
+[*]item 1
+[*]item 2
+[*]item 3
 [/list]
 ```
 
-### Imagem
+A tag `[list]` é usada para automaticamente formatar inúmeros tipos de listas pelos fóruns do osu! ao utilizar um asterisco dentro de colchetes (`[*]`) para indicar um novo item na lista (conforme demonstrado acima). Por padrão, isso irá criar uma lista simples com marcadores.
 
-**Mostra umaa imagem de alguma fonte online**.
+Outros estilos de listas podem ser formatados especificando o argumento `TYPE` como `1`, `a`, `A`, `i`, ou `I`, que poderão formatar as listas respectivamente como numeradas, por letras (minúsculas), por letras (maiúsculas), numeradas em romano (minúsculo), numeradas em romano (maiúsculo).
 
-As imagens podem ser mostradas de qualquer fonte, desde que ela realmente exista na URL providenciada.
+*Observação: Listas formatadas pelo BBCode podem ser acumuladas ou colocadas dentro umas das outras, porém é possível acontecer problemas com a formatação.*
 
-**Não tente linkar uma imagem diretamente do seu computador**
-Por exemplo, utilizar `C:\Users\Name\Pictures\image.jpg` **não irá funcionar**!
+Botões na barra de formatação: ![Botão de lista](img/list.png "Lista")    ![Botão de lista numerada](img/list-numbered.png "Lista numerada")
 
-Por favor, envie as suas imagens para sites de compartilhamento de imagens bem conceituados como o  [imgur](https://imgur.com/ "imgur") or [puush](https://puush.me/ "puush").
-Uma vez que a imagem seja enviada com sucesso, copie e cole o link direto entre as tags `LINK`.
+### Imagens
 
-Note também que alguns sites não gostam de links diretos para as imagens deles (também conhecidos como _hotlinks_).
-Sites específicos para compartilhamento de imagens, como os que foram citados no parágrafo acima, provavelmente permitirão links diretos.
-
-- Botão dedicado: ![Image button](img/image.jpg "Botão de Imagem")
-- Avisos:
-  - Se a sua imagem for grande ou se você tiver muitas imagens, é recomendado que você as coloque dentro de uma [Caixa](#box).
-- Sintaxe:
-  - Onde `LINK` é um link direto para a imagem.
-```prolog
-[img]LINK[/img]
+```
+[img]ADDRESS[/img]
 ```
 
-### Youtube
+A tag `[img]` é usada para incluir imagens online em postagens nos fóruns do osu!. Para usar a tag, usuários precisam inserir links diretos para a imagem (representado pelo argumento `ADDRESS` acima) postada na internet. Caminhos locais (como `C:\Usuarios\Name\Imagens\imagem.jpg`) **não irão funcionar**.
 
-Insere um vídeo do Youtube na sua postagem.
+*Observação: A URL de um site **não** é a mesma coisa que o endereço de uma imagem.*
 
-- Botão dedicado: ![Image button](img/youtube.jpg "Botão de Imagem")
-- Avisos:
-  - Se você tiver muitos vídeos, é recomendado que os coloque dentro de uma [Caixa](#box).
-- Sintaxe:
-  - Onde `YT-ID` é somente o ID do vídeo (11 characters long), **não** a URL toda!
-    - O ID do vídeo pode ser encontrado após o parâmetro `?v=` na URL.
-```prolog
-[youtube]YT-ID[/youtube]
+Para obter o endereço de uma imagem, o usuário deve navegar ao site onde a imagem está disponibilizada, clicar com o botão direito na imagem, e selecionar "copiar link da imagem". Após isso, o endereço deve ser colado entre as tags de abertura e fechamento.
+
+Embora as imagens possam ser coletadas de qualquer site, osu! recomenda que usuários façam upload de imagens de sites de compartilhamento de imagens conhecidos como o [Imgur](https://imgur.com), tendo em vista que alguns sites não gostam de links diretos às suas imagens (também conhecidos como "hotlinks")
+
+Botão na barra de formatação: ![Botão de imagem](img/image.png "Imagem")
+
+### YouTube
+
+```
+[youtube]VIDEO_ID[/youtube]
 ```
 
-### Cabeçalho (v1)
+A tag `[youtube]` é usada para embutir um vídeo do [YouTube](https://youtube.com) no site do osu!. A tag requer que o usuário informe apenas o ID do vídeo (**não* o URL inteiro) entre as tags (no lugar do argumento representado acima com `VIDEO_ID`).
 
-Adiciona um cabeçalho grande bem chique e rosa.
-Isso geralmente é utilizado para denotar uma nova seção na sua postagem.
+O ID de um vídeo do YouTube está localizado na URL do vídeo, é um conjunto de 11 caracteres *diretamente após* o `watch?v=`.
 
-- Botão dedicado: _não tem_
-- Aviso:
-  - Você precisa inserir a sintaxe manualmente por digitação.
-- Sintaxe:
-```prolog
-[heading]...[/heading]
+### Áudio
+
+```
+[audio]URL[/audio]
 ```
 
-### Cabeçalho (v2)
+A tag `[audio]` é usada para embutir um tocador de áudio em [HTML5](https://pt.wikipedia.org/wiki/HTML5) de alguma fonte de áudio online. Arquivos de áudio podem ser colhidos de qualquer lugar, contanto que o arquivo exista em uma URL direta. Caminhos locais (como `C:\Usuarios\Name\Music\audio.mp3`) **não irão funcionar**.
 
-Adiciona um cabeçalho grande bem chique e roxo, com uma linha horizontal.
-Isso geralmente é utilizado para denotar uma nova sub-seção na sua postagem.
+*Aviso: Por favor, note que nem todos os serviços de compartilhamento de arquivo irão apreciar este acesso aos seus arquivos de áudio, devido à preocupações com pirataria. osu! não é responsável por nenhum problema relacionado à direitos autorais que usuários podem enfrentar.
 
-- Botão dedicado: _não tem_
-- Avisos:
-  - Isso só funciona em fóruns de beatmaps!
-  - Aparece **somente após a postagem** e não no modo de preview.
-  - Você precisa inserir a sintaxe manualmente por digitação.
-- Sintaxe:
-```prolog
-[...]
+Para embutir um arquivo de áudio através dessa tag, usuários precisam colar a URL do arquivo de áudio (exemplo `https://www.example.com/example.mp3`) entre as tags de abertura e fechamento.
+
+### Cabeçalhos (v1)
+
+```
+[heading]texto[/heading]
 ```
 
-### Alerta
+A tag `[heading]` é usada para formatar o texto em letras grandes e rosa. A tag não suporta cabeçalhos de múltiplos níveis e não podem ser linkados diretamente.
 
-Coloca o parágrafo dentro de uma caixa branca.
+Botão na barra de formatação: ![Botão de cabeçalho](img/heading.png "Cabeçalho")
 
-- Botão dedicado: _não tem_
-- Avisos:
-  - Você precisa inserir a sintaxe manualmente por digitação.
-- Sintaxe:
-```prolog
+### Observações
+
+```
 [notice]
-...
+texto
 [/notice]
 ```
 
-## Conhecimentos gerais
+A tag `[notice]` é usada para posicionar parágrafos em uma grande caixa, realçada com uma cor escura. Essa tag é utilizada principalmente para denotar observações ou avisos acerca de certos assuntos no site.
 
-- Postagem original no fórum: [HOW TO: Forum BBCodes](https://osu.ppy.sh/community/forums/topics/445599) por [Stefan](https://osu.ppy.sh/users/626907)
+## Legado
+
+As próximas tags de BBCode já foram utilizadas no site do osu! mas estão atualmente indisponíveis para uso. Suas formas de uso e sintaxe estão descritas abaixo para fins de documentação.
+
+### Google
+
+```
+[google]busca desejada[/google]
+```
+
+A tag `[google]` é uma tag desatualizada que já foi usada nos fóruns do osu! para direcionar a pesquisas no Google utilizando o texto informado entre as tags de abertura e fechamento.
+
+A tag redirecionava os usuários à página de pesquisa do Google através de suas próprias contas, o que significa que os resultados não eram os mesmos para todos, tendo em vista que o Google personaliza os resultados por usuário. Da mesma forma, isso também significava que alguns resultados não apareciam para usuários devido a restrições de linguagem ou posição geográfica.
+
+### Lucky
+
+```
+[lucky]busca desejada[/lucky]
+```
+
+A tag `[lucky]` é uma tag desatualizada que já foi usada nos fóruns do osu! para direcionar à pesquisas do Google utilizando a funcionalidade "Estou com sorte" com o texto especificado entre as tags. A busca gerada através dessa tag não era a mesma para todos devido à natureza da funcionalidade e também devido a restrições de linguagem ou posição geográfica.
+
+### Cabeçalhos (v2)
+
+```
+[text]
+```
+
+A tag *Cabeçalhos (v2)* é uma tag desatualizada que já foi usada nos fóruns do osu! para formatar textos com letras roxas elegantes e com uma linha horizontal. A tag só funcionava nos fóruns de Beatmaps, e só aparecia depois de postada (não aparecia na pré-visualização). Enquanto funcionava, ela não possuía botão na barra de formatação e sua sintaxe era o texto entre colchetes (sem tags de abertura e de fechamento).
+
+## Trivia
+
+- Este artigo da wiki foi adaptado da postagem no fórum [HOW TO: Forum BBCodes](https://osu.ppy.sh/community/forums/topics/445599) feita por [Stefan](https://osu.ppy.sh/users/626907).
+- Existia um bug que permitia aos usuários criar textos transparentes ao utilizar a tag de [cores](#cores) e digitando "transparent" após o sinal de igualdade (`=`).
+  - Atualmente, o texto é automaticamente revertido para a cor padrão (branco) quando isto acontecer.

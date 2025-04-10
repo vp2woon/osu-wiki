@@ -1,392 +1,352 @@
+---
+no_native_review: true
+outdated_translation: true
+outdated_since: 22e9dc764023926abc7249b185da7c1028cf7882
+---
+
+<!--The imagemap button was added to the toolbar in osu-web#9972. When updating this article, keep in mind translating the new "Help" string on Crowdin and updating the editor.jpg file.-->
+
 # BBCode
 
-![forum post dengan tombol-tombolnya](img/editor.jpg "tempat edit di forum")
+BBCode merupakan [bahasa *markup*](https://en.wikipedia.org/wiki/Markup_language) yang digunakan pada forum osu! dan hampir seluruh forum internet lain pada umumnya. Bahasa ini berfungsi untuk menampilkan tulisan dalam format *rich text* melalui berbagai tag, di mana masing-masing tag memiliki fungsinya tersendiri seperti memformat teks, memberikan atribut, menyematkan konten, dan lain sebagainya. Pada situs web osu!, BBCode digunakan di berbagai tempat seperti postingan forum, tanda tangan (*signature*), laman pengguna (*user page*), dan kolom deskripsi beatmap.
 
-BBCode adalah sintaks markup yang digunakan di osu! forum dan, untuk tingkat yang lebih besar, sebagian besar osu! forum telah mendukung rich text formatting. BBCode terdiri dari tag yang mengelilingi teks untuk memperkaya suatu teks, terkadang beberapa atribut. Di osu! forum, BBCode digunakan untuk forum post, signature dan user pages.
+![Editor post beserta dengan tombol-tombolnya](img/editor-id.jpg "Editor post pada forum osu!")
 
-## Catatan
+## Perilaku
 
-Sementara post editor menyediakan beberapa alat pemformatan dasar, pengguna juga dapat secara manual menulis BBCode-nya. Tag BBCode juga tidak sensitif terhadap huruf _(case-sensitive)_.
+Tag BBCode dapat dimunculkan dengan mengklik tombol *markup* yang tertera pada toolbar editor post. Pada saat tombol ini diklik tanpa ada teks yang diseleksi, tag akan dimunculkan di sekitar kursor teks pada editor post. Sebaliknya, apabila terdapat teks yang diseleksi, tag tersebut akan mengelilingi teks yang bersangkutan.
 
-### Tindakan pada Tombol BBCode
+Tag BBCode yang ada dapat saling digabungkan dan ditempatkan di dalam satu sama lain. Meskipun demikian, dalam prosesnya, urutan dan tingkatan tag yang digunakan **tidak boleh saling tertukar**. Apabila hal ini sampai terjadi, teks yang muncul tidak akan terformat dengan benar.
 
-Tanpa teks yang disorot, dengan menekan salah satu tombol akan membuat tag tersebut berada pada tepat dimana kursor itu diletakkan di post editor. Dengan teks yang disorot, menekan salah satu tombol, tag akan mengelilingi teks yang disorot.
+Berikut merupakan contoh penulisan tag BBCode gabungan yang benar dan salah:
 
-### Menggabungkan tag
+- `[centre][b]teks[/b][/centre]` benar
+- `[b][centre]teks[/b][/centre]` salah
 
-Tag dapat dikombinasikan untuk memperkaya isi teks. Urutan dan penandaan tag **harus** dipatuhi ketika menggabungkan beberapa tag. Jika tidak mematuhi aturan dalam penulisan BBCode, Anda akan merusak format teks tersebut.
+## Tag
 
-Untuk contoh (perhatikan urutan kodenya):
+BBCode, sebagaimana bahasa *markup* lain pada umumnya, digunakan untuk memformat teks dengan menggunakan tag yang ditempatkan di antara sepasang tanda kurung siku (`[]`). Setiap tag tersusun atas unsur tag "pembuka" dan "penutup", di mana tag pembuka ditulis tanpa tanda garis miring (`/`) dan tag penutup ditulis dengan tanda garis miring.
 
-- `[centre]` `[b]` _teks_ `[/b]` `[/centre]` ini benar, tapi
-- `[b]` `[centre]` _teks_ `[/b]` `[/centre]` ini salah.
+Beberapa tag memiliki argumen tambahan yang dapat dibubuhkan pada tag pembuka melalui tanda sama dengan (`=`). Argumen ini digunakan untuk menunjukkan URL, ukuran huruf, atau elemen lain yang berkaitan dengan tag tersebut.
 
-## Daftar tag BBCode
+Berikut merupakan daftar tag BBCode yang didukung oleh situs web osu! beserta penjelasannya.
 
 ### Bold
 
-**Menekankan** kata-kata atau seluruh paragraf dengan cara **menebalkan** kata yang disorot, tag ini lebih efektif daripada [italics](#italic) dalam situasi penekanan kata mana yang lebih penting.
+```
+[b]teks[/b]
+```
 
-- Tombol khusus: ![Tombol Bold](img/bold.png)
-- Catatan:
-  - Gunakan seperlunya. Penggunaan berlebihan dapat membuat teks sulit dibaca.
-- Sintaks:
-```
-[b] ... [/b]
-```
+Tag `[b]` atau *cetak tebal* digunakan untuk menguatkan teks melalui penggunaan huruf yang dicetak tebal. Ketebalan huruf ini tidak memengaruhi ukuran huruf.
+
+Tombol pada toolbar: ![Tombol Bold](img/bold.png "Bold")
 
 ### Italic
 
-**Menekankan** kata-kata atau seluruh paragraf dengan cara *memiringkan teks* kata yang disorot, tag ini lebih efektif daripada [bold](#bold) dalam situasi penekanan kata mana yang butuh sorotan miring.
+```
+[i]teks[/i]
+```
 
-- Tombol khusus: ![Tombol Italic](img/italic.png)
-- Catatan:
-  - Gunakan seperlunya. Penggunaan berlebihan akan melemahkan efektivitas penekanan.
-- Sintaks:
-```
-[i] ... [/i]
-```
+Tag `[i]` atau *cetak miring* digunakan untuk memberikan penekanan ringan pada teks melalui penggunaan huruf yang dicetak miring.
+
+Tombol pada toolbar: ![Tombol Italic](img/italic.png "Italic")
 
 ### Underline
 
-**Menggaris bawahi** kata-kata atau seluruh paragraf.
-
-- Tombol khusus: N/A
-- Catatan:
-  - Gunakan seperlunya. Penggunaan berlebihan dapat membuat teks sulit dibaca.
-- Sintaks:
 ```
-[u] ... [/u]
+[u]teks[/u]
 ```
 
-### Strike
+Tag `[u]` atau *garis bawah* digunakan untuk memberikan penekanan pada teks melalui penggunaan garis bawah. Garis yang tergambar dapat dipengaruhi oleh tag lain seperti [bold](#bold) dan [italic](#italic).
 
-_Juga dikenal sebagai **strikethrough**._
+### Strikethrough
 
-**Mencoret** kata-kata atau seluruh paragraf.
-
-- Tombol khusus: ![Tombol Strike](img/strike.png)
-- Catatan:
-  - Gunakan seperlunya. Penggunaan berlebihan dapat membuat teks sulit dibaca.
-- Sintaks:
 ```
-[strike] ... [/strike]
+[strike]teks[/strike]
 ```
+
+*Dikenal juga sebagai **strike**.*
+
+Tag `[strike]` atau *coret* digunakan untuk memberikan kesan "salah ketik" pada teks melalui paparan garis horizontal yang mencoret teks.
+
+Tombol pada toolbar: ![Tombol Strike](img/strike.png "Strikethrough")
 
 ### Colour
 
-_BBCode menyebut ini sebagai "Color"._
-
-**Menambahkan warna** ke beberapa teks.
-
-- Tombol khusus: N/A
-- Catatan:
-  - Colour box terletak pada sebelah kanan teks box.
-  - Gunakan seperlunya. Penggunaan yang terlalu berlebihan dapat mengakibatkan teks sulit dibaca oleh mata. Penyalahgunaan tag ini dapat membuat teks Anda tidak formal.
-  - Jika memilih warna, pastikan warna yang dipilih berbeda dengan background, agar memudahkan pembaca.
-  - `HEXCODE` tidak boleh menggunakan tanda kutip.
-- Sintaks:
-  - Dimana `HEXCODE` adalah warna dalam bentuk hexadecimal atau nama warna.
-    - Untuk hexadecimal, harus dimulai dengan `#`, kemudian diikuti 6 angka hexadecimal (0 - 9, A - F) karakter.
-    - Untuk nama warna, itu haruslah warna html yang valid.
 ```
-[color=HEXCODE] ... [/color]
+[color=#KODE HEX]teks[/color]
 ```
 
-Untuk melihat daftar warna, silahkan lihat [X11 color names](https://en.wikipedia.org/wiki/X11_color_names#Color_name_chart).
+*Untuk daftar nama warna yang didukung oleh tag ini, kunjungi laman [X11 color names](https://en.wikipedia.org/wiki/X11_color_names#Color_name_chart)*.
+
+Tag `[color]` atau *pewarnaan* digunakan untuk mewarnai teks dengan warna yang ramah web (*web-safe colours*). Tag ini menggunakan format [kode HEX](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) dalam pewarnaannya, meskipun warna yang ada juga dapat ditentukan secara langsung melalui nama umumnya seperti "Red" atau "Green". Untuk mewarnai teks, ubah argumen `#KODE HEX` pada contoh di atas dengan kode HEX atau nama warna yang sesuai.
+
+Argumen warna pada tag ini tidak ditulis dengan tanda kutip (`"`) serta tidak memiliki nilai *default*. Apabila argumen ini dikosongkan atau apabila warna yang ada ditulis dengan tanda kutip, tag ini tidak akan diuraikan sebagai tag BBCode yang sah.
 
 ### Font size
 
-Menyesuaikan ukuran teks secara relatif.
+```
+[size=UKURAN]teks[/size]
+```
 
-- Tombol khusus: ![Pengaturan Ukuran Font](img/font-size.png)
-- Catatan:
-  - Gunakan tag ini seperlunya.
-  - Terdapat 4 ukuran yang dapat Anda gunakan:
-    - `50` (tiny)
-    - `85` (small)
-    - `100` (normal; standar)
-    - `150` (large)
-  - Jika Anda tidak menggunakan salah satu diatas, sistem akan menggunakan font berukuran standar.
-  - `NUMBER` tidak boleh menggunakan tanda kutip.
-- Sintaks:
-  - Dimana `NUMBER` adalah salah satu ukuran yang tercantum diatas (`50`, `85`, `100`, atau `150`).
-```
-[size=NUMBER] ... [/size]
-```
+Tag `[size]` atau *ukuran huruf* digunakan untuk mengubah ukuran huruf pada teks. Saat ini, terdapat empat ukuran huruf yang didukung oleh situs web osu!: 50, 85, 100, dan 150, atau yang dikenal juga dengan nama "Mungil", "Kecil", "Normal", dan "Besar".
+
+Argumen `UKURAN` pada tag ini tidak ditulis dengan tanda kutip dan hanya dapat diisi dengan salah satu dari empat ukuran huruf yang didukung. Apabila ukuran huruf yang dimasukkan bukan merupakan salah satu dari empat ukuran yang tertera di atas, teks akan ditulis dalam ukuran normal.
+
+Tombol pada toolbar: ![Tombol Ukuran Huruf](img/font-size-id.png "Font size")
 
 ### Spoiler
 
-_Jangan disamakan dengan [Spoilerbox](#spoilerbox)._
-
-**Menutupi teks* dengan background hitam.
-
-Ini sangat bermanfaat saat Anda membicarakan adegan kritis pada acara TV, film, atau anime tapi tidak ingin membeberkannya pada orang lain. Pembaca dapat membaca teks yang sudah disoroti oleh tag tersebut.
-
-- Tombol khsusus: N/A
-- Catatan:
-  - Jika Anda menggunakan [colour](#colour) tag bersamaan dengan ini, warna background tidak akan berubah dan tetap dengan warna hitam.
-- Sintaks:
 ```
-[spoiler] ... [/spoiler]
+[spoiler]teks[/spoiler]
 ```
 
-### Spoilerbox
+*Tag ini tidak sama dengan [Spoilerbox](#spoilerbox).*
 
-_Jangan disamakan dengan [Box](#box) atau [Spoiler](#spoiler)._
+Tag `[spoiler]` digunakan untuk menutupi teks yang berisi informasi sensitif dengan latar berwarna hitam. Teks yang tertutup oleh spoiler hanya akan dapat dilihat pada saat di-*highlight* oleh pengguna. Apabila digunakan bersamaan dengan tag [`[color]`](#colour), latar hitam yang ada tidak akan terpengaruh, namun teks asli yang ditutupi oleh tag ini akan tetap berubah warna.
 
-**Menyembunyikan Paragraf, Kalimat atau Gambar** di dalam kotak yang sudah dinamai dari tampilan pembaca. Pembaca dapat membaca atau melihat paragraf dan gambar tersebut dengan menekan spoilerbox untuk melihat paragraf yang telah disembunyikan.
-
-- Tombol khusus: ![Tombol Spoilerbox](img/spoilerbox.png)
-- Catatan:
-  - Tombol ini akan membuat sebuah [Box](#box) berisikan teks yang berjudul `collapsed text`.
-- Sintaks:
-```
-[spoilerbox]
-...
-[/spoilerbox]
-```
+Tag ini pada umumnya digunakan untuk menyembunyikan informasi penting/sensitif seputar acara TV, film, atau media lainnya. Terkadang, tag ini juga digunakan untuk memberikan penekanan pada teks atau sebagai guyonan belaka.
 
 ### Box
 
-_Jangan bingung dengan [Spoilerbox](#spoilerbox)._
-
-**Menyembunyikan Paragraf, Kalimat atau Gambar** di dalam kotak yang sudah dinamai dari tampilan pembaca. Pembaca dapat membaca atau melihat paragraf dan gambar tersebut dengan menekan box untuk melihat paragraf yang telah disembunyikan.
-
-Ini biasanya digunakan untuk menyembunyikan gambar berukuran besar atau gambar yang terlalu banyak.
-
-- Tombol khusus: N/A
-- Catatan:
-  - Secara standar, ini akan membuat box tanpa berisi teks.
-    - Jika Anda mengisi `NAME` dengan blank (atau tidak diisi teks apapun), tinggi dari box akan terlihat lebih kecil!
-  - `NAME` tidak boleh menggunakan tanda kutip.
-  - `NAME` boleh menggunakan spasi.
-- Sintaks:
-  - Dimana `NAME` adalah nama dari box tersebut.
 ```
-[box=NAME]
-...
+[box=JUDUL]
+teks
 [/box]
 ```
 
+*Tag ini tidak sama dengan [Spoilerbox](#spoilerbox).*
+
+Tag `[box]` atau *kotak spoiler* digunakan untuk menyembunyikan teks dan gambar di dalam boks yang dapat dibuka dan ditutup. Pada saat diklik, konten yang terdapat di dalam boks akan tersingkap seperti layaknya pada menu *dropdown*.
+
+Tag ini memiliki argumen `JUDUL` yang digunakan untuk menentukan judul boks. Apabila argumen ini dikosongkan, tag `[box]` akan menghasilkan kotak spoiler tanpa keterangan judul di dalamnya. Argumen ini tidak ditulis dengan tanda kutip (`"`) dan judul yang tertera akan didahului oleh karakter spasi.
+
+Tag ini pada umumnya digunakan untuk menyembunyikan teks yang panjang dan gambar yang berukuran besar pada postingan forum, terutama pada laman FAQ atau utas forum [skin](/wiki/Skinning).
+
+*Catatan: Pada toolbar, tombol BBCode yang berfungsi untuk membuat kotak spoiler memiliki nama "spoiler box". Meskipun demikian, tombol ini tidak menghasilkan tag `[spoilerbox]`.*
+
+Tombol pada toolbar: ![Tombol Box](img/spoilerbox.png "Box")
+
+### Spoilerbox
+
+```
+[spoilerbox]teks[/spoilerbox]
+```
+
+Spoilerbox merupakan tag BBCode yang serupa dengan `[box]`, namun tanpa argumen `JUDUL`. Kotak spoiler yang dihasilkan oleh tag `[spoilerbox]` akan selalu mengusung `SPOILER` sebagai judulnya. Walaupun spoilerbox memiliki tag-nya tersendiri, secara fungsi tag ini serupa dengan tag [box](#box).
+
 ### Quote
 
-Digunakan untuk mengutip sebuah kalimat atau paragraf.
-
-- Tombol khusus: N/A
-- Catatan:
-  - Ini sangat bagus bila Anda ingin mengutip seseorang (gunakan `NAME` argumen).
-  - `NAME` argumen **harus** menggunakan tanda kutip.
-  - Terdepat tombol quote untuk setiap post (bawah-kanan) itu akan otomatis mengutip sebuah post dari setiap user.
-    - Jika Anda menggunakan ini, post (jika Anda menekan `Post`) akan di posting di thread sekarang.
-- Sintaks:
-  - Dimana `NAME` adalah nama dari box (**harus** dilengkapi dengan tanda kutip).
 ```
-[quote=NAME]
-...
+[quote="NAMA"]
+teks
 [/quote]
 ```
 
-### Code
+Tag `[quote]` atau *kutipan* digunakan untuk menampilkan teks dalam bentuk blok kutipan (*block quote*) melalui penggunaan indentasi, pewarnaan, huruf yang dicetak tebal, dan garis pemisah berwarna merah muda. Untuk menggunakan tag ini, tempatkan teks yang ingin dikutip di antara tag pembuka dan penutup serta isi argumen `NAMA` dengan nama penulis kutipan (walaupun argumen ini tidak wajib diisi). Teks yang dikutip akan muncul pada post dengan didahului oleh spasi dan jeda baris.
 
-Format teks dengan bentuk monospaced font-family dan letaknya didalam box abu-abu. Ini sangat berguna bila Anda memposting sebuah kode storyboard atau kode lainnya.
+*Catatan: Argumen `NAMA` pada tag ini wajib ditulis dengan tanda kutip (`"`).*
 
-- Tombol khusus: N/A
-- Catatan:
-  - Setiap kata akan menjaga jarak spasi-nya, ini berarti bahwa tidak ada baris kata yang akan rusak kecuali Anda yang merusaknya.
-  - Baris kata yang banyak akan otomatis membentuk scroll box secara horizontal.
-- Sintaks:
+Tag ini dapat digunakan untuk menampilkan kutipan panjang/*long quote* (yang pada umumnya digunakan pada tulisan yang lebih formal) ataupun kutipan sebaris/*inline quote*. Pada forum osu!, tag ini pada umumnya digunakan untuk membalas komentar pengguna lain melalui tombol `Kutip posting untuk balasan` (sebagaimana yang tertera di bawah). Tombol ini dapat dimunculkan dengan cara menyeret kursor ke pojok kanan atas postingan milik pengguna lain dan **hanya akan muncul apabila didekati oleh kursor**.
+
+![Tombol Quote reply](img/quotereply.png "Kutip posting untuk balasan")
+
+### Inline code
+
+*Tag ini tidak sama dengan [Code block](#code-block).*
+
+```
+[c]teks[/c]
+```
+
+Tag `[c]` atau *baris kode* digunakan untuk menampilkan teks di dalam boks berwarna abu-abu dengan jenis huruf monospace. Tidak seperti tag [code block](#code-block), tag ini hanya dapat diaplikasikan pada satu baris tulisan.
+
+Pada forum osu!, tag ini berguna untuk memberikan penekanan kepada hal-hal seperti pintasan keyboard atau deskripsi tombol.
+
+### Code block
+
 ```
 [code]
-...
+teks
 [/code]
 ```
 
+Tag `[code]` atau *blok kode* digunakan untuk menampilkan teks secara mentah *dalam bentuk aslinya* (*preformatted text*). Sebagaimana tag `[c]`, tag `[code]` akan menampilkan teks di dalam boks abu-abu dengan jenis huruf monospace. Teks yang dikelilingi oleh tag ini akan ditampilkan sebagaimana adanya, dan kode serta tag lain yang terdapat dalam teks tersebut akan diabaikan.
+
+Tag ini pada umumnya digunakan untuk memposting kode sumber [storyboard](/wiki/Storyboard) atau untuk menampilkan sintaks tag, perintah, dan kode pada utas tutorial.
+
 ### Centre
 
-Memindahkan paragraf atau kalimat ke tengah; Ini biasanya digunakan untuk mengubah posisi judul teks.
+```
+[centre]teks[/centre]
+```
 
-- Tombol khusus: N/A
-- Catatan:
-  - Tag **harus** dieja `centre` bukan `center` (perhatikan dua huruf terakhir).
-- Sintaks:
-```
-[centre]
-...
-[/centre]
-```
+Tag `[centre]` atau *rata tengah* digunakan untuk meratakan teks ke tengah. Tag ini pada umumnya digunakan untuk memperindah teks judul, tajuk, atau puisi. Apabila tag ini ditempatkan di dalam atau di sekitar tag [`[quote]`](#quote), teks yang dikutip akan muncul secara rata tengah, namun elemen blok kutipan lainnya (seperti garis pemisah) tidak akan ikut diratakan ke tengah.
 
 ### URL
 
-Menambahkan tautan.
-
-Anda tidak perlu memerlukan tag ini jika Anda tidak ingin menggunakan tautan teks. osu! forum akan otomatis memuat tautan berisikan url di dalam post.
-
-- Tombol khusus: ![URL button](img/url.png)
-- Catatan:
-  - `LINK` argumen tidak boleh menggunakan tanda kutip.
-- Sintaks:
-  - Dimana `LINK` adalah Url.
-  - Dimana `TEXT` adalah teks dari tautan tersebut.
 ```
-[url=LINK]TEXT[/url]
+[url=TAUTAN]teks[/url]
 ```
+
+Tag `[TAUTAN]` atau *tautan* digunakan untuk mengubah teks menjadi tautan yang dapat diklik.
+
+*Catatan: Tag ini tidak diperlukan apabila teks yang dimaksud sudah merupakan sebuah tautan, karena forum osu! akan mengurai URL yang valid menjadi tautan secara otomatis.*
+
+Untuk membuat tautan dengan tag `[url]`, pengguna harus menentukan dua argumen: teks yang akan ditampilkan sebagai tautan, dan URL situs web yang ingin ditautkan. Argumen pertama harus ditempatkan di antara tag pembuka dan penutup, sedangkan argumen kedua harus ditulis sebagai argumen `TAUTAN` tanpa tanda kutip (`"`). Apabila tidak ada teks yang dimasukkan, maka nama URL akan digunakan sebagai teks tautan.
+
+Tombol pada toolbar: ![tombol URL](img/url.png "URL")
 
 ### Profile
 
-Menautkan sebuah profil dengan menggunakan nama user.
-
-Penggunaan dari tag ini **sangatlah kecil**! Masalah dari penggunaan tag ini ialah nama user dapat diganti sekali setelah mendapatkan [osu!supporter tag](/wiki/osu!supporter). Dan sekali mereka melakukannya, tautan akan gagal.
-
-Sangat direkomendasikan menggunakan [URL](#url) sebagai gantinya (menggunakan nomor id user).
-Contoh penggunaan Nomor ID User `https://osu.ppy.sh/users/2` dimana angka `2` itu adalah nomor ID-nya.
-
-- Tombol khusus: N/A
-- Catatan:
-  - Tidak direkomendasikan!
-  - `USER` argument harus didefinisikan.
-- Sintaks:
-  - Dimana `USER` adalah nama dari user tersebut.
 ```
-[profile]USER[/profile]
+[profile=userid]nama pengguna[/profile]
 ```
 
-### Google
+Tag `[profile]` atau *profil* digunakan untuk menautkan laman profil pengguna osu! berdasarkan nama atau ID pengguna mereka. Tautan yang dihasilkan oleh tag `[profile]` berbeda dengan tautan yang dihasilkan oleh tag [`[url]`](#url), karena tautan dari tag ini akan menampilkan kartu pengguna (*user card*) milik pengguna yang bersangkutan pada saat kursor diarahkan ke tautan tersebut.
 
-Otomatis Menautkan teks yang disoroti ke Google Search.
+*Catatan: ID pengguna merupakan rangkaian angka yang mengikuti `/users/` pada URL laman profil masing-masing pengguna.*
 
-- Tombol khusus: N/A
-- Catatan:
-  - Ketahuilah ini tidak akan memberikan hasil yang sama kepada semua orang.
-    - Beberapa hasil pencarian mungkin tersembunyi karena masalah bahasa/lokasi.
-- Sintaks:
+Apabila tag ini digunakan hanya dengan ID pengguna sebagai acuannya, teks yang berada di antara tag pembuka dan penutup akan diabaikan. Di sisi lain, apabila tag ini digunakan hanya dengan nama pengguna sebagai acuannya, tautan yang dihasilkan tidak akan lagi berfungsi sebagaimana mestinya apabila pengguna yang bersangkutan mengubah nama penggunanya.
+
+### Formatted list
+
 ```
-[google]...[/google]
-```
-
-### Lucky
-
-**Menambahkan Tautan Langsung** menggunakan tombol Google *I'm Feeling Lucky* dengan teks yang sudah disediakan.
-
-- Tombol khusus: N/A
-- Catatan:
-  - Ketahuilah ini tidak akan memberikan hasil yang sama kepada semua orang.
-    - Beberapa hasil pencarian mungkin tersembunyi karena masalah bahasa/lokasi.
-- Sintaks:
-```
-[lucky]...[/lucky]
-```
-
-### List
-
-Mengubah teks dalam bentuk daftar.
-
-di dalam BBCode, terdapat dua bagian untuk membuat daftar: wrapper dan bullets. Dimana bullets diletakkan di dalam wrapper.
-Bullets ialah simbol yang berbentuk sebuah peluru, sedangkan Wrapper ialah membungkusi/menyoroti teks yang sudah memiliki masing-masing Bullets dan membungkusnya menggunakan tag list.
-
-- Tombol khusus:
-  - Bulleted list: ![tombol list](img/list.png)
-  - Numbered list: ![tombol nomor list](img/list-numbered.png)
-  - List bullet: N/A
-  - List type: N/A
-- Catatan:
-  - Semua bullets harus dikelilingi oleh tag list.
-  - Berikut adalah argumen yang benar dari `TYPE` bullets:
-    - _(empty)_ - bulleted
-    - `1` - numbered
-    - `a` - lettered (lowercased)
-    - `A` - lettered (upper-cased)
-    - `i` - roman numeral (lowercased)
-    - `I` - roman numeral (upper-cased)
-  - Secara standar, bulleted list menggunakan square bullets.
-  - List di dalam list bisa menyebabkan kesalahan pada teks tersebut.
-- Sintaks:
-  - Dimana `TYPE` adalah salah satu tipe daftar diatas.
-  - Jika `TYPE` tidak digunakan, bullets standar akan digunakan sebagai gantinya.
-```
-[list=TYPE]
-[*]...
+[list=JENIS]
+[*]item 1
+[*]item 2
+[*]item 3
 [/list]
 ```
 
+Tag `[list]` atau *daftar* digunakan untuk membuat daftar pada forum osu!, baik itu yang diurutkan dengan poin (*bulleted list*) atau dengan angka (*numbered list*). Masing-masing item dalam daftar dinyatakan dengan simbol bintang yang diapit oleh dua tanda kurung (`[*]`) sebagaimana yang dicontohkan di atas.
+
+Secara *default*, apabila argumen `JENIS` tidak ditentukan, tag ini akan menghasilkan daftar yang diurutkan dengan poin. Sebaliknya, apabila argumen ini diisi dengan sesuatu (terlepas dari apapun itu isinya), tag ini akan menghasilkan daftar yang diurutkan dengan angka.
+
+*Catatan: Daftar yang ada dapat saling ditumpuk dan ditempatkan di dalam satu sama lain, meskipun hal ini diketahui dapat mengacaukan tampilan daftar yang dihasilkan.*
+
+Tombol pada toolbar: ![Tombol daftar](img/list.png "Daftar") ![Tombol daftar berurut angka](img/list-numbered.png "Daftar berurut angka")
+
+### Email
+
+```
+[email=ALAMAT]teks[/email]
+```
+
+Tag `[email]` digunakan untuk menghasilkan tautan email yang akan membuka draf email baru pada program email pada saat diklik. Draf ini akan mengusung alamat yang diinputkan sebagai alamat tujuannya.
+
+Untuk membuat tautan email, terdapat dua argumen yang harus diisi: argumen `ALAMAT` yang berisi alamat email yang ingin ditautkan, dan argumen `teks` yang berisi tulisan yang ingin ditampilkan sebagai tautan. Apabila argumen `teks` ini tidak diisi, tautan email tidak akan muncul sebagaimana mestinya.
+
 ### Image
 
-**Menampilkan gambar dari sumber gambar online**.
-
-Gambar dapat diperoleh dari sumber manapun, selama gambar tersedia dan memiliki url.
-
-**Jangan link gambar langsung dari lokal pc!** Menggunakan `C:\Users\Name\Pictures\image.jpg` **tidak akan bisa digunakan**.
-
-Tolong unggah gambar ke website yang terpercaya seperti [imgur](https://imgur.com/ "imgur") atau [puush](https://puush.me/ "puush"). Setelah gambar diunggah berhasil, salin dan tempel tautan yang berisikan gambar. Tidak semua website memberikan tautan langsung pada gambar yang diunggah (atau biasa disebut _hotlinks_). Situs berbagi gambar, seperti ada yang diatas, sangat diperbolehkan menggunakan tautan langsung pada gambar karena mereka adalah situs berbagi gambar.
-
-- Tombol khusus: ![Tombol Image](img/image.png)
-- Catatan:
-  - Jika Anda memiliki banyak gambar atau gambar berukuran besar, sangat direkomendasikan meletakkannya di dalam [Box](#box).
-- Sintaks:
-  - Dimana `LINK` adalah tautan langsung dari gambar tersebut.
 ```
-[img]LINK[/img]
+[img]ALAMAT[/img]
 ```
+
+Tag `[img]` atau *gambar* digunakan untuk menyematkan gambar dari situs web lain. Untuk menggunakan tag ini, pengguna harus menyertakan alamat *online* gambar yang ingin disematkan pada argumen `ALAMAT` di atas. Gambar yang berasal dari sumber lokal/*offline* (semisal `C:\Users\Name\Pictures\image.jpg`) **tidak dapat digunakan untuk tag ini**.
+
+*Catatan: URL situs web **tidak sama** dengan alamat gambar.*
+
+Untuk memperoleh alamat gambar, pengguna harus membuka situs web tempat gambar tersebut berasal, mengarahkan kursor ke gambar, mengklik kanan gambar, dan memilih `Salin alamat gambar` (`Copy image address`). Setelahnya, alamat ini dapat disisipkan ke dalam tag.
+
+Walaupun gambar yang disematkan pada tag ini dapat bersumber dari situs web mana pun, osu! menyarankan agar gambar yang digunakan berasal dari situs *file sharing* ternama seperti [Imgur](https://imgur.com). Hal ini dikarenakan terdapat beberapa situs web yang tidak mengizinkan gambar mereka untuk digunakan oleh situs web lain (atau yang dikenal dengan istilah "*hotlink*").
+
+Tombol pada toolbar: ![Tombol Image](img/image.png "Image")
+
+### Imagemap
+
+```
+[imagemap]
+URL_GAMBAR
+X Y LEBAR TINGGI TAUTAN JUDUL
+[/imagemap]
+```
+
+Tag `[imagemap]` atau *peta gambar* digunakan untuk menyisipkan satu atau lebih tautan di berbagai area pada gambar.
+
+Pada tag ini, URL gambar diinputkan pada argumen `IMAGE_URL`. Sama seperti tag `[image]`, gambar yang disertakan harus berasal dari sumber *online* agar tag ini dapat berfungsi.
+
+Untuk menambahkan area yang dapat diklik pada gambar, masukkan posisi x dan y area tautan, lebar dan tinggi area tautan, serta situs yang ingin ditautkan pada baris baru di bawah argumen `IMAGE_URL`. Walaupun tidak wajib, argumen `JUDUL` dapat diisi untuk menampilkan teks tertentu pada saat kursor dilayangkan di atas area tautan. Adapun setiap argumen yang melambangkan ukuran atau posisi (`X`, `Y`, `LEBAR`, dan `TINGGI`) ditulis dalam satuan persentase (0-100) relatif terhadap ukuran dan posisi gambar tanpa tanda persen.
+
+Tombol pada toolbar: ![Tombol imagemap](img/imagemap.png "Imagemap")
 
 ### YouTube
 
-Menambahkan YouTube video di dalam post.
-
-- Tombol khusus: N/A
-- Catatan:
-  - Jika Anda memiliki banyak gambar atau gambar berukuran besar, sangat direkomendasikan meletakkannya di dalam [Box](#box).
-- Sintaks:
-  - Dimana `VIDEO_ID` adalah YouTube video ID (11 huruf panjang), **bukan** seluruh URLnya!
-    - YouTube video ID terletak setelah bagian `?v=` url parameter.
 ```
 [youtube]VIDEO_ID[/youtube]
 ```
 
+Tag `[youtube]` digunakan untuk menyematkan video [YouTube](https://youtube.com) ke dalam situs web osu!. Untuk menggunakan tag ini, pengguna hanya harus memasukkan ID video yang ingin disematkan (**bukan** seluruh URL video) pada argumen `VIDEO_ID` di atas.
+
+Pada YouTube, ID video merupakan 11 karakter yang *secara langsung* mengikuti `v=` pada URL video.
+
+### Audio
+
+```
+[audio]URL[/audio]
+```
+
+Tag `[audio]` digunakan untuk menyematkan audio dari situs web lain melalui pemutar audio [HTML5](https://en.wikipedia.org/wiki/HTML5). Berkas audio yang digunakan untuk tag ini dapat berasal dari sumber *online* mana pun, selama berkas tersebut memiliki URL-nya tersendiri yang dapat ditautkan. Audio yang berasal dari sumber lokal/*offline* (semisal `C:\Users\Name\Music\audio.mp3`) **tidak dapat digunakan untuk tag ini**.
+
+*Perhatian: Karena masalah pembajakan lagu, tidak semua layanan file sharing mendukung pemutaran audio secara langsung dari situs web mereka. osu! tidak bertanggung jawab atas masalah hak cipta yang dapat ditimbulkan oleh penggunaan tag ini.*
+
+Untuk menyematkan audio melalui tag ini, pengguna harus memasukkan URL berkas audio yang bersangkutan lengkap dengan ekstensinya (semisal `https://www.example.com/example.mp3`) di antara dua tag `[audio]`.
+
+<!-- Contoh URL file audio online untuk editor wiki: https://actions.google.com/sounds/v1/alarms/digital_watch_alarm_long.ogg -->
+
 ### Heading (v1)
 
-Menambahkan teks berukuran besar berwarna merah muda. Ini biasanya ditujukan untuk bagian baru dalam post Anda.
-
-- Tombol khusus: ![Tombol Heading](img/heading.png)
-- Catatan:
-  - Anda harus mengetik sendiri sintaks ini.
-- Sintaks:
 ```
-[heading]...[/heading]
+[heading]teks[/heading]
 ```
 
-### Heading (v2)
+Tag `[heading]` atau *tajuk* digunakan untuk menampilkan teks sebagai tulisan tajuk besar berwarna merah jambu. Tag ini tidak mendukung penggunaan tajuk bertingkat (*multi-level header*), dan tulisan tajuk yang dihasilkan tidak dapat ditautkan.
 
-Menambahkan teks berukuran besar warna ungu dengan garis horizontal dibawah (underline). Ini biasanya ditujukan untuk bagian baru dalam post Anda.
-
-- Tombol khusus: N/A
-- Catatan:
-  - Ini hanya berguna untuk beatmap forum!
-  - Hasilnya akan kelihatan setelah memposting, bukan melalui preview.
-  - Anda harus mengetik sendiri sintaks ini.
-- Sintaks:
-```
-[...]
-```
+Tombol pada toolbar: ![Tombol Heading](img/heading.png "Heading")
 
 ### Notice
 
-Meletakkan teks di dalam kotak putih.
-
-- Dedicated button: N/A
-- Catatan:
-  - Anda harus mengetik sendiri sintaks ini.
-- Sintaks:
 ```
 [notice]
-...
+teks
 [/notice]
 ```
 
+Tag `[notice]` atau *pemberitahuan* digunakan untuk menampilkan paragraf dalam kotak khusus yang berukuran besar, bergaris tepi, dan berwarna latar gelap. Tag ini pada umumnya digunakan untuk menampilkan pemberitahuan atau peringatan seputar topik tertentu.
+
+## Tag lawas yang tidak lagi digunakan
+
+Berikut merupakan daftar tag BBCode yang telah dipensiunkan dari situs web osu!. Walaupun tag-tag ini sudah tidak lagi digunakan, fungsi dan tata cara penulisannya masing-masing turut didokumentasikan di bawah ini untuk keperluan sejarah.
+
+### Google
+
+```
+[google]kueri pencarian[/google]
+```
+
+Tag `[google]` merupakan tag lawas yang dahulu digunakan untuk menautkan teks ke kueri pencarian Google.
+
+Tag ini akan mengarahkan pengguna ke laman pencarian Google melalui akun mereka. Berhubung Google menyesuaikan hasil pencarian masing-masing penggunanya, hasil pencarian yang ditampilkan tidak akan sama untuk semua orang. Karena hal ini pula, sebagian hasil pencarian dapat tidak muncul bagi pengguna tertentu karena batasan bahasa atau negara.
+
+### Lucky
+
+```
+[lucky]kueri pencarian[/lucky]
+```
+
+Tag `[lucky]` merupakan tag lawas yang dahulu digunakan untuk menautkan teks ke situs web yang ditentukan oleh tombol `Saya Lagi Beruntung` (*I'm Feeling Lucky*) milik Google. Karena sifat dari tombol ini, situs web yang ditautkan oleh tag ini tidak akan sama untuk semua orang.
+
+### Heading (v2)
+
+```
+[teks]
+```
+
+Tag *Heading (v2)* merupakan tag lawas yang dahulu digunakan untuk menampilkan teks sebagai tulisan tajuk (*heading*) berwarna ungu dengan garis horizontal. Penggunaan tag ini terbatas pada forum Beatmaps, dan teks yang bersangkutan hanya akan muncul sebagai tajuk setelah post diterbitkan (tajuk ini tidak akan muncul pada layar pratinjau). Tag ini tidak memiliki tombol khusus dan hanya dilambangkan dengan sepasang tanda kurung tanpa tag pembuka dan penutup.
+
 ## Trivia
 
-- Forum post asli: [HOW TO: Forum BBCodes](https://osu.ppy.sh/community/forums/topics/445599) oleh [Stefan](https://osu.ppy.sh/users/626907)
-
-### Sejarah
-
-- Terdeapat warna yang rusak di osu!web forum sekarang, jika Anda menggunakan warna `transparent`, itu akan membuat teks menjadi transparan.
-  - Namun bug ini, terselesaikan di desain web yang baru.
+- Artikel ini diadaptasi dari utas forum ["HOW TO: Forum BBCodes"](https://osu.ppy.sh/community/forums/topics/445599) yang ditulis oleh [Stefan](https://osu.ppy.sh/users/626907).
+- Dahulu kala, terdapat sebuah *bug* yang memungkinkan pengguna untuk membuat teks transparan dengan mencantumkan warna "transparent" pada [tag colour](#colour) (`colour=transparent`).
+  - Saat ini, teks yang ada akan kembali ke warna *default* (putih) pada saat warna ini dipilih.
+- Sebelum tag `imagemap` diperkenalkan, tautan dapat dibubuhkan kepada gambar dengan menggabungkan tag `url` dan `img`. Meskipun demikian, cara ini hanya dapat digunakan untuk membubuhkan satu tautan per gambarnya. Untuk membubuhkan lebih dari satu tautan, gambar tersebut harus terlebih dahulu dipotong menjadi beberapa bagian, ditautkan secara terpisah, dan kemudian disusun kembali secara berdampingan.

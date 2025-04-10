@@ -1,17 +1,13 @@
 ---
-outdated: true
+outdated_translation: true
+outdated_since: 7880a47c4e5df0bb9470cdd8edc48daa42e6f277
 ---
 
 # Kişiler
 
-Aşağıda belirtilenler osu!'yu ayakta tutan osu!topluluk üyeleri tarafından oluşmuş kullanıcı gruplarıdır.
-Bu üye gruplarının çoğuna forum ismi renkleri, oyun-içi sohbet renkleri ve/veya profil rozetleri verilir.
+Kişiler ve gruplar hakkındaki makalelerin ana sayfası.
 
-- [Beatmap Aday Gösterme Grubu (BNG)](/wiki/People/Beatmap_Nomination_Group)
-- [Topluluk İştirakçıları](/wiki/People/Community_Contributors)
-- [Global Moderasyon Takımı(GMT)](/wiki/People/Global_Moderation_Team)
-- [Dil Moderatörleri](/wiki/People/Language_Moderators)
-- [osu! Alumni](/wiki/People/osu!_Alumni)
-- [Kalite Kontrol Takımı (QAT)](/wiki/People/Quality_Assurance_Team)
-- [Destek Ekibi](/wiki/People/Support_Team)
-- [Ekip](/wiki/People/The_Team)
+- [Ekip](The_Team)
+- [Eşsiz ünvanlara sahip kullanıcılar](Users_with_unique_titles)
+- [peppy](peppy)
+- [Topluluk İştirakçileri](Community_Contributors)

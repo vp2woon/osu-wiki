@@ -1,11 +1,10 @@
-# Easy
+# Easy (disambiguation)
 
-**Easy** may also refer to:
+**Easy** can have multiple meanings:
 
--   The [game modifier](/wiki/Game_Modifiers/#easy).
--   The version name of a beatmap.
--   The difficulty of a beatmap:
-    -   ![](/wiki/shared/diff/easy-s.png) [Easy](/wiki/Difficulties/Easy), for osu!standard.
-    -   ![](/wiki/shared/diff/easy-t.png) [Kantan](/wiki/Difficulties/Kantan), for osu!taiko.
-    -   ![](/wiki/shared/diff/easy-c.png) Cup, for osu!catch.
-    -   ![](/wiki/shared/diff/easy-m.png) EZ, for osu!mania.
+- The [game modifier](/wiki/Gameplay/Game_modifier/Easy)
+- The [difficulty](/wiki/Beatmap/Difficulty) of a beatmap:
+  - ![](/wiki/shared/diff/easy-o.png?20211215) Easy, for osu!.
+  - ![](/wiki/shared/diff/easy-t.png?20211215) Kantan, for osu!taiko.
+  - ![](/wiki/shared/diff/easy-c.png?20211215) Cup, for osu!catch.
+  - ![](/wiki/shared/diff/easy-m.png?20211215) EZ, for osu!mania.

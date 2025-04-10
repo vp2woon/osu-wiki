@@ -1,0 +1,35 @@
+outdated_since: a8383bfa1e96690b7f254a39672b15781e148634
+outdated_translation: true
+
+separator: ", "
+alumni:
+  roles:
+    academy: osu!academy 설립자
+    admin: 관리자
+    chat: 챗 모더레이터
+    dev: osu!dev
+    media: osu!media 크리에이터
+    support: 지원팀
+    tournaments: 토너먼트 관리자
+gmt:
+  all_mods: 모든 모더레이터
+  areas:
+    beatmap: 비트맵 관리
+    chat: 채팅 관리
+    forum: 포럼 관리
+    team: 공식 팀
+    dev: osu! 개발
+    player: 플레이어 지원
+    support: 기술 지원
+    tournaments: 토너먼트 관리
+    wiki: 위키 관리
+    mapping: 매핑/모딩 커뮤니티 관리
+    skinning: 스킨 커뮤니티 관리
+    leadership: 팀 리더
+nat:
+  subgroups:
+    structural: 고문
+    evaluation: 평가위원
+    leadership: 리더
+languages:
+  partial: 약간의 <language>

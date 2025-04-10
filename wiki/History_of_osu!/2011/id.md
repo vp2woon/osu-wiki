@@ -1,6 +1,9 @@
-# 2011
+---
+outdated_translation: true
+outdated_since: 7e141e8221bdddf973c3eb5aabe4c4b2825144c8
+---
 
-*Halaman utama: [Sejarah osu!](/wiki/History_of_osu!).*
+# 2011
 
 ## Desember
 

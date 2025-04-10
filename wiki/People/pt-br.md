@@ -1,17 +1,13 @@
 ---
-outdated: true
+outdated_translation: true
+outdated_since: 7880a47c4e5df0bb9470cdd8edc48daa42e6f277
+no_native_review: true
 ---
 
 # Pessoal
 
-A seguir estão os grupos de usuários formados por membros da comunidade osu! que ajudam a manter o osu!. Maioria desses grupos de usuários podem ser reconhecidos pela cor do nome no fórum, cor do nome no chat em jogo, títulos no perfil e/ou medalhas no perfil.
+Índice para artigos sobre pessoas ou grupos.
 
-- [A Equipe](/wiki/People/The_Team)
-- [Colaboradores da Comunidade](/wiki/People/Community_Contributors)
-- [Equipe de Garantia de Qualidade](/wiki/People/Quality_Assurance_Team)
-- [Equipe de Moderação Global](/wiki/People/Global_Moderation_Team)
-- [Equipe de Suporte](/wiki/People/Support_Team)
-- [Equipe do Project Loved](/wiki/People/Project_Loved_Team)
-- [Moderadores de Idioma](/wiki/People/Language_Moderators)
-- [Nomeadores de Beatmap](/wiki/People/Beatmap_Nominators)
-- [osu! Alumni](/wiki/People/osu!_Alumni)
+- [Colaboradores da Comunidade](Community_Contributors)
+- [A Equipe](The_Team)
+- [Usuários com títulos únicos](Users_with_unique_titles)

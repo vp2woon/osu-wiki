@@ -1,6 +1,6 @@
-# FAQ
+# Skinning FAQ
 
-*This article is about frequently answered skinning questions. For the tutorial, see [Skinning/Tutorial](/wiki/Skinning/Tutorial).*
+This article is about frequently answered skinning questions.
 
 ## Getting started
 
@@ -24,10 +24,6 @@ Yes, you can use skinning elements from other skins. These are called "mixed ski
 
 The only exception to this are sounds, as they are typically harder to make. These can be used from other skins, even without explicit permission from the original skinner. It would, however, be nice of you to credit the original skinner.
 
-### How do I make a skin?
-
-*Main page: [Skinning/Tutorial](/wiki/Skinning/Tutorial)*
-
 ### What should my skin folder contain?
 
 When developing your skin, you can put anything in the skinning folder, including other folders. osu! will simply ignore them, so you can keep your `.xcf` or `.psd` files in the same folder to edit them later if needed.
@@ -38,13 +34,13 @@ Do note, however, the folder called `taiko` (case-insensitive) is reserved for o
 
 ### How do I reload my skin in osu!?
 
-You will need to have your skin selected, then press this keystoke to reload a skin in osu! is `Ctrl` + `Alt` + `Shift` + `S`.
+You will need to have your skin selected, then press this keystroke to reload a skin in osu! is `Ctrl` + `Alt` + `Shift` + `S`.
 
-You can also exit and reopen osu! or start the updater to reload the skin, but it usually is much quicker to use the four-keystoke combination to reload the skin in osu!
+You can also exit and reopen osu! or start the updater to reload the skin, but it usually is much quicker to use the four-keystroke combination to reload the skin in osu!
 
 ### What are skinning sets?
 
-*Main page: [Ranking Criteria/Skin Set List](/wiki/Ranking_Criteria/Skin_Set_List)*
+*Main page: [Ranking Criteria/Skin Set List](/wiki/Ranking_criteria/Skin_set_list)*
 
 In osu!, there are over 200 skinnable elements (not including the individual animated frames). However, you are not required to skin all of them. Instead, you can simply remove them as osu! will use the default images for the ones you don't include.
 
@@ -69,12 +65,12 @@ There are some third-party projects that try to do this already. However, the sk
 First, before you share your skin, make sure you have removed other files that are not used. These can be default images and sounds, extra folders, non-image files (except for the `skin.ini` file). Once this is complete, you will need to export your skin as an `.osk` file. With this file, you can upload it then post about it in the skinning subforum.
 
 1. Open osu!
-1. Open the options sidebar.
-1. Load your skin.
-1. Click `Export as .osk`.
-1. From there osu! will open a window for your exported skin.
-1. Take the `.osk` file with your skin's name and upload it
-1. You can now share it!
+2. Open the options sidebar.
+3. Load your skin.
+4. Click `Export as .osk`.
+5. From there osu! will open a window for your exported skin.
+6. Take the `.osk` file with your skin's name and upload it
+7. You can now share it!
 
 ### Can I post a mixed skin in the skinning subforums?
 
@@ -82,7 +78,7 @@ No, you are not allowed to post a mixed skin in any subforums. The same thing ap
 
 #### Where can I post my mixed skin?
 
-You can use your me! userpage, your signature, the [/r/osuskins subreddit](https://www.reddit.com/r/OsuSkins/), or anywhere else outside of the osu! forums.
+You can use your me! userpage, your signature, the [/r/osuskins subreddit](https://www.reddit.com/r/OsuSkins), or anywhere else outside of the osu! forums.
 
 ### Can I post a skin remake?
 
@@ -131,19 +127,19 @@ osu! gameplay
 [url=https://example.com/skin-download-link-here.osk]Download link[/url][/centre]
 ```
 
-It is really important to include various screenshots of gameplay and the song selection, etc. A lot of people will want to see your skin looks like before carelessly downloading it! You can use upppy or puush to upload them.
+It is really important to include various screenshots of gameplay and the song selection, etc. A lot of people will want to see your skin looks like before carelessly downloading it! You can use upppy or imgur to upload them.
 
 ## skin.ini
 
 ### What is skin.ini?
 
-*Main page: [skin.ini](/wiki/skin.ini)*
+*Main page: [skin.ini](/wiki/Skinning/skin.ini)*
 
 ### What is v1.0 and v2.0+?
 
-Skin v1.0 was the old skinning style that was used from the game's skinning support launch until March 2013. After that point in time, skin v2.0 was released along side a brand new set of skinning elements with some changes. To see a changelog of skinning updates, see the [Versions section in the skin.ini article](/wiki/skin.ini/#versions).
+Skin v1.0 was the old skinning style that was used from the game's skinning support launch until March 2013. After that point in time, skin v2.0 was released along side a brand new set of skinning elements with some changes. To see a changelog of skinning updates, see the [Versions section in the skin.ini article](/wiki/Skinning/skin.ini#versions).
 
-It may not seem important to denote which version to use, but understand that some older features may not be available in the latest version of skinning and vise versa.
+It may not seem important to denote which version to use, but understand that some older features may not be available in the latest version of skinning and vice versa.
 
 ## Audio
 
@@ -152,8 +148,8 @@ It may not seem important to denote which version to use, but understand that so
 The hierarchy of the sound formats that osu! will use is as follows:
 
 1. `.wav`
-1. `.mp3`
-1. `.ogg`
+2. `.mp3`
+3. `.ogg`
 
 Basically, osu! will prefer `.wav` files because these can loop short sounds better than `.mp3` or `.ogg`.
 
@@ -205,18 +201,18 @@ All HD images may also be bigger in filesize due to the fact that the canvas siz
 The ranking screen preferences the static version of skinning elements over the animationed ones. That is, if an animation and a static version of an element is included, the hierarchy is as follows:
 
 1. The static image.
-1. The zeroth frame of the animation.
-1. The default image.
+2. The zeroth frame of the animation.
+3. The default image.
 
 However, the osu!mania ranking screen is an exception to this. That is, if an animation and a static version of an element is included, the hierarchy is as follows:
 
 1. The zeroth frame of the animation in root directory.
-1. The static image in root directory.
-1. The default image.
+2. The static image in root directory.
+3. The default image.
 
-*Note: in osu!mania, osu! ignores the specified path from the `skin.ini` file and will only use the image from the root directory (the folder where the skin elements are loaded).*
+*Notice: In osu!mania, osu! ignores the specified path from the `skin.ini` file and will only use the image from the root directory (the folder where the skin elements are loaded).*
 
-## Animiations
+## Animations
 
 ### How do I animate an element?
 
@@ -252,7 +248,7 @@ If you want to remove an element, you must use a transparent image in place of t
 
 There are two ways to do this:
 
-- Disable `Hit Lighting` in the [options](/wiki/options).
+- Disable `Hit Lighting` in the [options](/wiki/Client/Options).
 - Use a transparent image called `lighting.png` in your skin.
 
 ##### I meant the particles after clicking!
@@ -281,15 +277,15 @@ You must have [osu!supporter](/wiki/osu!supporter) to see the background image i
 
 ### My taiko drums are in the wrong position!
 
-Open the [skin.ini](/wiki/skin.ini) file and change the `Version` to `2.1` or higher.
+Open the [skin.ini](/wiki/Skinning/skin.ini) file and change the `Version` to `2.1` or higher.
 
 ### How do I change the combo colours?
 
-*Main page: [skin.ini](/wiki/skin.ini/#[colours])*
+*Main page: [skin.ini](/wiki/Skinning/skin.ini#[colours])*
 
-### How do I disable one or more hit sounds?
+### How do I disable one or more hitsounds?
 
-There are three different types of hit sounds using these three prefixes: `normal`, `soft`, and `drum`. All of these has a suffix: `-hitnormal`, `-hitwhistle`, `-hitfinish`, and `-hitclap`.
+There are three different types of hitsounds using these three prefixes: `normal`, `soft`, and `drum`. All of these has a suffix: `-hitnormal`, `-hitwhistle`, `-hitfinish`, and `-hitclap`.
 
 To disable them, find the ones you do not like and replace it with another sound.
 

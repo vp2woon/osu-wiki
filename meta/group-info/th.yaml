@@ -1,0 +1,34 @@
+outdated_since: 0522bc4c323f9a2b0c89a6b9582109a0608c6287
+outdated_translation: true
+
+separator: ", "
+alumni:
+  roles:
+    academy: ผู้ค้นพบ osu!academy
+    admin: ผู้บริหารจัดการ
+    chat: ผู้ดูแลแชท
+    dev: ผู้พัฒนา osu!
+    media: ผู้สร้างสื่อ osu!
+    support: ทีมช่วยเหลือ
+    tournaments: ผู้บริหารทัวร์นาเมนต์
+gmt:
+  all_mods: ผู้ดูแลทั้งหมด
+  areas:
+    beatmap: ผู้ดูแลบีทแมพ
+    chat: ผู้ดูแลแชท
+    forum: ผู้ดูแลฟอรั่ม
+    team: ทีมอย่างเป็นทางการ
+    dev: ผู้พัฒนา osu!
+    player: ผู้สนับสนุนผู้เล่น
+    support: ผู้สนับสนุนทางเทคนิค
+    tournaments: ผู้บริหารทัวร์นาเมนต์
+    wiki: ผู้ดูแลวิกิ
+    mapping: ผู้ดูแลชุมชนการแมป/การ mod
+nat:
+  areas:
+    communication: การสื่อสาร
+    evaluation: การประเมิน
+    moderation: การดูแล
+    structural: โครงสร้าง
+languages:
+  partial: <language> บ้าง

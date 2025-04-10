@@ -1,2 +1,9 @@
 * text=auto
-*.md text
+*.md text eol=lf
+*.sh text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Fixes languages listing on GitHub
+news/**/*.md linguist-detectable
+wiki/**/*.md linguist-detectable

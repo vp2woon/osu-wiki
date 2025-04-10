@@ -1,0 +1,35 @@
+outdated_since: 0522bc4c323f9a2b0c89a6b9582109a0608c6287
+outdated_translation: true
+
+separator: ", "
+alumni:
+  roles:
+    academy: pendiri osu!academy
+    admin: administrator
+    chat: Chat Moderator
+    dev: osu!dev
+    media: pereka cipta osu!media
+    support: Support Team
+    tournaments: manajemen turnamen
+gmt:
+  all_mods: seluruh moderator
+  areas:
+    beatmap: moderasi beatmap
+    chat: moderasi chat
+    forum: moderasi forum
+    team: anggota inti osu!team
+    dev: pengembangan osu!
+    player: dukungan pengguna
+    support: dukungan teknis
+    tournaments: manajemen turnamen
+    wiki: administrasi osu!wiki
+    mapping: moderasi komunitas mapping/modding
+nat:
+  areas:
+    communication: komunikasi
+    evaluation: evaluasi
+    moderation: moderasi
+    structural: struktural
+languages:
+  partial: sedikit <language>
+  fr: Perancis

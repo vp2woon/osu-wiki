@@ -1,0 +1,34 @@
+separator: ，
+alumni:
+  roles:
+    academy: osu!academy 创立者
+    admin: 管理员
+    chat: 聊天管理员
+    dev: osu! 开发团队
+    media: osu!media 创立者
+    support: 支持团队
+    tournaments: 锦标赛管理员
+gmt:
+  all_mods: 全局管理员
+  areas:
+    beatmap: 谱面管理员
+    chat: 聊天管理员
+    forum: 论坛管理员
+    general: 全局管理员
+    team: 官方团队
+    dev: osu! 贡献者
+    player: 玩家支持团队
+    support: 技术支持团队
+    tournaments: 锦标赛管理员
+    wiki: wiki 管理员
+    mapping: 作图摸图社群管理员
+    skinning: 自定义皮肤社区管理员
+    leadership: 团队领导
+nat:
+  subgroups:
+    structural: 组织
+    evaluation: 评估
+    leadership: 领导
+languages:
+  partial: 一部分<language>
+  zh: 汉语

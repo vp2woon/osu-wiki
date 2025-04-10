@@ -1,100 +1,174 @@
-# Tim Global Moderasi
+---
+outdated_translation: true
+outdated_since: de2a27f1930f8e353bf54104d8f588501bff7ee8
+tags:
+  - GMT
+  - moderator
+  - moderators
+  - chat mod
+---
 
-**Tim Global Moderasi** (sebelumnya dikenal sebagai Administrator,Tim Global Mod atau “GreenBAT”), sering disebut sebagai **GMT** adalah anggota dari komunitas yang berfokus terutama pada moderasi pemain dan isu-isu yang berkaitan dengan staf dan komunitas pada umumnya.
+# Global Moderation Team
 
-## Menjadi GMT
+*Lihat juga: [Mod (disambiguasi)](/wiki/Disambiguation/Mod).*
 
-Menjadi anggota dari **Tim Moderasi Global** membutuhkan jumlah kontribusi yang signifikan. Calon anggota sering diperhatikan dari kerelaan mereka untuk membantu pengguna lain, aktivitas di dalam komunitas, dan kelakuan baik.  Kemampuan mereka untuk berbicara bahasa kedua selain Inggris sangat disukai. Kandidat didiskusikan di dalam tim untuk menentukan penambahan potensial sebagai member tim.
+**Global Moderation Team** (yang sebelumnya dikenal dengan nama Global Mod Team, Administrator, dan GreenBAT), atau yang sering disebut sebagai **GMT**, merupakan para anggota komunitas yang berfokus pada moderasi pemain serta berbagai isu yang berkaitan dengan jajaran staf dan komunitas secara umum. Mereka dapat dikenali dari jabatan dan nama pengguna mereka yang berwarna merah di dalam permainan dan hijau pada forum.
 
-## Peran dan Tanggung Jawab
+**Seluruh anggota Global Moderator telah disumpah untuk menjunjung tinggi [Kode Etik Kontributor](/wiki/Rules/Contributor_code_of_conduct) di samping [Peraturan Komunitas](/wiki/Rules) yang berlaku.**
 
-Tim Moderasi Global bertanggung jawab atas kesejahteraan chatting / forum dan mengurus interaksi dengan komunitas. Mereka harus didekati jika Anda memiliki pertanyaan yang berkaitan dengan aspek moderasi permainan, yang akan mencakup (namun tidak terbatas pada) masalah dengan obrolan (silences, pelecehan) and di forum (spam).
+***Catatan: Untuk melaporkan moderator yang berperilaku buruk atau melanggar Kode Etik Kontributor, silakan hubungi [account support team](/wiki/People/Account_support_team#support@ppy.sh).***
 
-## Anggota Tim
+## Peran dan tanggung jawab
 
-*Harap dicatat: Semua GMT berbahasa Inggris dan penambahan bahasa-bahasa yang terdaftar di bawah kecuali disebutkan sebaliknya.* - [Team Page](https://osu.ppy.sh/groups/4)
+*Lihat juga: [Melaporkan perbuatan yang tidak pantas](/wiki/Reporting_bad_behaviour).*
 
-| Nama | Bahasa | Area Fokus |
+Global Moderation Team bertanggung jawab atas ketentraman obrolan dan forum serta interaksi di dalam komunitas. Mereka dapat kamu rujuk apabila kamu memiliki pertanyaan atau laporan yang berkaitan dengan aspek moderasi permainan, yang mencakup (namun tidak terbatas pada):
+
+ - masalah pada obrolan (cth. spam atau pelecehan)
+ - perilaku yang buruk pada forum (cth. postingan yang tidak pantas)
+ - diskusi dan kolom komentar beatmap
+ - moderasi profil pengguna (terutama yang mencakup konten NSFW atau eksplisit pada avatar, sampul atau detail profil, dsb.)
+
+## Menjadi seorang moderator
+
+Keanggotaan Global Moderation Team memerlukan kontribusi yang jumlahnya tidak sedikit. Para calon anggota pada umumnya dinilai berdasarkan kerelaan mereka untuk membantu pengguna lain, aktivitas mereka di dalam komunitas, dan riwayat perilaku baik mereka. Kemampuan untuk berbicara bahasa lain di samping bahasa Inggris merupakan nilai tambah. Mereka yang terpilih selanjutnya akan didiskusikan secara internal untuk menentukan apakah mereka layak untuk diangkat sebagai moderator.
+
+### Cara untuk dapat dipertimbangkan menjadi moderator
+
+Agar kamu dapat dipertimbangkan menjadi moderator, faktor terpenting yang harus kamu miliki antara lain adalah perilaku, aktivitas, pemahaman terhadap [peraturan](/wiki/Rules), dan kesabaran:
+
+1. Tunjukkan perilaku yang baik dengan bersikap sopan dan memperlakukan pengguna lain dengan hormat. Jaga akunmu agar terbebas dari *silence* atau masalah serius lainnya.
+2. Peragakan aktivitas *in-game* dengan berpartisipasi pada obrolan dan/atau forum. [Laporkan berbagai perilaku buruk](/wiki/Reporting_bad_behaviour) dan masalah lainnya yang kamu temui melalui sistem Report. Jawab pertanyaan yang muncul dan bantu pengguna lain untuk menyelesaikan masalah yang mereka hadapi.
+3. Pahami [peraturan](/wiki/Rules) yang berlaku serta penerapannya dengan seksama. Sangat penting bagi seorang moderator untuk mengetahui apa saja yang dapat dan tidak dapat diterima di lingkungan osu!.
+4. Bersabarlah. GMT tidak akan semerta-merta mengangkat anggota baru hanya karena mereka telah berkontribusi selama beberapa hari. Butuh waktu bagi GMT untuk dapat mengevaluasi seseorang⁠ — mulai dari kepribadian mereka, apa yang dapat mereka bantu,  aktivitas mereka, dan lain sebagainya.
+
+Pada umumnya, tim GMT akan mengamati para kandidat yang dianggap berpotensi selama beberapa minggu atau bulan untuk memastikan kelayakan mereka. Harap bersabar dan jangan bertindak berlebihan. Jangan ragu untuk bertanya kepada anggota GMT manapun seputar apapun terkait peraturan, pelaporan pengguna, dan masalah lainnya.
+
+### Berbagai hal yang sebaiknya tidak dilakukan
+
+1. Jangan bertanya secara terus-menerus kepada GMT tentang apakah kamu berada dalam daftar kandidat yang berpotensi atau tidak. GMT tentunya tidak ingin menambahkan anggota yang berkontribusi semata-mata hanya untuk memperoleh gelar. Mempunyai pola pikir yang mengutamakan kebaikan sesama adalah kuncinya.
+2. Jangan melaporkan setiap hal kecil dalam obrolan. Seorang moderator harusnya dapat mengetahui secara bijak apa yang layak dilaporkan dan apa yang tidak.
+3. Jangan menjawab pertanyaan orang lain tanpa mengetahui apakah jawaban tersebut benar atau tidak, khususnya di forum. Kamu dibenarkan untuk memberikan saran, namun kamu harus ingat bahwa informasi yang salah tidak akan membantu siapapun. Apabila kamu tidak mengetahui solusi dari suatu masalah, biarkan orang lain yang menjawab dan belajarlah dari mereka.
+4. Jangan bertindak berlebihan. Tim kami mencari kontribusi yang konsisten, bukan kontribusi yang jumlahnya berlebihan. Mereka yang bertindak berlebihan akan cenderung cepat bosan serta mudah untuk kehilangan kesabaran dan komitmen. Santai saja!
+
+## Anggota tim
+
+*Catatan: Kecuali diterakan lebih lanjut, seluruh anggota GMT dapat berbicara Bahasa Inggris di samping bahasa yang tercantum pada nama mereka masing-masing.*
+
+Daftar anggota GMT selengkapnya dapat dilihat pada laman grup [Global Moderation Team](https://osu.ppy.sh/groups/4). Selain dari area fokus yang tertera di bawah ini, seluruh anggota GMT juga berperan aktif dalam [peninjauan konten visual dan audio yang terdapat pada beatmap](/wiki/Rules/Visual_content_considerations#menilai-gambar-anda).
+
+| Nama | Bahasa | Area fokus |
 | :-- | :-- | :-- |
-| ![][flag_DE] [- Felix](https://osu.ppy.sh/users/8503985) | Jerman | Moderasi Chat |
-| ![][flag_US] [Chaos](https://osu.ppy.sh/users/2628870) | | Moderasi Chat |
-| ![][flag_DE] [Clobohne](https://osu.ppy.sh/users/499343) | Jerman | Moderasi Chat |
-| ![][flag_AR] [Darksonic](https://osu.ppy.sh/users/570042) | Spanyol | Moderasi Chat, Moderasi Forum |
-| ![][flag_US] [Death](https://osu.ppy.sh/users/3242450) | | Moderasi Chat, Dukungan Teknis |
-| ![][flag_ES] [Deif](https://osu.ppy.sh/users/318565) | Spanyol | Turnamen, Moderasi Beatmap |
-| ![][flag_US] [Dntm8kmeeatu](https://osu.ppy.sh/users/5428812) | | Dukungan Teknis |
-| ![][flag_BR] [Edward](https://osu.ppy.sh/users/5618109) | Portugis, Jepang | Moderasi Chat |
-| ![][flag_AU] [Ephemeral](https://osu.ppy.sh/users/102335) | | Bantuan pemain |
-| ![][flag_BG] [Flanster](https://osu.ppy.sh/users/447818) | Bulgaria | osu!idol hosting, Moderasi Forum |
-| ![][flag_CN] [Fycho](https://osu.ppy.sh/users/1876867) | Cina | Moderasi Chat, Moderasi Forum |
-| ![][flag_CA] [Gabe](https://osu.ppy.sh/users/654108) | Perancis | Moderasi Chat, Moderasi Forum, Moderasi Beatmap |
-| ![][flag_PL] [Galkan](https://osu.ppy.sh/users/169570) | Polandia | Moderasi Chat |
-| ![][flag_TR] [heyronii](https://osu.ppy.sh/users/5642779) | Turki | Moderasi Chat |
-| ![][flag_ID] [Hinsvar](https://osu.ppy.sh/users/1249323) | Indonesian | Moderasi Chat, Moderasi Beatmap |
-| ![][flag_GB] [JBHyperion](https://osu.ppy.sh/users/4879508) | | Moderasi Chat, Moderasi Beatmap |
-| ![][flag_AR] [juankristal](https://osu.ppy.sh/users/443656) | Spanyol | Turnamen |
-| ![][flag_RU] [Kobold84](https://osu.ppy.sh/users/3227533) | Rusia | Moderasi Chat |
-| ![][flag_FR] [Kurai](https://osu.ppy.sh/users/77089) | Perancis, Rusia | Moderasi Chat |
-| ![][flag_BR] [Kuron-kun](https://osu.ppy.sh/users/2697284) | Portugis | Moderasi Chat, Moderasi Beatmap |
-| ![][flag_RU] [Kyubey](https://osu.ppy.sh/users/2195646) | Rusia | Moderasi Chat |
-| ![][flag_FI] [Laurakko](https://osu.ppy.sh/users/7253731) | Finlandia | Moderasi Chat |
-| ![][flag_DE] [Loctav](https://osu.ppy.sh/users/71366) | Jerman | Moderasi Beatmap |
-| ![][flag_IT] [MrSergio](https://osu.ppy.sh/users/2581696) | Italia | Moderasi Chat |
-| ![][flag_NL] [n0ah](https://osu.ppy.sh/users/3086393) | Dutch | Moderasi Chat, Moderasi Forum |
-| ![][flag_PH] [Nathanael](https://osu.ppy.sh/users/2295078) | Filipina | Moderasi Chat, Moderasi Forum, Dukungan Teknis |
-| ![][flag_FR] [Neil Watts](https://osu.ppy.sh/users/3048059) | Perancis | Moderasi Chat |
-| ![][flag_US] [Nyquill](https://osu.ppy.sh/users/682935) | | osu! development, Mappers' Guild organisation |
-| ![][flag_DE] [Okoratu](https://osu.ppy.sh/users/1623405) | Jerman | Ranking Criteria, Moderasi Forum, Moderasi Chat |
-| ![][flag_DE] [p3n](https://osu.ppy.sh/users/123703) | Jerman | Turnamen |
-| ![][flag_CA] [Pawsu](https://osu.ppy.sh/users/2371454) | | Moderasi Chat, Dukungan Teknis |
-| ![][flag_PT] [Pereira006](https://osu.ppy.sh/users/537344) | Portugis | Moderasi Chat |
-| ![][flag_ES] [Raiden](https://osu.ppy.sh/users/2239480) | Spanyol, katalan | Moderasi Chat |
-| ![][flag_MX] [Repflez](https://osu.ppy.sh/users/201392) | Spanyol | Moderasi Chat, Administrasi Wiki |
-| ![][flag_KR] [ruexia](https://osu.ppy.sh/users/385069) | Korean | Moderasi Chat |
-| ![][flag_JP] [S o h](https://osu.ppy.sh/users/2234772) | Jepang | Moderasi Chat |
-| ![][flag_SE] [Saten](https://osu.ppy.sh/users/444506) | Swedia, Spanyol | Moderasi Chat |
-| ![][flag_FR] [Shiro](https://osu.ppy.sh/users/113005) | Perancis, Spanyol | Moderasi Chat |
-| ![][flag_ID] [Shurelia](https://osu.ppy.sh/users/3807986) | Indonesian | Moderasi Chat |
-| ![][flag_TW] [spboxer3](https://osu.ppy.sh/users/197974) | Cina | Moderasi Chat |
-| ![][flag_HU] [Spkz](https://osu.ppy.sh/users/2964029) | Hungarian | Moderasi Chat |
-| ![][flag_AT] [Stefan](https://osu.ppy.sh/users/626907) | Jerman | Moderasi Chat, Moderasi Forum |
-| ![][flag_RU] [stymlice](https://osu.ppy.sh/users/5122436) | Rusia | Moderasi Chat |
-| ![][flag_RU] [TicClick](https://osu.ppy.sh/users/672931) | Rusia | Moderasi Chat |
-| ![][flag_FR] [Tommay](https://osu.ppy.sh/users/3132818) | Perancis | Moderasi Chat |
-| ![][flag_PH] [topecnz](https://osu.ppy.sh/users/2103927) | Filipina | Moderasi Chat |
-| ![][flag_ES] [Trosk-](https://osu.ppy.sh/users/3469385) | Spanyol | Dukungan Teknis |
-| ![][flag_PL] [Ukami](https://osu.ppy.sh/users/820865) | Polandia | Moderasi Chat |
-| ![][flag_CL] [WalterToro](https://osu.ppy.sh/users/5281416) | Spanyol | Moderasi Chat, Turnamen, Pembantu Wiki, Moderasi Forum |
-| ![][flag_PL] [Yason](https://osu.ppy.sh/users/2574392) | Polandia | Moderasi Chat |
-| ![][flag_CN] [Zero__wind](https://osu.ppy.sh/users/1822830) | Cina | Moderasi Chat |
-| ![][flag_DE] [Zetera](https://osu.ppy.sh/users/587737) | Jerman | Moderasi Chat |
-| ![][flag_TR] [Zeus-](https://osu.ppy.sh/users/5464437) | Turki | Moderasi Chat |
+| ::{ flag=MY }:: [\_Kobii](https://osu.ppy.sh/users/6209713) | Tionghoa, Melayu, Kanton, sedikit Jepang | Moderasi komunitas mapping/modding |
+| ::{ flag=DE }:: [- Felix](https://osu.ppy.sh/users/8503985) | Jerman | Moderasi chat |
+| ::{ flag=CH }:: [\[ryuu\]](https://osu.ppy.sh/users/5698467) | Rusia | Moderasi chat |
+| ::{ flag=RS }:: [0x84f](https://osu.ppy.sh/users/7944724) | Serbia | Team leadership, general moderation |
+| ::{ flag=US }:: [abraker](https://osu.ppy.sh/users/4635891) |  | Moderasi forum |
+| ::{ flag=GB }:: [aceticke](https://osu.ppy.sh/users/8838763) |  | Moderasi chat, moderasi komunitas mapping/modding, general moderation |
+| ::{ flag=NL }:: [Albionthegreat](https://osu.ppy.sh/users/9853595) | Belanda, sedikit Jerman | General moderation |
+| ::{ flag=CA }:: [Aurele](https://osu.ppy.sh/users/654108) | Perancis | Moderasi chat, moderasi forum, moderasi komunitas mapping/modding |
+| ::{ flag=CA }:: [Azer](https://osu.ppy.sh/users/2155578) |  | Manajemen turnamen[^task-Azer] |
+| ::{ flag=MY }:: [bibitaru](https://osu.ppy.sh/users/4482419) | Tionghoa, Melayu | Moderasi chat |
+| ::{ flag=US }:: [Blushing](https://osu.ppy.sh/users/5927823) |  | Moderasi chat, moderasi forum, dukungan teknis |
+| ::{ flag=US }:: [ChillierPear](https://osu.ppy.sh/users/9501251) | Swedia, Spanyol | General moderation, manajemen turnamen |
+| ::{ flag=GB }:: [chromb](https://osu.ppy.sh/users/10238680) |  | Moderasi chat |
+| ::{ flag=KR }:: [Civil oath](https://osu.ppy.sh/users/3216107) | Korea, Jepang | Moderasi chat |
+| ::{ flag=FR }:: [Corne2Plum3](https://osu.ppy.sh/users/15646039) | Perancis | Moderasi forum |
+| ::{ flag=CA }:: [D I O](https://osu.ppy.sh/users/3958619) | Sedikit Spanyol | Manajemen turnamen |
+| ::{ flag=US }:: [Death](https://osu.ppy.sh/users/3242450) |  | Moderasi forum, dukungan teknis |
+| ::{ flag=US }:: [Dntm8kmeeatu](https://osu.ppy.sh/users/5428812) |  | Dukungan teknis |
+| ::{ flag=AU }:: [Ephemeral](https://osu.ppy.sh/users/102335) |  | Dukungan pengguna, administrasi osu!wiki |
+| ::{ flag=FI }:: [Flutteh](https://osu.ppy.sh/users/5042507) | Suomi, sedikit Swedia | Moderasi chat |
+| ::{ flag=CN }:: [Fycho](https://osu.ppy.sh/users/1876867) | Tionghoa | Moderasi chat, moderasi komunitas mapping/modding |
+| ::{ flag=PL }:: [Galkan](https://osu.ppy.sh/users/169570) | Polski | Moderasi chat |
+| ::{ flag=FR }:: [Ganondorf](https://osu.ppy.sh/users/10660738) | Perancis | Moderasi chat |
+| ::{ flag=US }:: [Halfslashed](https://osu.ppy.sh/users/4598899) |  | Moderasi komunitas mapping/modding |
+| ::{ flag=ID }:: [Ilham](https://osu.ppy.sh/users/3057154) | Indonesia | Moderasi komunitas mapping/modding |
+| ::{ flag=FR }:: [Imakuri](https://osu.ppy.sh/users/6100837) | Perancis, Spanyol | Moderasi chat |
+| ::{ flag=HK }:: [kanpakyin](https://osu.ppy.sh/users/394326) | Kanton, Tionghoa, Jepang | Moderasi chat |
+| ::{ flag=RU }:: [Kobold84](https://osu.ppy.sh/users/3227533) | Rusia | Team leadership, moderasi chat, moderasi forum |
+| ::{ flag=RU }:: [Kudou Chitose](https://osu.ppy.sh/users/9936528) | Rusia | Moderasi chat |
+| ::{ flag=FI }:: [Laurakko](https://osu.ppy.sh/users/7253731) | Suomi, sedikit Swedia | Moderasi chat |
+| ::{ flag=BR }:: [LeoFLT](https://osu.ppy.sh/users/3668779) | Portugis, Spanyol | Moderasi chat, manajemen turnamen |
+| ::{ flag=DE }:: [Loctav](https://osu.ppy.sh/users/71366) | Jerman | Moderasi komunitas mapping/modding |
+| ::{ flag=DE }:: [Lyawi](https://osu.ppy.sh/users/5851253) | Jerman | Moderasi chat, moderasi forum |
+| ::{ flag=GB }:: [mangomizer](https://osu.ppy.sh/users/1893718) | Kanton, Tionghoa | Manajemen turnamen |
+| ::{ flag=BR }:: [maot](https://osu.ppy.sh/users/3914271) | Portugis | Moderasi komunitas mapping/modding |
+| ::{ flag=NO }:: [MillhioreF](https://osu.ppy.sh/users/941094) |  | Pengembangan osu! |
+| ::{ flag=VN }:: [My Angel Chino](https://osu.ppy.sh/users/20547597) | Vietnam | Moderasi chat |
+| ::{ flag=PH }:: [Nathanael](https://osu.ppy.sh/users/2295078) | Filipino | Moderasi chat, moderasi forum, dukungan teknis |
+| ::{ flag=US }:: [Nevo](https://osu.ppy.sh/users/7451883) |  | Moderasi komunitas mapping/modding |
+| ::{ flag=ID }:: [Niva](https://osu.ppy.sh/users/197805) | Indonesia | Moderasi chat |
+| ::{ flag=FR }:: [Nozhomi](https://osu.ppy.sh/users/2716981) | Perancis | Moderasi chat |
+| ::{ flag=DE }:: [OnosakiHito](https://osu.ppy.sh/users/290128) | Jerman, Serbia | Moderasi chat, moderasi komunitas mapping/modding |
+| ::{ flag=AU }:: [osu!team](https://osu.ppy.sh/users/4341397) |  | Anggota inti osu!team |
+| ::{ flag=DE }:: [p3n](https://osu.ppy.sh/users/123703) | Jerman | General moderation |
+| ::{ flag=HK }:: [Petal](https://osu.ppy.sh/users/7354729) | Kanton, Tionghoa | General moderation |
+| ::{ flag=KR }:: [Petit](https://osu.ppy.sh/users/4637369) | Korea, Jepang | Moderasi chat |
+| ::{ flag=MY }:: [QHideaki13](https://osu.ppy.sh/users/733998) | Melayu | Moderasi chat |
+| ::{ flag=PL }:: [Redo_](https://osu.ppy.sh/users/7122165) | Polski | Skinning community moderation |
+| ::{ flag=MX }:: [Repflez](https://osu.ppy.sh/users/201392) | Spanyol | Moderasi chat |
+| ::{ flag=NL }:: [Roan](https://osu.ppy.sh/users/8214639) | Belanda, Jepang | Skinning community moderation |
+| ::{ flag=DE }:: [RockRoller](https://osu.ppy.sh/users/8388854) | Jerman | Skinning community moderation, moderasi forum |
+| ::{ flag=JP }:: [S o h](https://osu.ppy.sh/users/2234772) | Jepang | Moderasi chat |
+| ::{ flag=SE }:: [Saten](https://osu.ppy.sh/users/444506) | Swedia, Spanyol | Moderasi chat |
+| ::{ flag=CA }:: [Shad0wStar](https://osu.ppy.sh/users/16866460) |  | Moderasi komunitas mapping/modding |
+| ::{ flag=FR }:: [Shiro](https://osu.ppy.sh/users/113005) | Perancis, Spanyol | Moderasi chat |
+| ::{ flag=ID }:: [Shurelia](https://osu.ppy.sh/users/3807986) | Indonesia | Moderasi chat |
+| ::{ flag=ID }:: [Sies](https://osu.ppy.sh/users/6491991) | Indonesia, sedikit Vietnam | Moderasi chat, moderasi forum |
+| ::{ flag=TW }:: [spboxer3](https://osu.ppy.sh/users/197974) | Tionghoa | Moderasi chat |
+| ::{ flag=KR }:: [Spectator](https://osu.ppy.sh/users/702598) | Korea | Moderasi komunitas mapping/modding |
+| ::{ flag=HU }:: [Spkz](https://osu.ppy.sh/users/2964029) | Hungaria | Moderasi chat |
+| ::{ flag=AT }:: [Stefan](https://osu.ppy.sh/users/626907) | Jerman, Serbia | Moderasi forum |
+| ::{ flag=FI }:: [terho](https://osu.ppy.sh/users/6090105) | Suomi | Moderasi chat |
+| ::{ flag=NZ }:: [THAT_otaku](https://osu.ppy.sh/users/11798717) |  | Moderasi forum, moderasi chat |
+| ::{ flag=CH }:: [TicClick](https://osu.ppy.sh/users/672931) | Rusia | Moderasi chat, administrasi osu!wiki |
+| ::{ flag=PH }:: [topecnz](https://osu.ppy.sh/users/2103927) | Filipino | Moderasi chat |
+| ::{ flag=TH }:: [Trigonoculus](https://osu.ppy.sh/users/7627013) | Thai | Moderasi chat |
+| ::{ flag=ES }:: [Trosk-](https://osu.ppy.sh/users/3469385) | Spanyol | Dukungan teknis |
+| ::{ flag=NL }:: [Uni](https://osu.ppy.sh/users/617106) | Belanda | Moderasi chat |
+| ::{ flag=PL }:: [Venix](https://osu.ppy.sh/users/5999631) | Polski | Team leadership, moderasi chat, moderasi komunitas mapping/modding |
+| ::{ flag=CL }:: [WalterToro](https://osu.ppy.sh/users/5281416) | Spanyol | Moderasi chat |
+| ::{ flag=ID }:: [wowcake](https://osu.ppy.sh/users/16121851) | Indonesia | Moderasi chat |
+| ::{ flag=PL }:: [Yason](https://osu.ppy.sh/users/2574392) | Polski | Moderasi chat |
+| ::{ flag=HM }:: [Zallius](https://osu.ppy.sh/users/55) |  | Moderasi chat |
+| ::{ flag=CL }:: [ZiRoX](https://osu.ppy.sh/users/200768) | Spanyol | Moderasi komunitas mapping/modding |
 
-[flag_AR]: /wiki/shared/flag/AR.gif
-[flag_AT]: /wiki/shared/flag/AT.gif
-[flag_AU]: /wiki/shared/flag/AU.gif
-[flag_BG]: /wiki/shared/flag/BG.gif
-[flag_BR]: /wiki/shared/flag/BR.gif
-[flag_CA]: /wiki/shared/flag/CA.gif
-[flag_CL]: /wiki/shared/flag/CL.gif
-[flag_CN]: /wiki/shared/flag/CN.gif
-[flag_DE]: /wiki/shared/flag/DE.gif
-[flag_ES]: /wiki/shared/flag/ES.gif
-[flag_FI]: /wiki/shared/flag/FI.gif
-[flag_FR]: /wiki/shared/flag/FR.gif
-[flag_GB]: /wiki/shared/flag/GB.gif
-[flag_HU]: /wiki/shared/flag/HU.gif
-[flag_ID]: /wiki/shared/flag/ID.gif
-[flag_IT]: /wiki/shared/flag/IT.gif
-[flag_JP]: /wiki/shared/flag/JP.gif
-[flag_KR]: /wiki/shared/flag/KR.gif
-[flag_MX]: /wiki/shared/flag/MX.gif
-[flag_NL]: /wiki/shared/flag/NL.gif
-[flag_PH]: /wiki/shared/flag/PH.gif
-[flag_PL]: /wiki/shared/flag/PL.gif
-[flag_PT]: /wiki/shared/flag/PT.gif
-[flag_RU]: /wiki/shared/flag/RU.gif
-[flag_SE]: /wiki/shared/flag/SE.gif
-[flag_TR]: /wiki/shared/flag/TR.gif
-[flag_TW]: /wiki/shared/flag/TW.gif
-[flag_US]: /wiki/shared/flag/US.gif
+### Dikelompokan berdasarkan bahasa yang dimoderasi
+
+| Kanal percakapan | Sub-forum | Moderator |
+| :-- | :-- | :-- |
+| `#arabic` |  |  |
+| `#balkan` | [Balkan](https://osu.ppy.sh/community/forums/topics/83962) | ::{ flag=DE }:: [OnosakiHito](https://osu.ppy.sh/users/290128) |
+| `#bulgarian` |  |  |
+| `#cantonese` |  | ::{ flag=HK }:: [kanpakyin](https://osu.ppy.sh/users/394326), ::{ flag=HK }:: [Petal](https://osu.ppy.sh/users/7354729) |
+| `#chinese` | [中文](https://osu.ppy.sh/community/forums/25) | ::{ flag=MY }:: [bibitaru](https://osu.ppy.sh/users/4482419), ::{ flag=CN }:: [Fycho](https://osu.ppy.sh/users/1876867), ::{ flag=HK }:: [kanpakyin](https://osu.ppy.sh/users/394326), ::{ flag=TW }:: [spboxer3](https://osu.ppy.sh/users/197974) |
+| `#czechoslovak` |  |  |
+| `#dutch` | [Nederlands](https://osu.ppy.sh/community/forums/69) | ::{ flag=NL }:: [Uni](https://osu.ppy.sh/users/617106) |
+| `#english` |  | *Seluruh moderator* |
+| `#filipino` | [Tagalog](https://osu.ppy.sh/community/forums/76) | ::{ flag=PH }:: [Nathanael](https://osu.ppy.sh/users/2295078), ::{ flag=PH }:: [topecnz](https://osu.ppy.sh/users/2103927) |
+| `#finnish` | [Suomi](https://osu.ppy.sh/community/forums/24) | ::{ flag=FI }:: [Flutteh](https://osu.ppy.sh/users/5042507),  ::{ flag=FI }:: [Laurakko](https://osu.ppy.sh/users/7253731),  ::{ flag=FI }:: [terho](https://osu.ppy.sh/users/6090105) |
+| `#french` | [Français](https://osu.ppy.sh/community/forums/34) | ::{ flag=CA }:: [Aurele](https://osu.ppy.sh/users/654108), ::{ flag=FR }:: [Ganondorf](https://osu.ppy.sh/users/10660738), ::{ flag=FR }:: [Imakuri](https://osu.ppy.sh/users/6100837), ::{ flag=FR }:: [Nozhomi](https://osu.ppy.sh/users/2716981), ::{ flag=FR }:: [Shiro](https://osu.ppy.sh/users/113005) |
+| `#german` | [Deutsch](https://osu.ppy.sh/community/forums/37) | ::{ flag=DE }:: [- Felix](https://osu.ppy.sh/users/8503985), ::{ flag=DE }:: [Lyawi](https://osu.ppy.sh/users/5851253), ::{ flag=DE }:: [OnosakiHito](https://osu.ppy.sh/users/290128) |
+| `#greek` |  |  |
+| `#hebrew` |  |  |
+| `#hungarian` | [Magyar](https://osu.ppy.sh/community/forums/95) | ::{ flag=HU }:: [Spkz](https://osu.ppy.sh/users/2964029) |
+| `#indonesian` | [Indonesian](https://osu.ppy.sh/community/forums/73) | ::{ flag=ID }:: [Niva](https://osu.ppy.sh/users/197805), ::{ flag=ID }:: [Shurelia](https://osu.ppy.sh/users/3807986), ::{ flag=ID }:: [Sies](https://osu.ppy.sh/users/6491991), ::{ flag=ID }:: [wowcake](https://osu.ppy.sh/users/16121851) |
+| `#italian` | [Italiano](https://osu.ppy.sh/community/forums/36) |  |
+| `#japanese` | [日本語](https://osu.ppy.sh/community/forums/32) | ::{ flag=KR }:: [Civil oath](https://osu.ppy.sh/users/3216107), ::{ flag=HK }:: [kanpakyin](https://osu.ppy.sh/users/394326), ::{ flag=KR }:: [Petit](https://osu.ppy.sh/users/4637369), ::{ flag=JP }:: [S o h](https://osu.ppy.sh/users/2234772) |
+| `#korean` | [한국어](https://osu.ppy.sh/community/forums/58) | ::{ flag=KR }:: [Civil oath](https://osu.ppy.sh/users/3216107), ::{ flag=KR }:: [Petit](https://osu.ppy.sh/users/4637369) |
+| `#malaysian` | [Malaysian](https://osu.ppy.sh/community/forums/94) | ::{ flag=MY }:: [bibitaru](https://osu.ppy.sh/users/4482419), ::{ flag=MY }:: [QHideaki13](https://osu.ppy.sh/users/733998) |
+| `#polish` | [Polski](https://osu.ppy.sh/community/forums/26) | ::{ flag=PL }:: [Galkan](https://osu.ppy.sh/users/169570), ::{ flag=PL }:: [Venix](https://osu.ppy.sh/users/5999631), ::{ flag=PL }:: [Yason](https://osu.ppy.sh/users/2574392) |
+| `#portuguese` | [Português](https://osu.ppy.sh/community/forums/74) | ::{ flag=BR }:: [LeoFLT](https://osu.ppy.sh/users/3668779) |
+| `#romanian` |  |  |
+| `#russian` | [Русский](https://osu.ppy.sh/community/forums/35) | ::{ flag=CH }:: [\[ryuu\]](https://osu.ppy.sh/users/5698467), ::{ flag=RU }:: [Kobold84](https://osu.ppy.sh/users/3227533), ::{ flag=RU }:: [Kudou Chitose](https://osu.ppy.sh/users/9936528), ::{ flag=CH }:: [TicClick](https://osu.ppy.sh/users/672931) |
+| `#skandinavian` | [Skandinavien](https://osu.ppy.sh/community/forums/77) | ::{ flag=US }:: [ChillierPear](https://osu.ppy.sh/users/9501251), ::{ flag=SE }:: [Saten](https://osu.ppy.sh/users/444506) |
+| `#spanish` | [Español](https://osu.ppy.sh/community/forums/33) | ::{ flag=BR }:: [LeoFLT](https://osu.ppy.sh/users/3668779), ::{ flag=MX }:: [Repflez](https://osu.ppy.sh/users/201392), ::{ flag=CL }:: [WalterToro](https://osu.ppy.sh/users/5281416) |
+| `#thai` | [ภาษาไทย](https://osu.ppy.sh/community/forums/54) | ::{ flag=TH }:: [Trigonoculus](https://osu.ppy.sh/users/7627013) |
+| `#turkish` | [Türkçe](https://osu.ppy.sh/community/forums/93) |  |
+| `#ukrainian` |  |  |
+| `#vietnamese` |  | ::{ flag=VN }:: [My Angel Chino](https://osu.ppy.sh/users/20547597), ::{ flag=ID }:: [Sies](https://osu.ppy.sh/users/6491991) |
+
+## Catatan
+
+[^task-Azer]: Walaupun Azer bukan merupakan bagian dari GMT, Azer secara teknis termasuk ke dalam kelompok pengguna ini karena ia memerlukan izin akses GMT dalam tugasnya sebagai penyelenggara turnamen World Cup.

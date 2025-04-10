@@ -1,0 +1,34 @@
+outdated_since: 0522bc4c323f9a2b0c89a6b9582109a0608c6287
+outdated_translation: true
+
+separator: ", "
+alumni:
+  roles:
+    academy: osu!academy kurucusu
+    admin: yönetim
+    chat: sohbet moderatörü
+    dev: osu!dev
+    media: osu!media yapımı
+    support: destek ekibi
+    tournaments: turnuva yönetimi
+gmt:
+  all_mods: tüm moderatörler
+  areas:
+    beatmap: beatmap moderasyonu
+    chat: sohbet moderasyonu
+    forum: forum moderasyonu
+    team: resmi takım temsilcisi
+    dev: osu! geliştirme
+    player: oyuncu desteği
+    support: teknik destek
+    tournaments: turnuva yönetimi
+    wiki: wiki yönetimi
+    mapping: mapping/modding topluluk moderasyonu
+nat:
+  areas:
+    communication: haberleşme
+    evaluation: değerlendirme
+    moderation: moderasyon
+    structural: yapısal
+languages:
+  partial: biraz <language>

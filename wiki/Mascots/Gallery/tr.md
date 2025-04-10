@@ -1,47 +1,111 @@
----
-outdated: true
----
-
 # Galeri
-
-***[Maskotlar sayfasına dönmek için tıklayın](/wiki/Mascots)***
 
 ## osu! Orijinaller
 
-### Orijinal pippi (İdol kıyafeti)
+### pippi
 
-![Sarumaru'dan pippi'nin konsept çizimi.](img/OSUconceptWIP-3.jpg "pippi's concept art by Sarumaru.")
-![(eski) "osu!default by peppy" skininin kombo parıltıları.](img/Pippi_Sarumaru_CB.png "Combo Burst of (old) \"osu!default by peppy\" skin.")
-![Chibi-pippi (Başlık resmi).](img/Pippi_Sarumaru_Chibi.png "Chibi-pippi (Header image).")
-![404 hatası resmi](img/Pippi_404_old.jpg "404 error image")
-![Daru'dan pippi illüstrasyonu (osu!installer'da bulunabilir).](img/Pippi_old_Daru_CG1.png "pippi illustrated by Daru (Can be found on osu!installer).")
-![osu! bir hata ile karşılaştığında pippi.](img/Pippi_corruption.jpg "pippi when osu! received an error.")
+#### Orijinal pippi (İdol kıyafeti)
+
+![Sarumaru'dan pippi'nin konsept çizimi.](img/pippi-original-concept.jpg "Sarumaru'dan pippi'nin konsept çizimi.")
+
+![(eski) "osu!default by peppy" skininin kombo parıltıları.](img/pippi-original-comboburst.png "(eski) \"osu!default by peppy\" skininin kombo parıltıları.")
+
+![Chibi-pippi (Başlık resmi).](img/pippi-original-header.jpg "Chibi-pippi (Başlık resmi).")
+
+![404 hatası resmi](img/pippi-original-website-404.jpg "404 hatası resmi")
+
+![Daru'dan pippi illüstrasyonu (osu!installer'da bulunabilir).](img/pippi-original-installer.jpg "Daru'dan pippi illüstrasyonu (osu!installer'da bulunabilir).")
+
+![osu! bir hata ile karşılaştığında pippi.](img/pippi-original-error.jpg "osu! bir hata ile karşılaştığında pippi.")
+
+![pippidon](img/pippidon.png "pippidon")
 
 ### Mevcut Pippi (DJ kıyafeti)
 
-![pippi (Daru'nun yeni revizyonu ).](img/Pippi_welcome.png "pippi (New revision by Daru).")
-!["osu! by peppy" skininin kombo parıltıları.](img/Pippi_Daru_CB.png "Combo Burst of \"osu! by peppy\" skin.")
-![Başlık resmi.](../Pippi_Daru_Header.png "Header image.")
-![404 hatası resmi.](img/Pippi_Daru_404.png "404 error image.")
+![pippi (Daru'nun yeni revizyonu ).](img/pippi-Daru-redesigned.png "pippi (Daru'nun yeni revizyonu).")
 
-### pippi (Fan çizimleri)
+!["osu! by peppy" skininin kombo parıltıları.](img/pippi-Daru-comboburst.png "\"osu! by peppy\" skininin kombo parıltıları.")
 
-![MFC #2 için Lempika'nın çizimi.](img/Pippi_Lempika_oAtW.jpg "Art by Lempika for MFC #2.")
+![404 hatası resmi.](img/pippi-Daru-404.png "404 hatası resmi.")
+
+#### Fan tasarımları
+
+Pippi için fan tasarımları:
+
+- [İlk Resmi osu! Fanart Yarışması Sonuçları! (*First Official osu! Fanart Contest Results!*)](https://www.facebook.com/media/set/?set=a.10152186520298282)
+- [osu! Fanart Yarışması 2! (*osu! Fanart Contest 2!*)](https://www.facebook.com/media/set/?set=a.10152291754173282)
+- [osu! Fanart Yarışması 3! (*osu! Fanart Contest 3!*)](https://www.facebook.com/media/set/?set=a.10152514671088282)
+- [Fan Art 7: Cadılar Bayramı! (*Fan Art 7: Halloween!*)](https://osu.ppy.sh/community/contests/5)
+- [Fan Art 8: Noel (*Fan Art 8: Christmas*)](https://osu.ppy.sh/community/contests/36)
+- [Mocha Yaz Fanart Yarışması'nda (*Mocha in Summer Fanart Contest*)](https://osu.ppy.sh/community/contests/48)
 
 ### Yuzu
 
-![Daru'dan Yuzu çizimi](img/Yuzu_Artwork.png "Yuzu by Daru")
-![ztrot'tan osu!catch'te Yuzu](img/Yuzu_Idle.png "Yuzu in osu!catch by ztrot")
-![osu!catch'te Kiai'de Yuzu](img/Yuzu_Kiai.png "Yuzu during a Kiai Time in osu!catch")
-![osu!catch'te meyve kaçırınca Yuzu](img/Yuzu_Fail.png "Yuzu while missing fruits in osu!catch")
+![Daru'dan Yuzu çizimi](img/Yuzu-Daru.png "Daru'dan Yuzu çizimi")
+
+![ztrot'tan osu!catch'te Yuzu](img/Yuzu-idle.png "ztrot'tan osu!catch'te Yuzu")
+
+![osu!catch'te Kiai'de Yuzu](img/Yuzu-kiai.png "osu!catch'te Kiai'de Yuzu")
+
+![osu!catch'te meyve kaçırınca Yuzu](img/Yuzu-fail.png "osu!catch'te meyve kaçırınca Yuzu")
+
+#### Fan tasarımları
+
+Yuzu için fan tasarımları:
+
+- [osu! Fanart Yarışması 3! (*osu! Fanart Contest 3!*)](https://www.facebook.com/media/set/?set=a.10152514671088282)
+- [Fan Art 7: Cadılar Bayramı! (*Fan Art 7: Halloween!*)](https://osu.ppy.sh/community/contests/5)
+- [Fan Art 8: Noel (*Fan Art 8: Christmas*)](https://osu.ppy.sh/community/contests/36)
+- [Yuzu'nun yeni görünümü yarışması (*Yuzu's New Look Contest*)](https://osu.ppy.sh/community/contests/49)
+
+### Maria
+
+![Pippi ve maria ile fan tasarımı](img/Maria-fanart-1.jpg "Fanart by Anny")
+
+#### Fan Tasarımları
+
+Daha fazla maria fan tasarımları:
+
+- [Fan Art 8: Noel (*Fan Art 8: Christmas*)](https://osu.ppy.sh/community/contests/36)
+- [Fan Art 9: İlkbahar (*Fan Art 9: Spring*)](https://osu.ppy.sh/community/contests/45)
+
+### Mocha
+
+![Mocha tasarımı](img/Mocha-design.jpg "Mocha design")
+
+![Pippi ve Mocha ile fan tasarımı](img/Mocha-fanart-1.jpg "Fanart by 2Su")
+
+![Pippi ve Mocha ile fan tasarımı](img/Mocha-fanart-2.jpg "Fanart by Leissss")
+
+![Mocha ile fan tasarımı](img/Mocha-fanart-3.jpg "Fanart by Leissss")
+
+#### Fan Tasarımları
+
+Daha fazla Mocha fan tasarımları:
+
+- [Mocha Yaz Fanart Yarışması'nda (*Mocha in Summer Fanart Contest*)](https://osu.ppy.sh/community/contests/48)
 
 ### Çeşitli
 
-![pippidon (Taiko modu).](img/Pippidon.png "pippidon (Taiko mode).")
-![Konuşma kaydı yaparken pippi & Yuzu.](img/Osu!Talk.png "pippi & Yuzu recording a talk.")
+![Konuşma kaydı yaparken pippi & Yuzu.](img/osu!talk.jpg "Konuşma kaydı yaparken pippi & Yuzu.")
 
 ## Cameolar
 
-![osu!catch'te Ryuuta.](../Fruit_ryuuta.png "Ryuuta in osu!catch.")
-![Chibi-J](../J_chibi_Header.png "Chibi-J")
-![Eski Özel Modlarda pippi & arkadaşları.](/wiki/shared/Ctb_logo.jpg "Old pippi & friends in depreciated Special Modes.")
+![Eski Özel Modlarda pippi & arkadaşları.](/wiki/shared/Ctb_logo.jpg "Eski Özel Modlarda pippi & arkadaşları.")
+
+### Fan Tasarımları
+
+Cameo Maskotları için fan tasarımları:
+
+- [Mocha Yaz Fanart Yarışması'nda (*Mocha in Summer Fanart Contest*)](https://osu.ppy.sh/community/contests/48)
+
+## Topluluk
+
+Topluluk yapımı fan tasarımı maskotlar:
+
+- [Fan Art 6: osu!taiko maskotu (*Fan Art 6: osu!taiko mascot*)](https://osu.ppy.sh/community/contests/2)
+- [Fan Art 7: Cadılar Bayramı! (*Fan Art 7: Halloween!*)](https://osu.ppy.sh/community/contests/5)
+- [Fan Art 8: Noel (*Fan Art 8: Christmas*)](https://osu.ppy.sh/community/contests/36)
+- [Fan Art 9: İlkbahar (*Fan Art 9: Spring*)](https://osu.ppy.sh/community/contests/45)
+- [Mocha Yaz Fanart Yarışması'nda (*Mocha in Summer Fanart Contest*)](https://osu.ppy.sh/community/contests/48)
+- [Yuzu'nun yeni görünümü yarışması (*Yuzu's New Look Contest*)](https://osu.ppy.sh/community/contests/49)

@@ -1,73 +1,71 @@
 # Peraturan
 
-Peraturan berikut merupakan dasar dari kami untuk membantu menjaga komunitas osu! menjadi tempat yang menyenangkan dan ramah bagi semua orang.
+Peraturan berikut merupakan pedoman dasar kami dalam mewujudkan komunitas osu! yang menyenangkan dan ramah bagi semua.
 
-## Peraturan Komunitas
+## Peraturan komunitas
 
-1.  **Setiap pemain hanya diperbolehkan memiliki *SATU* akun.** Akun *pertama* yang Anda buat saat Anda mendaftar adalah satu-satunya akun osu! Anda, berlaku saat didaftarkan dan selamanya. Akun ini adalah ANDA. Bukan orang lain - bukan saudara Anda, ibu Anda, kakak Anda, teman Anda - itu adalah ANDA. Jangan bagikan kredensial akun Anda dengan orang lain. Anda tidak dapat membuat akun baru jika dengan suatu alasan Anda kehilangan akses akun Anda. Jagalah sebaik-baiknya.
-2. **Bermain adil.** Menggunakan utilitas pihak ketiga dalam bentuk apa pun demi memperoleh keuntungan apa pun tidak diperbolehkan. Hal ini meliputi program makro, program yang membantu sasaran kursor, modifikasi skala waktu, dan sebagainya. Jika suatu program melakukan sesuatu untuk membantu Anda memainkan permainan yang seharusnya Anda lakukan sendiri, hal itu tidak baik!
-3.  **Bersikap baik satu sama lain.** Pelecehan atau hal buruk lainnya tidak diterima di dalam komunitas osu!. Kita di sini untuk mengeklik lingkaran, memukul drum, menangkap buah, dan menekan hingga delapan belas kunci sekaligus, bukan menjadi bajingan.
-4.  **Jangan kurang ajar.** Jika pada titik tertentu Anda tidak yakin apakah Anda melanggar aturan ini, Anda mungkin saja melanggar.
-5.  **Kami adalah komunitas semua umur.** Ini berarti bahwa konten 18+/NSFW (Tidak aman saat waktu kerja) seperti penggunaan narkoba atau topik yang bersifat seksual tidak diterima di sini. Pengecualian berlaku untuk beberapa alasan, tetapi secara umum, tetap jaga ketenteraman.
-6.  **Jika peraturan tidak berlaku, akal sehat harus.** Bagian Administrasi memiliki kebijaksanaan spesifik untuk menerapkan penilaian mereka atas hal ini sesuai keinginan mereka.
+1. **Setiap pemain hanya diperbolehkan untuk memiliki *SATU* akun.** Akun *pertama* yang kamu buat adalah satu-satunya akun osu! milikmu yang sah, terhitung dari detik pertama akun ini didaftarkan. Akun ini adalah KAMU. Bukan orang lain — bukan saudaramu, ibumu, kakakmu, temanmu — akun ini hanya milik KAMU. Jangan bagikan akunmu dengan siapa pun juga. Kamu tidak dibenarkan untuk membuat akun baru apabila kamu kehilangan akses menuju akunmu. Jagalah akunmu sebaik-baiknya.
+2. **Bermainlah secara sportif.** Menggunakan sarana pihak ketiga dalam bentuk apa pun untuk memperoleh keuntungan sangat tidak dibenarkan. Hal ini meliputi program penempa bidikan (*aim assist*), modifikasi waktu, dan lain sebagainya. Penggunaan makro, kaitan tombol, atau perangkat keras di mana suatu tindakan fisik tertentu (mis. menekan tuts) tidak menghasilkan tindakan yang sama di dalam permainan juga tidak diperkenankan[^macros]. Apabila suatu program melakukan sesuatu untukmu di dalam permainan yang seharusnya kamu lakukan sendiri, maka program ini tidak patut untuk digunakan!
+3. **Bersikap baiklah terhadap satu sama lain.** Pelecehan dan perilaku tak etis lainnya tidak memiliki tempat di dalam komunitas osu!. Kita di sini untuk bermain mengikuti irama musik, memukul drum, menangkap buah, dan menekan tuts keyboard, bukan untuk menjadi orang yang menyinggung perasaan orang lain.
+4. **Jangan bertindak kurang ajar.** Apabila kamu tidak yakin apakah kamu sudah melanggar peraturan ini, mungkin saja kamu telah melanggarnya.
+5. **Kami merupakan komunitas yang terbuka bagi semua usia.** Hal ini berarti konten yang tergolong 18+/[NSFW](https://id.wikipedia.org/wiki/Not_safe_for_work) seperti penggunaan obat-obatan terlarang atau topik seksual tidak dibenarkan di sini.
+6. **Hindari perbuatan yang tidak senonoh.** osu! bukan tempat untuk mencari jodoh atau menggoda pengguna lain. Segala tutur kata, gambar, dan rayuan yang tidak pantas TIDAK dibenarkan baik di depan umum maupun pada ranah pribadi. Apabila kamu merasa tidak nyaman dengan cara seseorang mendekatimu, [segera laporkan kepada kami secara rahasia](/wiki/Reporting_bad_behaviour/Abuse) agar kami dapat membantumu (dan mencegah orang lain untuk ikut menjadi korban).
+7. **Pada saat peraturan yang ada tidak dapat diterapkan, gunakanlah logika dan akal sehat *(common sense)* untuk menetapkan segala sesuatunya.** Pihak administrasi osu! memiliki hak eksplisit untuk dapat mengambil keputusan sebagaimana dengan yang dirasa sesuai.
 
-## Peraturan Obrolan Dalam Game
+## Peraturan in-game chat
 
-1.  **Bersikap hormat dan baik terhadap pengguna lain di channel, serta dilarang membanjiri dan melakukan spam dalam chat.** Satu orang yang mengobrol hingga menghabiskan separuh layar sekaligus pasti mengganggu, jadi hindari tindakan tersebut kapan pun. Orang lain juga ingin mengobrol!
-2.  **Biarkan moderator menangani masalah dalam obrolan.** Anda dapat membantu mereka dengan menunjukkan kesalahan pengguna yang bermasalah dengan perintah `!report` dan mereka akan menangani sisanya.
-3.  **Jika seseorang mengalami tenggang waktu tersambung habis *(timed out)*, dibungkam atau dibatasi, biarkan saja dan jangan mulai membicarakannya.** Jika seseorang dibatasi, kasus mereka hanya melibatkan mereka dan administrasi permainan - tidak ada orang lain lagi!
-4.  **Dukung sportivitas dalam bermain, dan tidak memberikan perhatian kepada pemain yang curang atau pengguna yang kurang beretika lainnya.** Orang-orang ini sayangnya ada, dan memberi perhatian dapat mendorong mereka untuk melanjutkan keonarannya, atau memprovokasi orang lain untuk bertindak seperti apa yang mereka lakukan. Laporkan mereka melalui perintah obrolan `!report` atau tombol report di halaman profil mereka dan biarkan berlalu.
-5.  **Jaga obrolan tetap bersih dan sesuai untuk komunitas segala usia, hindari topik NSFW jika memungkinkan.** Hal-hal berbau NSFW sebenarnya tidak sesuai untuk komunitas semua usia. Lakukan apa yang Anda suka dalam pesan-pesan pribadi (sesuai alasan) tetapi jagalah channel publik selalu bersih untuk semua orang.
-6.  **Perhatikan apa yang Anda bagikan dengan orang lain, terutama jika konten yang Anda bagikan berpotensi mengganggu atau kurang nyaman dilihat untuk umum.** Jika Anda harus berpikir dua kali tentang apakah sesuatu pantas untuk ditautkan, hal itu mungkin tidak pantas. Hindari hal-hal dengan pencahayaan yang cepat dan menyala-nyala *(epilepsi)*, mengandung darah *(gore)*, gambar pelecehan atau konten lainnya.
-7.  **Jaga tautan ke situs web legal dan sesuai.** Situs web yang menayangkan konten ilegal (yang berlisensi resmi seperti Animelab dan Crunchyroll diperbolehkan) dan apa pun yang terkait dengan "warez" atau perangkat lunak ilegal apa pun termasuk hal yang tidak pantas dikirim, dan kami tidak ingin orang seperti mereka berada di obrolan kami. Mengiklankan Tautan Twitch permainan lain masih diperbolehkan, tapi HANYA di channel `#videogames`.
-8. **Jangan mengiklankan server obrolan pihak ketiga dalam bentuk apa pun, termasuk Discord, Teamspeak, atau server/grup Skype.** Obrolan osu! pastinya diutamakan hanya untuk osu! dan bukan tentang berbagi tautan ke server pribadi Anda. Lakukan melalui PM jika Anda benar-benar harus melakukannya.
-9.  **Dalam channel khusus bahasa, Anda harus berbicara dengan bahasa dominan (bahasa Inggris untuk channel `#english`, bahasa Thailand untuk channel `#thai`, dll) jika Anda berpartisipasi dalam diskusi.** Dimana bahasa untuk channel tidak secara spesifik dinyatakan (atau disimpulkan dari nama channel, seperti dalam bahasa Thai untuk `#thai` dan Belanda untuk channel `#dutch`), secara standard selalu bahasa Inggris. channel `#lobby` dan `#help` dapat digunakan dalam berbagai bahasa, tidak seperti channel lain. *Anggota [moderation staff](/wiki/People/Global_Moderation_Team) tidak perlu mengikuti aturan ini selama masa jabatan mereka.*
+1. **Hormatilah hak pengguna lain dan jangan membanjiri layar *(flooding)* atau mengirimkan pesan yang sama *(spamming)* secara berulang-ulang.** Obrolan yang menghabiskan hingga separuh layar tentunya akan membuat pengguna lain merasa terganggu. Orang lain juga ingin mengobrol!
+2. **Biarkan masalah yang muncul di dalam obrolan ditangani oleh para moderator.** Gunakan [perintah `!report`](/wiki/Reporting_bad_behaviour) untuk melapor kepada para moderator dan biarkan mereka menyelesaikan masalah yang ada.
+3. **Apabila terdapat pengguna yang diskors, di-*silence*, atau di-*restrict*, abaikan mereka dan jangan mulai membicarakannya.** Apabila seseorang di-*restrict*, kasus mereka akan otomatis jatuh pada ranah yang hanya melibatkan staf osu! dan diri mereka sendiri.
+4. **Junjung terus sportivitas dan jangan indahkan para pemain yang berbuat curang atau dengan sengaja memicu keributan.** Sayangnya, orang-orang seperti ini akan selalu ada, dan semakin mereka diperhatikan, semakin pula keonaran mereka akan menjadi-jadi. Laporkan mereka melalui perintah `!report` atau tombol laporan yang terdapat pada halaman profil mereka dan biarkan para moderator yang menanganinya.
+5. **Hindari pembahasan seputar hal yang menjurus ke arah NSFW pada ruang publik.** Hal yang demikian tidak selayaknya diperbincangkan secara gamblang. Kamu bebas untuk mengirimkan apa pun itu ke pengguna lain melalui pesan pribadi (selama tidak melampaui batas), namun segala sesuatunya yang dikirim ke ruang publik harus aman untuk segala usia.
+6. **Bersikap bijaklah terhadap apa-apa saja yang kamu bagikan, terutama apabila hal ini dapat mengganggu kenyamanan pengguna lain atau sangat vulgar.** Apabila kamu harus berpikir lebih dari satu kali sebelum kamu membagikan sesuatu, maka bisa jadi hal tersebut memang sebaiknya tidak kamu bagikan. Hindari mengirimkan hal apa pun yang dapat memicu epilepsi atau yang mengandung unsur sensitif seperti kekerasan serta tindak pelecehan.
+7. **Pastikan tautan yang kamu kirim tertuju pada situs web yang legal dan sesuai topik.** Tautan yang tertuju pada situs *streaming* (terlepas dari yang telah berizin seperti Animelab dan Crunchyroll) atau situs unduhan ilegal/"*warez*" tidak dibenarkan. Tautan yang tertuju pada siaran Twitch yang tidak menayangkan osu! HANYA boleh disebar pada kanal `#videogames`.
+8. **Jangan mengiklankan server *chat* milik pihak ketiga mana pun, baik itu server Discord, Teamspeak, Skype, ataupun yang lainnya.** Obrolan osu! dikhususkan untuk membahas berbagai hal yang terkait dengan osu!, bukan sebagai sarana promosi server pribadimu. Undanglah pengguna lain melalui pesan pribadi apabila memang dirasa perlu.
+9. **Pada kanal yang dikhususkan untuk bahasa tertentu, kamu harus berbicara dalam bahasa yang sesuai di dalamnya (semisal bahasa Inggris untuk kanal `#english`, bahasa Thailand untuk kanal `#thai`, dsb.).** Pada kanal lainnya yang tidak terikat bahasa, bahasa yang digunakan akan selalu bahasa Inggris. Meskipun demikian, kamu bebas untuk mengobrol dalam bahasa apa pun pada kanal `#lobby` dan `#help`. *Catatan: Para anggota [staf moderasi](/wiki/People/Global_Moderation_Team) tidak wajib untuk tunduk pada peraturan ini pada saat mereka bertugas.*
 
-## Aturan seluruh forum
+## Peraturan forum
 
-1.  **Hanya diperbolehkan mengirim kiriman yang menarik dan berhubungan dengan topik.** Poin penting forum adalah untuk berdiskusi, jadi pastikan berusaha berdiskusi agar waktu orang lain tidak sia-sia.
-2.  **Jaga kiriman dan balasan Anda sesuai untuk orang-orang dari semua kalangan usia.** Konten NSFW tidak sesuai untuk komunitas semua usia, meskipun begitu tidak ada yang menghentikan Anda untuk mendiskusikan hal-hal ini dalam pesan pribadi.
-3.  **Jadilah produktif dengan kritik Anda tanpa menggunakan serangan bersifat pribadi.** Kritik adalah hal yang luar biasa ketika dilakukan dengan benar, tetapi jika Anda menggunakan serangan bersifat pribadi untuk membuat poin Anda, Anda melakukannya dengan salah dan Anda seharusnya merasa malu.
-4.  **Jaga topik yang dibicarakan sesuai, dan hindari mengembalikan topik yang lebih tua jika percakapannya telah mati.** Jika sebuah topik telah mati selama bertahun-tahun, maka topik tersebut sudah tidak layak dibicarakan lagi, jadi biarkan saja memudar. Kirim topik baru, atau mungkin cari dan lihat apakah seseorang sudah menjawab pertanyaan Anda.
-5.  **Usahakan agar tanda tangan dan avatar Anda sesuai dengan peraturan umum.** Jika mereka (tanda tangan atau avatar Anda) beranimasi, mereka tidak boleh melakukan *strobo* atau flash secara berlebihan. Mereka juga harus berukuran cukup kecil supaya pengguna dengan koneksi lebih lambat tidak kesulitan saat membuka halaman profil Anda, optimalnya di bawah setengah megabita (500 kilobita) jika memungkinkan.
-6.  **Dilarang mengirimkan tautan iklan, rujukan, atau konten yang bersifat mengganggu lainnya.** Hal-hal seperti afiliasi dan tautan rujukan sangat menguntungkan orang yang mengirimnya tetapi termasuk hal yang mengganggu bagi orang lain, jadi jangan lakukan. Konten/sematan bersifat autoloading atau autoplay juga termasuk dalam aturan ini.
-7.  **Menghubungkan ke aplikasi atau utilitas dengan maksud yang tidak pasti tidak diperbolehkan.** Sederhananya, jika ada keraguan mengenai legalitas dari utilitas tersebut, mereka tidak boleh dikirimkan.
+1. **Pastikan postingan yang kamu kirim mengandung konten/bahan diskusi yang menarik atau berbobot.** Inti penting dalam berforum terletak pada diskusi yang dihasilkan, jadi pastikan kamu tidak menyia-nyiakan waktu pengguna lain dengan mengangkat topik yang tidak berguna.
+2. **Jagalah agar postingan dan balasan yang kamu kirim aman bagi segala usia.** Pergunakanlah pesan pribadi apabila kamu ingin membahas sesuatu yang menjurus ke arah NSFW dengan pengguna lain.
+3. **Dalam mengkritisi sesuatu, berikanlah kritik yang membangun tanpa menyinggung hal yang bersifat pribadi.** Kritik yang baik dapat digunakan sebagai bahan evaluasi yang bermanfaat. Meskipun demikian, apabila kamu sampai menyinggung hal yang bersifat pribadi untuk mendukung argumenmu, maka kamu telah menyalahi norma dan etika dalam berdialog.
+4. **Pastikan topik yang kamu buat sesuai dengan tajuk forum, dan usahakan untuk tidak mengirim balasan baru pada topik yang telah terbengkalai.** Apabila suatu topik telah tidak tersentuh selama bertahun-tahun, maka topik tersebut sudah tidak relevan dan sebaiknya tidak diungkit kembali. Buatlah topik baru atau telusuri apakah pertanyaanmu telah terjawab oleh pengguna lain.
+5. **Pergunakanlah tanda tangan *(signature)* dan avatar yang tidak berlebihan.** Apabila kamu menggunakan gambar yang beranimasi, pastikan agar animasi yang ada tidak memicu epilepsi. Gunakanlah berkas gambar yang tidak berukuran terlalu besar (di bawah 500 KB apabila memungkinkan) agar kamu tidak sampai membebani pengguna lain.
+6. **Jangan mengirimkan iklan, tautan rujukan, atau konten intrusif lainnya dalam bentuk apa pun.** Postingan yang tidak diinginkan hanya akan mengganggu pengguna lain. Peraturan ini juga meliputi konten *autoplay* yang dapat termuat dengan sendirinya.
+7. **Jangan mengirimkan tautan yang tertuju pada aplikasi atau program yang mencurigakan.** Sederhananya, apabila kamu ragu akan legalitas suatu aplikasi, maka aplikasi tersebut tidak layak untuk ditautkan.
 
-## Aturan Pengajuan Beatmap
+## Peraturan pengunggahan beatmap
 
-Aturan ini berlaku ketat untuk beatmap yang dikirimkan melalui [Sistem Pengajuan Beatmap](/wiki/Glossary#bss) dalam game. Topik baru akan dibuat melalui klien osu! ketika sebuah beatmap dikirimkan melalui [editor](/wiki/editor).
+*Catatan: Peraturan berikut berlaku untuk **seluruh beatmap yang diunggah** tanpa terbatas hanya pada beatmap yang berstatus Ranked. Untuk peraturan yang lebih spesifik mengenai beatmap Ranked, kunjungi [Ranking Criteria](/wiki/Ranking_criteria).*
 
-Ada sekumpulan aturan yang lebih rinci untuk pembuatan beatmap, yang dikenal sebagai [Kriteria Ranking](/wiki/Ranking_Criteria).
+Peraturan berikut berlaku bagi seluruh beatmap yang diunggah dengan [Beatmap Submission System](/wiki/Beatmapping/Beatmap_submission). Pada saat beatmap diunggah melalui [editor](/wiki/Client/Beatmap_editor), osu! akan secara otomatis membuat halaman diskusi baru untuk beatmap yang bersangkutan.
 
-1. **Pastikan Anda memiliki izin untuk menggunakan konten apa pun yang terlibat dalam beatmap Anda.** Konten yang dimaksud termasuk lagu, video, hit sound, grafik, dan konten lain apa pun yang bukan kreasi milik Anda. Jika Anda tidak yakin di mana dapat menemukan konten yang gratis dan aman digunakan, kami memiliki koleksi lagu yang tersedia di daftar [Artis Unggulan](https://osu.ppy.sh/beatmaps/artists/), semuanya 100% berlisensi untuk digunakan di osu!.
-2.  **Tetap dalam topik bahasan dalam Diskusi Beatmap.** Topik ini bertujuan untuk membahas beatmap yang dipertanyakan, dan tidak ada bahasan lain. Jika Anda memiliki masalah dengan sesuatu yang tidak berkaitan langsung dengan beatmap, kirim masalah anda di forum yang sesuai.
-3.  **Dilarang menjiplak atau mencoba mencuri karya orang lain.** Jangan juga mengunggah atau menggunakan karya orang lain tanpa izin spesifik dari mereka (termasuk, namun tidak terbatas pada, skin dan tingkat kesulitan mapper lain).
+1. **Pastikan kamu memiliki izin untuk menggunakan seluruh konten pada beatmap yang kamu unggah.** Hal ini meliputi lagu, video, *hitsound*, elemen grafis, dan konten lainnya yang bukan merupakan hasil karyamu sendiri. Apabila kamu tidak yakin ke mana kamu harus mencari konten yang berizin, kunjungi katalog [Featured Artist](https://osu.ppy.sh/beatmaps/artists) kami untuk menemukan berbagai lagu yang telah 100% terlisensi di osu! serta halaman [Pedoman Penggunaan Konten](/wiki/Rules/Content_usage_guidelines) untuk informasi lebih lanjut.
+2. **Jangan membahas hal yang tidak sesuai topik pada [halaman diskusi beatmap](/wiki/Beatmap_discussion).** Halaman ini dikhususkan untuk (dan hanya untuk) diskusi seputar beatmap itu sendiri. Apabila kamu ingin mengangkat isu yang tidak berhubungan dengan beatmap, buatlah topik bahasan baru pada forum yang lebih sesuai.
+3. **Jangan menjiplak atau mencuri karya orang lain.** Lebih dari itu, jangan pula mengunggah atau menggunakan karya orang lain atas nama sendiri tanpa seizin yang bersangkutan (yang termasuk, namun tidak terbatas pada, skin dan tingkat kesulitan milik mapper lain).
+4. **Selalu patuhi [Aturan konten musik](Song_Content_Rules) dan [Pertimbangan konten visual](Visual_Content_Considerations).**
 
-## Peraturan Off-Topic
+## Apa yang akan terjadi apabila saya melanggar peraturan?
 
-*Peraturan-peraturan di bawah ini berlaku HANYA di dalam sub-forum [Off-Topic](https://osu.ppy.sh/community/forums/52), kecuali ditentukan.*
+Apabila kamu terbukti melanggar peraturan komunitas yang berlaku, kamu akan dihadapkan dengan berbagai macam hukuman.
 
-1. **Tidak ada topik dalam Off-Topic yang bernilai.** Secara sederhana mereka sampah. Jika topik Anda terus dipindahkan ke Off-Topic, mereka dinilai tidak layak untuk didiskusikan dengan serius. Sadarlah.
-2. **Kebodohan yang berlebih itu buruk.** Menjadi sangat bodoh itu baik-baik saja, dan jatuh ke dalam modus operandi shitposting. Kebodohan sejati tidak pernah baik. Jika Anda tidak dapat membedakannya, Anda sudah melanggar aturan.
-3. **Topik ulang tahun hanya diperbolehkan di Off-Topic.** Semua topik ulang tahun harus disertai dengan tidak kurang dari (3) gambar gadis anime yang menari atau mereka akan dengan *kejam* dibuang di bawah bus.
+Hukuman ini dapat meliputi (*namun tidak terbatas pada*):
 
-## Apa yang terjadi jika saya melanggar peraturan?
+- Hilangnya hak untuk mengobrol di dalam permainan dalam jangka waktu tertentu (yang dikenal juga dengan istilah *[silence](/wiki/Help_centre/Silences)*).
+- Penghapusan konten yang dianggap melanggar dari *userpage*, halaman profil, atau beatmap yang kamu unggah.
+- Hilangnya hak untuk menyunting atau mengubah halaman pengguna atau rincian profilmu.
+- Hilangnya hak untuk bermain atau berpartisipasi pada turnamen yang diselenggarakan secara resmi.
 
-Jika Anda menemukan diri Anda di ujung yang salah dari aturan komunitas kami, hal-hal buruk akan terjadi.
+Durasi *[silence](/wiki/Help_centre/Silences)* dan hukuman lainnya yang kamu terima akan **secara otomatis** berlipat ganda untuk setiap pelanggaran yang kamu lakukan. Dalam menjatuhkan hukuman, para moderator tidak akan mengatur lamanya waktu *silence* yang kamu terima — semakin kamu melanggar, semakin lama pula masa hukuman yang harus kamu jalani.
 
-Hal-hal buruk ini mungkin termasuk (*tetapi tidak terbatas pada*):
+Pelanggaran tertentu memiliki durasi hukuman *silence* minimal yang lebih panjang (pada umumnya 43 jam atau lebih), yang meliputi antara lain penyebaran konten vulgar serta pelecehan berlebihan terhadap pengguna lain.
 
-* Penghapusan kemampuan Anda untuk mengobrol dalam game untuk jangka waktu tertentu (dikenal sebagai pembungkaman)
-* Penghapusan konten apa pun yang melanggar dari halaman pengguna, profil, atau beatmap yang diunggah oleh Anda
-* Hilangnya hak istimewa untuk menyunting atau mengubah halaman pengguna atau rincian profil Anda
-* Hilangnya hak istimewa untuk bermain atau berpartisipasi dalam turnamen yang diselenggarakan secara resmi
+Apabila setelah beberapa kali melanggar kamu tetap bersikeras menyalahi peraturan, akunmu dapat langsung [di-*restrict* secara permanen tanpa adanya opsi pengajuan banding](/wiki/Help_centre/Account_restrictions).
 
-Pembungkaman dan pelanggaran lainnya **secara otomatis** meningkatkan durasi mendekati dengan cepat setiap pelanggarannya. Moderator tidak mengatur lamanya waktu Anda dibungkam karena suatu pelanggaran - penjahat kambuhan akan menemukan diri mereka terkunci di luar permainan untuk periode waktu yang lebih lama.
-    
-Pelanggaran tertentu memiliki durasi minimum (biasanya 48 jam atau lebih) jika pelanggarannya sangat parah, meskipun hampir secara eksklusif dicadangkan untuk pelanggaran berat, seperti membagikan konten tidak pantas atau pelecehan tanpa pandang malu terhadap pengguna lain.
+Akun yang di-*restrict* tidak akan dapat bermain secara *online*, mencetak skor, mengobrol dengan pengguna lain, dan dalam segala maksud dan tujuan "diasingkan" dari komunitas. Hukuman ini hanya dapat diangkat dengan cara mengajukan banding kepada staf layanan dukungan secepat-cepatnya 3 bulan setelah hukuman tersebut dijatuhkan ([yang dapat berlaku lebih pada situasi tertentu](/wiki/Help_centre/Account_restrictions#reasons)).
 
-Jika setelah beberapa pelanggaran Anda tetap terus melanggar aturan, akun Anda dapat secara permanen dibatasi tanpa opsi pembatalan.
+Pelanggaran berat yang telah jauh melampaui batas peraturan kami dan telah masuk ke ranah ilegal sesuai dengan hukum internasional yang berlaku akan berakibat pada penghapusan akun dengan segera. Hukuman ini pada umumnya hanya berlaku bagi pelanggaran yang tidak dapat ditoleransi lagi, seperti penyebaran pornografi anak di bawah umur atau konten eksploitatif lainnya.
 
-Akun yang dibatasi tidak dapat bermain online, menetapkan skor, mengobrol dengan pengguna lain dan untuk semua maksud dan tujuan 'dilarang' berinteraksi dengan komunitas. Pembatasan untuk pelanggaran aturan komunitas hanya dapat dihapus setelah ajuan banding kepada staf game setelah 3 bulan berlalu.
+## Catatan
 
-Pelanggaran berat yang melampaui batas aturan kami dan termasuk yurisdiksi konten ilegal sesuai hukum umum internasional akan mengakibatkan penghentian akun segera. Hal ini berlaku secara eksklusif untuk pelanggaran yang sangat mencolok atau pelanggaran yang tidak bisa dimaafkan, seperti distribusi pornografi anak atau bentuk pelecehan lainnya.
+[^macros]: Mengubah kaitan tombol ke K1 dan K2 tidak dilarang selama menekan tombol menghasilkan tindakan penekanan dan melepas tombol menghasilkan tindakan pelepasan pada tombol yang terkait. Sebaliknya, mengaitkan penekanan ke pelepasan atau mengatur agar satu tombol melakukan lebih dari satu pasang tindakan penekanan/pelepasan tidak diizinkan.

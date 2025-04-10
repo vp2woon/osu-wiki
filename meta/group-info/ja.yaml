@@ -1,0 +1,34 @@
+outdated_since: 0522bc4c323f9a2b0c89a6b9582109a0608c6287
+outdated_translation: true
+
+separator: 、
+alumni:
+  roles:
+    academy: osu!academy創設者
+    admin: 管理者
+    chat: チャットモデレーター
+    dev: osu!dev
+    media: osu!media制作者
+    support: サポートチーム
+    tournaments: トーナメント運営
+gmt:
+  all_mods: すべてのモデレーター
+  areas:
+    beatmap: ビートマップモデレーション
+    chat: チャットモデレーション
+    forum: フォーラムモデレーション
+    team: オフィシャルチームプレゼンス
+    dev: osu!開発者
+    player: プレーヤーサポート
+    support: テクニカルサポート
+    tournaments: トーナメント運営
+    wiki: wiki管理者
+    mapping: mapping/modding コミュニティ モデレーション
+nat:
+  areas:
+    communication: コミュニケーション
+    evaluation: 評価
+    moderation: モデレーション
+    structural: 構造
+languages:
+  partial: 部分的な<language>

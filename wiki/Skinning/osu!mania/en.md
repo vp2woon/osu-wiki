@@ -1,24 +1,19 @@
-[true]: /wiki/shared/true.png
-[false]: /wiki/shared/false.png
+# osu!mania skinning
 
-# osu!mania
-
-*See also: [Skinning osu!mania Tutorial](/wiki/Skinning_osu!mania_Tutorial)*
-
-Since v2.5+, skinners are now able to fully customize the osu!mania notes and stage using the [skin.ini](/wiki/skin.ini) file. The following is what osu! will recognize if one chooses to not use the `skin.ini` for further customization.
+Since v2.5+, skinners are now able to fully customise the osu!mania notes and stage using the [skin.ini](/wiki/Skinning/skin.ini) file. The following is what osu! will recognise if one chooses to not use the `skin.ini` for further customisation.
 
 ## Hit Bursts
 
-*See also: [Skinning/FAQ § Ranking screen hierarchy](/wiki/Skinning/FAQ/#ranking-screen-hierarchy)*
+*See also: [Skinning/FAQ § Ranking screen hit score hierarchy](/wiki/Skinning/FAQ#ranking-screen-hit-score-hierarchy)*
 
 ---
 
 `mania-hit0.png`
 
-![](img/mania-hit0.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit0.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -31,10 +26,10 @@ Notes:
 
 `mania-hit50.png`
 
-![](img/mania-hit50.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit50.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -47,10 +42,10 @@ Notes:
 
 `mania-hit100.png`
 
-![](img/mania-hit100.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit100.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -63,10 +58,10 @@ Notes:
 
 `mania-hit200.png`
 
-![](img/mania-hit200.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit200.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -79,10 +74,10 @@ Notes:
 
 `mania-hit300.png`
 
-![](img/mania-hit300.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit300.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -95,10 +90,10 @@ Notes:
 
 `mania-hit300g.png`
 
-![](img/mania-hit300g.gif)
+![](/wiki/shared/judgement/osu!mania/mania-hit300g.gif)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -114,16 +109,16 @@ Notes:
 ![](img/comboburst-mania.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] (see notes) | ![Yes][true] | Normal | BottomLeft | Max height: 768px |
 
 Notes:
 
 - To have multiple combobursts, use: `comboburst-mania-{n}.png`.
-  - One of the images in the set will be appear when a combo milestone is met.
+  - One of the images in the set will appear when a combo milestone is met.
 - osu!mania-specific combobursts
-- This can be disabled in the [options](/wiki/options).
-- Unlike osu!standard and osu!catch's combobursts, all edges of this imageset should not be clipped.
+- This can be disabled in the [options](/wiki/Client/Options).
+- Unlike osu! and osu!catch's combobursts, all edges of this imageset should not be clipped.
 
 ## Keys
 
@@ -132,7 +127,7 @@ Notes:
 ![](img/mania-key1.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | Bottom | 50x107 |
 
 Notes:
@@ -147,7 +142,7 @@ Notes:
 ![](img/mania-key1D.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | Bottom | 50x107 |
 
 Notes:
@@ -162,7 +157,7 @@ Notes:
 ![](img/mania-key2.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | Bottom | 50x107 |
 
 Notes:
@@ -177,7 +172,7 @@ Notes:
 ![](img/mania-key2D.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | Bottom | 50x107 |
 
 Notes:
@@ -192,7 +187,7 @@ Notes:
 ![](img/mania-keyS.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | Bottom | 50x107 |
 
 Notes:
@@ -207,7 +202,7 @@ Notes:
 ![](img/mania-keySD.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | Bottom | 50x107 |
 
 Notes:
@@ -222,15 +217,15 @@ Notes:
 ![](img/mania-note1.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
 
 Notes:
 
 - Animation name: `mania-note1-{n}.png`.
 - These elements are scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Notes can be manually be stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ---
 
@@ -239,15 +234,15 @@ Notes:
 ![](img/mania-note2.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
 
 Notes:
 
 - Animation name: `mania-note2-{n}.png`.
 - These elements are scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Notes can be manually be stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ---
 
@@ -256,15 +251,15 @@ Notes:
 ![](img/mania-noteS.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
 
 Notes:
 
 - Animation name: `mania-noteS-{n}.png`.
 - These elements are scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Notes can be manually be stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ### Long notes
 
@@ -275,7 +270,7 @@ Notes:
 ![](img/mania-note1H.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
 
 Notes:
@@ -285,8 +280,8 @@ Notes:
   - When used for the tail part, this element is flipped by default for v2.5+.
     - This behaviour can be disabled by setting `NoteFlipWhenUpsideDownT` to `0`.
 - This element is scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Long notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Long notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ---
 
@@ -295,7 +290,7 @@ Notes:
 ![](img/mania-note2H.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
 
 Notes:
@@ -305,15 +300,17 @@ Notes:
   - When used for the tail part, this element is flipped by default for v2.5+.
     - This behaviour can be disabled by setting `NoteFlipWhenUpsideDownT` to `0`.
 - This element is scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Long notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Long notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ---
+
+`mania-noteSH`
 
 ![](img/mania-noteSH.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
 
 Notes:
@@ -323,8 +320,8 @@ Notes:
   - When used for the tail part, this element is flipped by default for v2.5+.
     - This behaviour can be disabled by setting `NoteFlipWhenUpsideDownT` to `0`.
 - This element is scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Long notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Long notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 #### Body
 
@@ -333,7 +330,7 @@ Notes:
 ![](img/mania-note1L.gif)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] (see notes) | ![No][false] | Normal | Bottom | - |
 
 Notes:
@@ -341,7 +338,7 @@ Notes:
 - Animation name: `mania-note1L-{n}.png`.
 - The animation starts when the long note is pressed and stops if released.
 - The `NoteBodyStyle` changes the behaviour of these elements.
-- Notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ---
 
@@ -350,7 +347,7 @@ Notes:
 ![](img/mania-note2L.gif)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] (see notes) | ![No][false] | Normal | Bottom | - |
 
 Notes:
@@ -358,7 +355,7 @@ Notes:
 - Animation name: `mania-note2L-{n}.png`.
 - The animation starts when the long note is pressed and stops if released.
 - The `NoteBodyStyle` changes the behaviour of these elements.
-- Notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ---
 
@@ -367,7 +364,7 @@ Notes:
 ![](img/mania-noteSL.gif)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] (see notes) | ![No][false] | Normal | Bottom | - |
 
 Notes:
@@ -375,15 +372,17 @@ Notes:
 - Animation name: `mania-noteSL-{n}.png`.
 - The animation starts when the long note is pressed and stops if released.
 - The `NoteBodyStyle` changes the behaviour of these elements.
-- Notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 #### Tail
 
 `mania-note1T.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
+
+Notes:
 
 - Animation name: `mania-note1T-{n}.png`.
 - These elements are the tail part of the hold note.
@@ -391,16 +390,18 @@ Notes:
 - By default, these elements are flipped for skin versions `2.5` and up.
   - This behaviour can be disabled by setting `NoteFlipWhenUpsideDownT` to `0`
 - These elements are scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ---
 
 `mania-note2T.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
+
+Notes:
 
 - Animation name: `mania-note2T-{n}.png`.
 - These elements are the tail part of the hold note.
@@ -408,16 +409,18 @@ Notes:
 - By default, these elements are flipped for skin versions `2.5` and up.
   - This behaviour can be disabled by setting `NoteFlipWhenUpsideDownT` to `0`
 - These elements are scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ---
 
 `mania-noteST.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
+
+Notes:
 
 - Animation name: `mania-noteST-{n}.png`.
 - These elements are the tail part of the hold note.
@@ -425,8 +428,8 @@ Notes:
 - By default, these elements are flipped for skin versions `2.5` and up.
   - This behaviour can be disabled by setting `NoteFlipWhenUpsideDownT` to `0`
 - These elements are scaled to fit the individual columns.
-  - If the columns' widths differ: the smallest one is scaled correctly and the others are squeezed to match its height.
-- Notes can be manually stretched or squeezed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/skin.ini) file.
+  - If the columns' widths differ: the smallest one is scaled correctly and the others are compressed to match its height.
+- Notes can be manually stretched or compressed via the `WidthForNoteHeightScale` command in the [skin.ini](/wiki/Skinning/skin.ini) file.
 
 ## Stage
 
@@ -435,7 +438,7 @@ Notes:
 ![](img/mania-stage-left.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | BottomRight | Max height: 768px |
 
 Notes:
@@ -450,7 +453,7 @@ Notes:
 ![](img/mania-stage-right.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | BottomRight | Max height: 768px |
 
 Notes:
@@ -463,7 +466,7 @@ Notes:
 `mania-stage-bottom.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Normal | Bottom | - |
 
 Notes:
@@ -482,7 +485,7 @@ Notes:
 ![](img/mania-stage-light.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Multiplicative | Bottom | Max height: 768px |
 
 Notes:
@@ -492,7 +495,7 @@ Notes:
 - This element is placed underneath the notes.
 - By default, tinted white.
   - Use `ColourLight` to change this.
-- Positioning is set by the [skin.ini](/wiki/skin.ini)
+- Positioning is set by the [skin.ini](/wiki/Skinning/skin.ini)
   - Use `LightPosition`.
 
 ---
@@ -502,12 +505,12 @@ Notes:
 ![](img/mania-stage-hint.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| All | ![Yes][true] | ![No][false] | Normal | Centre | - |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] | ![No][false] | Normal | Centre | - |
 
 Notes:
 
-- This element is the graphical representation of the judgement line.
+- This element is the graphical representation of the [judgement](/wiki/Gameplay/Judgement) line.
   - The judgement line is drawn in the centre of the image.
 - This element is drawn for the entire stage width, not individual columns.
 - This element is stretched to fit the stage width (allowing for narrower images).
@@ -516,8 +519,10 @@ Notes:
 
 `mania-warningarrow.png`
 
+![](img/mania-warningarrow.png)
+
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![No][false] | Normal | Centre | - |
 
 Notes:
@@ -533,7 +538,7 @@ Notes:
 ![](img/lightingL.gif)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Additive | Centre | - |
 
 Notes:
@@ -550,7 +555,7 @@ Notes:
 ![](img/lightingN.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![No][false] | Additive | Centre | - |
 
 Notes:
@@ -559,3 +564,6 @@ Notes:
 - This element is the lighting for the single notes (and tail notes).
 - This image is flipped horizontally if the stage is upside down.
 - This element is positioned where the centre of the judgement line crosses the centre of a lane.
+
+[true]: /wiki/shared/true.png
+[false]: /wiki/shared/false.png

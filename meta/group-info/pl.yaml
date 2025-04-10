@@ -1,0 +1,32 @@
+outdated_since: a8cc4d36239f194ed529a59a51038d554308731e
+outdated_translation: true
+
+separator: ", "
+alumni:
+  roles:
+    academy: prowadzenie akademii osu!
+    admin: administrator
+    chat: moderator czatu
+    dev: programista gry
+    media: współtworzenie mediów gry
+    support: pomoc techniczna
+    tournaments: organizowanie turniejów
+gmt:
+  all_mods: wszyscy moderatorzy
+  areas:
+    beatmap: moderowanie beatmap
+    chat: moderowanie czatu
+    forum: moderowanie forum
+    team: oficjalny profil zespołu gry
+    dev: rozwój gry
+    player: zarządzanie społecznością
+    support: pomoc techniczna
+    tournaments: organizowanie turniejów
+    wiki: zarządzanie wiki osu!
+    mapping: moderowanie społeczności twórców i moderów beatmap
+nat:
+  subgroups:
+    advisor: doradca
+    evaluator: ewaluator
+languages:
+  partial: <language> (częściowo)

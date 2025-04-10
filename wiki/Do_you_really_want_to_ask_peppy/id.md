@@ -1,15 +1,19 @@
-# Apakah Anda benar-benar ingin bertanya kepada peppy?
+---
+no_native_review: true
+---
 
-Hai, Saya ([peppy](https://osu.ppy.sh/users/2 "peppy")) memahami keinginan Anda untuk menghubungi saya secara pribadi, tetapi saya meminta Anda untuk pertama-tama memahami bahwa Anda menghubungi saya dengan tujuan **bukan** untuk meminta bantuan/disamakan dengan layanan dukungan. Saya memutuskan untuk memisahkan layanan dukungan osu! terpisah dengan pesan pribadi, dan juga sadar bahwa menjawab Pesan Pribadi dari forum sangat sulit untuk mengimbanginya. Karena itu saya meminta Anda melakukan salah satu opsi berikut:
+# Apakah kamu benar-benar ingin bertanya kepada peppy?
 
-## Layanan Dukungan Teknis
+Hai! peppy memahami keinginan kamu untuk menghubunginya secara pribadi, namun dia meminta kamu untuk terlebih dahulu memahami bahwa kamu **tidak** disarankan untuk meminta bantuan atau dukungan darinya secara langsung. Dia tidak mencampuradukkan urusan dukungan osu! dengan pesan pribadinya, dan dia juga merasa akan cukup sulit baginya untuk menjawab seluruh pesan pribadi yang masuk. Oleh karena itu, dia memintamu untuk melakukan salah satu hal berikut:
 
-Sebagian besar masalah teknis dapat diselesaikan dengan mencari atau mengirim kiriman baru di forum [Tech Support](https://osu.ppy.sh/community/forums/5). Ada banyak orang lain di sana yang siap membantu menyelesaikan masalah Anda, sehingga Anda akan menemukan solusi lebih cepat daripada menghubungi saya.
+## Dukungan teknis
 
-## Layanan Dukungan Umum osu!
+Sebagian besar masalah teknis yang muncul dapat diselesaikan dengan mencari atau menulis postingan baru pada [forum Help](https://osu.ppy.sh/community/forums/5). Terdapat banyak pengguna pada forum ini yang siap membantu untuk menyelesaikan masalahmu, sehingga kamu akan dapat memperoleh solusimu secara lebih cepat alih-alih menghubungi peppy secara langsung.
 
-Untuk masalah akun dan pembayaran, pelarangan tindak lanjut, pertanyaan mengenai turnamen dan **segala sesuatu yang berkaitan dengan permohonan bantuan dalam osu!**, Anda dipersilakan untuk mengirim email ke [accounts@ppy.sh](mailto:accounts@ppy.sh) (pertanyaan mengenai akun) atau [osu@ppy.sh](mailto:osu@ppy.sh) (pertanyaan lainnya). Jika ada anggota layanan dukungan kami yang online, Anda juga dapat menggunakan tombol "?" yang berada di sudut kanan bawah halaman yang sedang Anda buka.
+## Dukungan umum osu!
+
+Untuk masalah terkait akun, sengketa pembayaran, tindak lanjut akun yang di-*ban*, pertanyaan seputar turnamen, dan **segala bentuk permintaan bantuan terkait osu! lainnya**, silakan hubungi [tim dukungan akun](/wiki/People/Account_support_team) dengan mengirimkan email pada alamat [accounts@ppy.sh](mailto:accounts@ppy.sh) (terkait akun) atau [osu@ppy.sh](mailto:osu@ppy.sh) (terkait hal lainnya).
 
 ## Menghubungi peppy
 
-Jika Anda ingin menghubungi peppy secara pribadi untuk kebutuhan di luar osu!, Anda dapat mengirim email kepada peppy ke alamat [pe@ppy.sh](mailto:pe@ppy.sh). Harap perhatikan bahwa permintaan perihal layanan ataupun hal yang terkait dengan osu! akan ditandai sebagai spam.
+Apabila kamu ingin menghubungi peppy secara pribadi untuk kebutuhan di luar osu!, kamu dapat mengirimkan email kepadanya pada alamat [pe@ppy.sh](mailto:pe@ppy.sh). Mohon diingat bahwa segala permintaan yang terkait dengan dukungan atau akun osu! akan ditandai sebagai spam.

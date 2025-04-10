@@ -1,16 +1,14 @@
 ---
-outdated: true
+outdated_translation: true
+outdated_since: 7880a47c4e5df0bb9470cdd8edc48daa42e6f277
+no_native_review: true
 ---
 
-# Grupy użytkowników
+# Użytkownicy
 
-Poniżej przedstawiono grupy użytkowników osu!, którzy swoimi działaniami wspierają rozwój gry. Większość z nich można rozpoznać poprzez kolor nazwy użytkownika na czacie lub forum, tytuł na profilu lub odznakę.
+Indeks artykułów o użytkownikach i grupach użytkowników.
 
-- [Administracja](/wiki/People/The_Team)
-- [Moderatorzy globalni](/wiki/People/Global_Moderation_Team)
-- [Moderatorzy](/wiki/People/Language_Moderators)
-- [Zespół zapewniania jakości](/wiki/People/Quality_Assurance_Team)
-- [Nominatorzy beatmap](/wiki/People/Beatmap_Nominators)
-- [Zespół pomocy technicznej](/wiki/People/Support_Team)
-- [Zasłużeni dla społeczności](/wiki/People/Community_Contributors)
-- [Alumni osu!](/wiki/People/osu!_Alumni)
+- [Zasłużeni dla społeczności](Community_Contributors)
+- [Zespół](The_Team)
+- [peppy](peppy)
+- [Utytułowani użytkownicy](Users_with_unique_titles)

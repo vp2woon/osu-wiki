@@ -10,7 +10,7 @@
 
 ![Konsep awal pippi](img/pippi-original-concept.jpg "Konsep pippi rancangan Sarumaru.")
 
-![comboburst osu!standard dari skin default v1](img/pippi-original-comboburst.png "Comboburst dari skin default v1.")
+![comboburst osu! dari skin default v1](img/pippi-original-comboburst.png "Comboburst dari skin default v1.")
 
 ![Chibi-pippi (Gambar Header)](img/pippi-original-header.jpg "Chibi-pippi (Gambar Banner)")
 
@@ -26,7 +26,7 @@
 
 ![Rancangan ulang pippi oleh Daru](img/pippi-Daru-redesigned.png "Rancangan ulang pippi oleh Daru (bisa dilihat di halaman selamat datang)")
 
-![comboburst osu!standard dari skin default v2](img/pippi-Daru-comboburst.png "Comboburst dari skin default v2.")
+![comboburst osu! dari skin default v2](img/pippi-Daru-comboburst.png "Comboburst dari skin default v2.")
 
 ![gambar kesalahan 404](img/pippi-Daru-404.png "gambar kesalahan 404")
 
@@ -34,9 +34,9 @@
 
 Untuk fan art pippi, lihat:
 
-- [First Official osu! Fanart Contest Results! (Facebook)](https://www.facebook.com/pg/osugame/photos/?tab=album&album_id=10152186520298282)
-- [osu! Fanart Contest 2! (Facebook)](https://www.facebook.com/pg/osugame/photos/?tab=album&album_id=10152291754173282)
-- [osu! Fanart Contest 3! (Facebook)](https://www.facebook.com/pg/osugame/photos/?tab=album&album_id=10152514671088282)
+- [First Official osu! Fanart Contest Results! (Facebook)](https://www.facebook.com/media/set/?set=a.10152186520298282)
+- [osu! Fanart Contest 2! (Facebook)](https://www.facebook.com/media/set/?set=a.10152291754173282)
+- [osu! Fanart Contest 3! (Facebook)](https://www.facebook.com/media/set/?set=a.10152514671088282)
 - [Fan Art 7: Halloween!](https://osu.ppy.sh/community/contests/5)
 - [Fan Art 8: Christmas](https://osu.ppy.sh/community/contests/36)
 - [Mocha in Summer Fanart Contest](https://osu.ppy.sh/community/contests/48)
@@ -55,7 +55,7 @@ Untuk fan art pippi, lihat:
 
 Untuk fanart Yuzu, lihat:
 
-- [osu! Fanart Contest 3! (Facebook)](https://www.facebook.com/pg/osugame/photos/?tab=album&album_id=10152514671088282)
+- [osu! Fanart Contest 3! (Facebook)](https://www.facebook.com/media/set/?set=a.10152514671088282)
 - [Fan Art 7: Halloween!](https://osu.ppy.sh/community/contests/5)
 - [Fan Art 8: Christmas](https://osu.ppy.sh/community/contests/36)
 - [Yuzu's New Look Contest](https://osu.ppy.sh/community/contests/49)
